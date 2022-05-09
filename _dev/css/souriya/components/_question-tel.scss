@@ -1,0 +1,21 @@
+.question-tel {
+  display: flex;
+  align-items: center;
+  background-color: var(--bg-color-tertiary);
+  color: var(--color-question-tel);
+  font-size: var(--font-size-small);
+
+  a, a:visited {
+    color: var(--color-secondary);
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  p {
+    margin: 0;
+    padding: 10px;
+  }
+}

@@ -6,6 +6,7 @@
   --color-h1: #0a39b0;
   --color-search-bottom-border: #333;
   --color-search-color-active: #fe4e55;
+  --color-question-tel: #ccc;
   --bg-color-primary: #fff;
   --bg-color-secondary: #282828;
   --bg-color-tertiary: #0b3ab0;
@@ -13,6 +14,6 @@
   --bg-color-menu-hover: #e7e7e7;
   --fill-kmx-check: #5d9edf;
   --fill-kmx-minus: #d0d0d0;
-  --font-size-header: 12px;
-  --font-size-body: 15px;
+  --font-size-small: 12px;
+  --font-size-normal: 15px; // FIXME "body"
 }

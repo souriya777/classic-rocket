@@ -46,9 +46,11 @@
         </ul>
       </div>
     </div>
-    <div class="souriya-contact">
-      <!-- 🟥souriya contact -->
-      CONTACT
+    <div class="question-tel">
+      <p>
+        Une question ? Tél : <a href="tel:0667546476">06.67.54.64.76</a>&nbsp;/&nbsp;<a
+          href="tel:0320271300">03.20.27.13.00</a>
+      </p>
     </div>
 {/block}
 
