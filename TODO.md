@@ -83,6 +83,8 @@
 - 🟧 optimize lighthouse
 - 🟧 optional prestashop : remove systematic "force recompilation" ?
 - 🟧 inform rouya : ⛔️ update theme/module
+- 🟧 valider sur https://www.dareboost.com/fr
+- 🟧 me faire une bibliothèque sur classic-rocket (ex. lazysizes)
 
 # PERFORMANCE - CURRENT THEME
 [1st]
