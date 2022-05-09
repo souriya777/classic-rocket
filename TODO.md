@@ -19,17 +19,17 @@
 - ✅ fix logo + menu + ps_* positions
 - ✅ implement logo
 - ✅ implement basket shortcut ?
-- 👊 finish homepage
-- 👊 use only Roboto fonts
-- 👊 make cache
-- 👊 slim theme.js
+- ✅ fix slider size
+- 🟧 use only Roboto fonts
+- 🟧 make cache
+- 🟧 slim theme.js
 - 🟧 fix SEO paragraph, title...
 - 🟧 search bar "Je cherche un barnum"
 - 🟧 implement login
 - 🟧 implement basket
 - 🟧 make responsive "ps_leoproductsearch"
 - 🟧 implement homepage "Decouvrez notre gamme de barnum"
-- 🟧 implement homepage "Une question ? Tel"
+- ✅ implement homepage "Une question ? Tel"
 - 🟧 implement homepage "Je decouvre"
 - 🟧 implement homepage "Destockage"
 - 🟧 implement homepage "Barnums preferes"

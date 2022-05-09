@@ -28,22 +28,24 @@
     </div>
     <div class="souriya-slider">
       <div class="souriya-slider-content">
-        <a class="souriya-slider-prev material-icons" href="#">chevron_left</a>
-        <a class="souriya-slider-next material-icons" href="#">chevron_right</a>
-        <ul>
-          <li>
-            <p>Livraison offerte en France à partir de 900€</p>
-          </li>
-          <li>
-            <p>
-              Click & collect : commandez sur tentebarnumts.fr, retirez vos achats au
-              showroom de Lille
-            </p>
-          </li>
-          <li>
-            <p>Souriya le bg</p>
-          </li>
-        </ul>
+        <div class="souriya-slider-scroll">
+          <a class="souriya-slider-prev material-icons" href="#">chevron_left</a>
+          <a class="souriya-slider-next material-icons" href="#">chevron_right</a>
+          <ul>
+            <li>
+              <p>Livraison offerte en France à partir de 900€</p>
+            </li>
+            <li>
+              <p>
+                Click & collect : commandez sur tentebarnumts.fr, retirez vos achats au
+                showroom de Lille
+              </p>
+            </li>
+            <li>
+              <p>Souriya le bg</p>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
     <div class="question-tel">

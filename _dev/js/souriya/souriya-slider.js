@@ -4,6 +4,7 @@ window.onload = function () {
 
     // VARIABLE
     const SLIDE_INTERVAL_MS = 3500;
+    const SLIDE_RESIZE_DELAY = 250;
     const SLIDE_MIN = 1;
     const SLIDER_LIST = document.querySelector(".souriya-slider ul");
     if(!SLIDER_LIST) {
@@ -15,9 +16,10 @@ window.onload = function () {
     const NEXT_BTN = document.querySelector(".souriya-slider .souriya-slider-next");
     const SLIDER = document.querySelector(".souriya-slider");
     const SLIDER_ITEMS = SLIDER_LIST.children;
-    const SLIDER_WIDTH = SLIDER_ITEMS[0].scrollWidth;
+    let sliderWidth;
     let currentSlide = 1;
     let slideInterval;
+    let timeoutResize = false;
 
     // FUNCTION
     function infiniteLoop() {
@@ -28,14 +30,17 @@ window.onload = function () {
       if (slideInterval) {
         clearInterval(slideInterval);
       }
-      // FIXME
-      // slideInterval = setInterval(infiniteLoop, SLIDE_INTERVAL_MS);
+      slideInterval = setInterval(infiniteLoop, SLIDE_INTERVAL_MS);
+    }
+
+    function resetSliderWidth() {
+      sliderWidth = SLIDER_ITEMS[0].scrollWidth;
+      resetInterval();
     }
 
     function slide(offset) {
-      SLIDER_LIST.style.transform = `translateX(-${offset * SLIDER_WIDTH}px)`;
-      // FIXME
-      // resetInterval();
+      SLIDER_LIST.style.transform = `translateX(-${offset * sliderWidth}px)`;
+      resetInterval();
     }
 
     // EVENT
@@ -72,5 +77,12 @@ window.onload = function () {
       }
     }, { threshold: [1] });
     observer.observe(SLIDER);
+
+    // RESIZE EVENT
+    window.addEventListener('resize', function() {
+     clearTimeout(timeoutResize);
+     timeoutResize = setTimeout(resetSliderWidth,SLIDE_RESIZE_DELAY);
+    });
+    resetSliderWidth();
   })();
 };

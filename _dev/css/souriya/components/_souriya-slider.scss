@@ -1,24 +1,30 @@
 .souriya-slider {
-  display: grid;
-  min-height: 38px;
   background-color: var(--bg-color-souriya-slider);
   color: var(--color-secondary);
   font-size: var(--font-size-small);
-
+  
   p {
     margin-bottom: 0;
   }
-
+  
   ul {
     margin: 7px 0;
     padding-left: 0;
   }
-
+  
   &-content {
+    height: 38px;
+    max-width: 850px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  &-scroll {
     position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 100%;
     overflow: hidden;
   }
 
