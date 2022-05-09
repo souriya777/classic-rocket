@@ -9,7 +9,6 @@
 @import "layout/footer";
 @import "layout/mainmenu";
 
-
 /** PAGES **/
 @import "pages/cart";
 @import "pages/category";
@@ -19,6 +18,7 @@
 
 @import "partials/commons";
 @import "partials/lazysizes";
+
 /** COMPONENT **/
 @import "components/alert";
 @import "components/block-social";
@@ -39,3 +39,5 @@
 @import "components/utilities";
 @import "partials/bs_alpha";
 
+/** SOURIYA */
+@import "souriya/theme-souriya"

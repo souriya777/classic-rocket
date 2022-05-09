@@ -1,0 +1,32 @@
+@mixin svg($path, $size, $color) {
+  display: inline-block;
+  height: $size;
+  width: $size;
+  -webkit-mask: url($path) no-repeat 50% 50%;
+  mask: url($path) no-repeat 50% 50%;
+  -webkit-mask-size: cover;
+  mask-size: cover;
+  background-color: $color;
+}
+
+@mixin svg-pseudo-element($path, $size, $color) {
+  @include svg($path, $size, $color);
+  content: "";
+}
+
+@mixin button {
+  padding: .4rem 2rem;
+  border: 2px solid transparent;
+  background-color: var(--color-primary);
+  color: var(--color-secondary);
+  font-weight: 600;
+  letter-spacing: .2rem;
+  text-decoration: none;
+  
+  &:hover {
+    background-color: var(--color-secondary);
+    color: var(--color-primary);
+    border-color: var(--color-primary);
+    outline: none;
+  }
+}

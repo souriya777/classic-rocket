@@ -1,0 +1,45 @@
+.souriya-slider {
+  display: grid;
+  min-height: 38px;
+  background-color: var(--bg-color-souriya-slider);
+  color: var(--color-secondary);
+
+  p {
+    margin-bottom: 0;
+    font-size: var(--font-size-header);
+  }
+
+  ul {
+    margin: 7px 0;
+    padding-left: 0;
+  }
+
+  &-content {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+  }
+
+  &-prev,
+  &-next {
+    color: var(--color-secondary);
+    z-index: 2;
+  }
+
+  & ul {
+    position: absolute;
+    display: flex;
+    list-style: none;
+    transition: 0.6s ease-in-out transform;
+
+    & li {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-width: 100%;
+      padding: 0 30px;
+    }
+  }
+}
