@@ -26,6 +26,8 @@
     <div class="header-banner">
         {hook h='displayBanner'}
     </div>
+
+    {* 💎SLIDER INFOS*}
     <div class="souriya-slider">
       <div class="souriya-slider-content">
         <div class="souriya-slider-scroll">
@@ -48,15 +50,20 @@
         </div>
       </div>
     </div>
+
+    {* 💎QUESTION-TEL *}
     <div class="question-tel">
-      <p>
-        Une question ? Tél : <a href="tel:0667546476">06.67.54.64.76</a>&nbsp;/&nbsp;<a
-          href="tel:0320271300">03.20.27.13.00</a>
-      </p>
+      <div class="container">
+        <p>
+          Une question ? Tél : <a href="tel:0667546476">06.67.54.64.76</a>&nbsp;/&nbsp;<a
+            href="tel:0320271300">03.20.27.13.00</a>
+        </p>
+      </div>
     </div>
 {/block}
 
 {block name='header_nav'}
+  {*
     <div class="header-nav u-bor-bot">
         <div class="header__container container">
             <div class="u-a-i-c d--flex-between visible--desktop">
@@ -69,6 +76,7 @@
             </div>
         </div>
     </div>
+  *}
 {/block}
 
 {block name='header_top'}

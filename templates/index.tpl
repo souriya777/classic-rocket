@@ -26,6 +26,43 @@
 {block name='pageWrapperClass'}{/block}
 {block name='page_content_container'}
     <section id="content" class="page-home">
+        <!-- 🟥FIXME externalize in block/partials -->
+        {* 💎IMAGE HOME *}
+        <div>souriya banner</div>
+        <a class="banner d-block" href="{$banner_link}" title="{$banner_desc}">
+          {if isset($banner_img)}
+            <img data-src="{$banner_img}" alt="{$banner_desc}" title="{$banner_desc}" class="img-fluid lazyload">
+          {else}
+            <span>{$banner_desc}</span>
+          {/if}
+        </a>
+
+        {* 💎IMAGE HOME *}
+        <div class="discover-range">
+          <h1>DECOUVREZ NOTRE GAMME DE BARNUM PLIANT ALUMINIUM ET ACIER.</h1>
+          <p>Tous nos barnums sont faciles et rapides à monter.</p>
+          <p>Montage en 60 sec. sans outils et de manière fiable : un vrai jeu d'enfant ;)</p>
+        </div>
+
+        {* 💎JE DECOUVRE DROITE *}
+        <div class="je-decouvre__right">
+          <h2>BARNUM GAMME ACIER</h2>
+          <p>La gamme de tonnelle acier semi pro, est adressée aux particuliers et professionnels à la recherche d'une tonnelle pliante au meilleur rapport qualité prix. Créez seulement en quelques secondes un espace abrité.
+          </p>
+          <p>
+            <a href="https://tentebarnumts.fr/17-barnums-acier">JE DÉCOUVRE</a>
+          </p>
+        </div>
+
+        {* 💎JE DECOUVRE GAUCHE *}
+        <div class="je-decouvre__left">
+          <h2>BARNUM GAMME ALUMINIUM</h2>
+          <p>Le barnum pliant aluminium 45 & 55 est le produit coup de coeur des professionnels, collectivités et particuliers. Ces barnums pliants séduisent nos clients depuis plus de 10 ans. Qualité, robuste, léger, design et pas cher.</p>
+          <p>
+            <a href="https://tentebarnumts.fr/24-barnums-aluminium">JE DÉCOUVRE</a>
+          </p>
+        </div>
+
         {block name='page_content_top'}{/block}
 
         {block name='page_content'}
