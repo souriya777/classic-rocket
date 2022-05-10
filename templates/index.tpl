@@ -26,22 +26,14 @@
 {block name='pageWrapperClass'}{/block}
 {block name='page_content_container'}
     <section id="content" class="page-home">
-        {* 💎IMAGE HOME *}
-        {block name='displaySouriya'}
-          <div class="displaySouriya">
-            displaySouriya
-            <div>
-                {hook h='displaySouriya'}
-            </div>
-          </div>
-        {/block}
 
-        {* 💎IMAGE HOME *}
+        <!-- 💎DISCOVER RANGE -->
         <div class="discover-range">
           <h1>DECOUVREZ NOTRE GAMME DE BARNUM PLIANT ALUMINIUM ET ACIER.</h1>
           <p>Tous nos barnums sont faciles et rapides à monter.</p>
           <p>Montage en 60 sec. sans outils et de manière fiable : un vrai jeu d'enfant ;)</p>
         </div>
+        <!-- 💎DISCOVER RANGE -->
 
         {* 💎JE DECOUVRE DROITE *}
         <div class="je-decouvre__right">

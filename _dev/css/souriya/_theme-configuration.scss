@@ -15,5 +15,31 @@
   --fill-kmx-check: #5d9edf;
   --fill-kmx-minus: #d0d0d0;
   --font-size-small: 12px;
-  --font-size-normal: 15px; // FIXME "body"
+  --font-size-normal: 15px;
+}
+
+body {
+  font-size: var(--font-size-normal);
+}
+
+h1 {
+  margin-bottom: 9px;
+  color: var(--color-h1);
+  font-size: 21px;
+  font-weight: 700;
+}
+
+h2 {
+  display: inline-block;
+  color: var(--color-h1);
+  font-size: 18px;
+  letter-spacing: 4px;
+  line-height: 21px;
+  margin-bottom: 14px;
+}
+
+p {
+  display: inline-block;
+  margin: 0;
+  line-height: 23px;
 }

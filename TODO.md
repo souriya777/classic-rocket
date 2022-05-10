@@ -85,6 +85,7 @@
 - 🟧 inform rouya : ⛔️ update theme/module
 - 🟧 valider sur https://www.dareboost.com/fr
 - 🟧 me faire une bibliothèque sur classic-rocket (ex. lazysizes)
+- 🟧 copy all images under `/img/souriya/` on the server
 - 🟧 improve this warning `WARNING in entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
 Entrypoints:
   theme (333 KiB)

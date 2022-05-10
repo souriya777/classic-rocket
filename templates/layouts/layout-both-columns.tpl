@@ -51,6 +51,15 @@
       {block name='notifications'}
         {include file='_partials/notifications.tpl'}
       {/block}
+
+      {block name='image_home'}
+        <!-- 💎IMAGE HOME -->
+        <div class="image-home">
+          <img data-src="http://localhost:8080/img/souriya/banner.jpg" alt="barnum pas cher - programme fidélité tente barnum - ts barnum" title="" class="img-fluid lazyloaded" src="http://localhost:8080/img/souriya/banner.jpg">
+        </div>
+        <!-- 💎IMAGE HOME -->
+      {/block}
+
         {block name='wrapper'}
         <section id="wrapper" class="{block name='layoutWrapperClass'}l-wrapper{/block}">
         {hook h="displayWrapperTop"}
@@ -91,6 +100,10 @@
         {hook h="displayWrapperBottom"}
       </section>
         {/block}
+
+      {block name='souriya_testa2'}
+        <div class="souriya_testa2">souriya_testa2</div>
+      {/block}
 
       <footer id="footer" class="l-footer">
         {block name="footer"}

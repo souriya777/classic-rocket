@@ -27,7 +27,7 @@
         {hook h='displayBanner'}
     </div>
 
-    {* 💎SLIDER INFOS*}
+    <!-- 💎SLIDER INFOS -->
     <div class="souriya-slider">
       <div class="souriya-slider-content">
         <div class="souriya-slider-scroll">
@@ -50,8 +50,9 @@
         </div>
       </div>
     </div>
+    <!-- 💎SLIDER INFOS -->
 
-    {* 💎QUESTION-TEL *}
+    <!-- 💎QUESTION-TEL -->
     <div class="question-tel">
       <div class="container">
         <p>
@@ -60,6 +61,7 @@
         </p>
       </div>
     </div>
+    <!-- 💎QUESTION-TEL -->
 {/block}
 
 {block name='header_nav'}
