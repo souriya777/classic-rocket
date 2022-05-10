@@ -26,16 +26,15 @@
 {block name='pageWrapperClass'}{/block}
 {block name='page_content_container'}
     <section id="content" class="page-home">
-        <!-- 🟥FIXME externalize in block/partials -->
         {* 💎IMAGE HOME *}
-        <div>souriya banner</div>
-        <a class="banner d-block" href="{$banner_link}" title="{$banner_desc}">
-          {if isset($banner_img)}
-            <img data-src="{$banner_img}" alt="{$banner_desc}" title="{$banner_desc}" class="img-fluid lazyload">
-          {else}
-            <span>{$banner_desc}</span>
-          {/if}
-        </a>
+        {block name='displaySouriya'}
+          <div class="displaySouriya">
+            displaySouriya
+            <div>
+                {hook h='displaySouriya'}
+            </div>
+          </div>
+        {/block}
 
         {* 💎IMAGE HOME *}
         <div class="discover-range">
