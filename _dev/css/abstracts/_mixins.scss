@@ -10,3 +10,9 @@
     @content;
   }
 }
+@mixin media-breakpoint-smartphone() {
+
+  @include media-breakpoint-down(sm) {
+    @content;
+  }
+}

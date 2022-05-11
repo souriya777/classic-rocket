@@ -15,14 +15,13 @@
 }
 
 @mixin button {
-  padding: .4rem 2rem;
+  padding: 4px 20px;
   border: 2px solid transparent;
   background-color: var(--color-primary);
   color: var(--color-secondary);
-  font-weight: 600;
-  letter-spacing: .2rem;
+  letter-spacing: 2px;
   text-decoration: none;
-  
+
   &:hover {
     background-color: var(--color-secondary);
     color: var(--color-primary);

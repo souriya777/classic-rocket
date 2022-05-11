@@ -55,7 +55,7 @@
       {block name='image_home'}
         <!-- 💎IMAGE HOME -->
         <div class="image-home">
-          <img data-src="http://localhost:8080/img/souriya/banner.jpg" alt="barnum pas cher - programme fidélité tente barnum - ts barnum" title="" class="img-fluid lazyloaded" src="http://localhost:8080/img/souriya/banner.jpg">
+          <img data-src="./img/souriya/banner.jpg" alt="barnum pas cher - programme fidélité tente barnum - ts barnum" title="" class="img-fluid lazyloaded" src="./img/souriya/banner.jpg">
         </div>
         <!-- 💎IMAGE HOME -->
       {/block}

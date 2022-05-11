@@ -35,24 +35,36 @@
         </div>
         <!-- 💎DISCOVER RANGE -->
 
-        {* 💎JE DECOUVRE DROITE *}
+        <!-- 💎JE DECOUVRE RIGHT -->
         <div class="je-decouvre__right">
-          <h2>BARNUM GAMME ACIER</h2>
-          <p>La gamme de tonnelle acier semi pro, est adressée aux particuliers et professionnels à la recherche d'une tonnelle pliante au meilleur rapport qualité prix. Créez seulement en quelques secondes un espace abrité.
-          </p>
-          <p>
-            <a href="https://tentebarnumts.fr/17-barnums-acier">JE DÉCOUVRE</a>
-          </p>
+          <div class="je-decouvre__right--text">
+            <h2>BARNUM GAMME ALUMINIUM</h2>
+            <p>Le barnum pliant aluminium 45 & 55 est le produit coup de coeur des professionnels, collectivités et particuliers. Ces barnums pliants séduisent nos clients depuis plus de 10 ans. Qualité, robuste, léger, design et pas cher.</p>
+            <p>
+              <a href="./24-barnums-aluminium">JE DÉCOUVRE</a>
+            </p>
+          </div>
+          <div class="je-decouvre__right--img">
+            <img data-src="./img/souriya/barnum-aluminium-pro-barnum-pas-cher.jpeg" alt="barnum - barnum acier semi pro ts barnum - barnum pas cher" title="" class="img-fluid lazyloaded" src="./img/souriya/barnum-aluminium-pro-barnum-pas-cher.jpeg">
+          </div>
         </div>
+        <!-- 💎JE DECOUVRE RIGHT -->
 
-        {* 💎JE DECOUVRE GAUCHE *}
+        <!-- 💎JE DECOUVRE LEFT -->
         <div class="je-decouvre__left">
-          <h2>BARNUM GAMME ALUMINIUM</h2>
-          <p>Le barnum pliant aluminium 45 & 55 est le produit coup de coeur des professionnels, collectivités et particuliers. Ces barnums pliants séduisent nos clients depuis plus de 10 ans. Qualité, robuste, léger, design et pas cher.</p>
-          <p>
-            <a href="https://tentebarnumts.fr/24-barnums-aluminium">JE DÉCOUVRE</a>
-          </p>
+          <div class="je-decouvre__left--text">
+            <h2>BARNUM GAMME ACIER</h2>
+            <p>La gamme de tonnelle acier semi pro, est adressée aux particuliers et professionnels à la recherche d'une tonnelle pliante au meilleur rapport qualité prix. Créez seulement en quelques secondes un espace abrité.
+            </p>
+            <p>
+              <a href="./17-barnums-acier">JE DÉCOUVRE</a>
+            </p>
+          </div>
+          <div class="je-decouvre__left--img">
+            <img data-src="./img/souriya/barnum_20-20.jpeg" alt="barnum - barnum acier semi pro ts barnum - barnum pas cher" title="" class="img-fluid lazyloaded" src="./img/souriya/barnum_20-20.jpeg">
+          </div>
         </div>
+        <!-- 💎JE DECOUVRE LEFT -->
 
         {block name='page_content_top'}{/block}
 
