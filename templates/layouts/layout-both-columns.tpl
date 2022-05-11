@@ -72,7 +72,7 @@
         <!-- 💎IMAGE HOME -->
       {/block}
 
-        {block name='wrapper'}
+      {block name='wrapper'}
         <section id="wrapper" class="{block name='layoutWrapperClass'}l-wrapper{/block}">
         {hook h="displayWrapperTop"}
           {block name='breadcrumb'}
@@ -110,12 +110,131 @@
           {/block}
         </div>
         {hook h="displayWrapperBottom"}
-      </section>
-        {/block}
 
-      {block name='souriya_testa2'}
-        <div class="souriya_testa2">souriya_testa2</div>
-      {/block}
+        {/block}
+      </section>
+
+      <section>
+        <!-- 💎QUEL BARNUM POUR MOI -->
+        <div class="which-barnum">
+          <h2>QUEL BARNUM POUR MOI ?</h2>
+
+          <div class="which-barnum__item-list">
+            <div class="which-barnum__item">
+              <div class="which-barnum__desc">
+                <div class="which-barnum__img">
+                  <img src="./img/souriya/quel-barnum-orange.png" alt="mon barnum orange" class="class="img-fluid lazyloaded lazyload" />
+                  <h3>ACIER 32</h3>
+                </div>
+                <hr />
+                <ul class="which-barnum__features">
+                  <li>
+                    <p>Usage particulier</p><i class="material-icons checked">check_circle</i>
+                  </li>
+                  <li>
+                    <p>Usage professionnel</p><i class="material-icons checked">check_circle</i>
+                  </li>
+                  <li>
+                    <p>Usage intensif</p><i class="material-icons unchecked">do_not_disturb_on</i>
+                  </li>
+                  <li>
+                    <p>Légèreté</p><i class="material-icons unchecked">do_not_disturb_on</i>
+                  </li>
+                  <li>
+                    <p>Résistance</p><i class="material-icons unchecked">do_not_disturb_on</i>
+                  </li>
+                  <li>
+                    <p>Étanche</p><i class="material-icons checked">check_circle</i>
+                  </li>
+                  <li>
+                    <p>Pièces détachées</p><i class="material-icons checked">check_circle</i>
+                  </li>
+                </ul>
+              </div>
+              <p class="which-barnum__price">
+                À partir de 135&euro;
+              </p>
+              <p class="which-barnum__button"><a href="#">En savoir plus</a></p>
+            </div>
+
+            <div class="which-barnum__item">
+              <div class="which-barnum__desc">
+                <div class="which-barnum__img">
+                  <img src="./img/souriya/quel-barnum-bleu.png" alt="mon barnum bleu" class="class="img-fluid lazyloaded lazyload" />
+                  <div class="which-barnum__best-sellers">best sellers</div>
+                  <h3>ALUMINIUM 45</h3>
+                </div>
+                <hr />
+                <ul class="which-barnum__features">
+                  <li>
+                    <p>Usage particulier</p><i class="material-icons checked">check_circle</i>
+                  </li>
+                  <li>
+                    <p>Usage professionnel</p><i class="material-icons checked">check_circle</i>
+                  </li>
+                  <li>
+                    <p>Usage intensif</p><i class="material-icons checked">check_circle</i>
+                  </li>
+                  <li>
+                    <p>Légèreté</p><i class="material-icons checked">check_circle</i>
+                  </li>
+                  <li>
+                    <p>Résistance</p><i class="material-icons checked">check_circle</i>
+                  </li>
+                  <li>
+                    <p>Étanche</p><i class="material-icons checked">check_circle</i>
+                  </li>
+                  <li>
+                    <p>Pièces détachées</p><i class="material-icons checked">check_circle</i>
+                  </li>
+                </ul>
+              </div>
+              <p class="which-barnum__price">
+                À partir de 320&euro;
+              </p>
+              <p class="which-barnum__button"><a href="#">En savoir plus</a></p>
+            </div>
+
+            <div class="which-barnum__item">
+              <div class="which-barnum__desc">
+                <div class="which-barnum__img">
+                  <img src="./img/souriya/quel-barnum-vert.png" alt="mon barnum vert" class="class="img-fluid lazyloaded lazyload" />
+                  <h3>ALUMINIUM 55</h3>
+                </div>
+                <hr />
+                <ul class="which-barnum__features">
+                  <li>
+                    <p>Usage particulier</p><i class="material-icons unchecked">do_not_disturb_on</i>
+                  </li>
+                  <li>
+                    <p>Usage professionnel</p><i class="material-icons checked">check_circle</i>
+                  </li>
+                  <li>
+                    <p>Usage intensif</p><i class="material-icons checked">check_circle</i>
+                  </li>
+                  <li>
+                    <p>Légereté</p><i class="material-icons unchecked">do_not_disturb_on</i>
+                  </li>
+                  <li>
+                    <p>Résistance</p><i class="material-icons checked">check_circle</i>
+                  </li>
+                  <li>
+                    <p>Étanche</p><i class="material-icons checked">check_circle</i>
+                  </li>
+                  <li>
+                    <p>Pièces détachées</p><i class="material-icons checked">check_circle</i>
+                  </li>
+                </ul>
+              </div>
+              <p class="which-barnum__price">
+                À partir de 450&euro;
+              </p>
+              <p class="which-barnum__button"><a href="#">En savoir plus</a></p>
+            </div>
+          </div>
+        </div>
+        <!-- 💎QUEL BARNUM POUR MOI -->
+      </section>
 
       <footer id="footer" class="l-footer">
         {block name="footer"}

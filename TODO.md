@@ -20,21 +20,28 @@
 - ✅ implement logo
 - ✅ implement basket shortcut ?
 - ✅ fix slider size
-- 🟧 use only Roboto fonts
-- 🟧 make cache
-- 🟧 slim theme.js
-- 🟧 fix SEO paragraph, title...
-- 🟧 search bar "Je cherche un barnum"
-- 🟧 implement login
-- 🟧 implement basket
 - ✅ make responsive "ps_leoproductsearch"
 - ✅ implement homepage "Decouvrez notre gamme de barnum"
 - ✅ implement homepage "Une question ? Tel"
 - ✅ implement homepage "Je decouvre"
+- ✅ use only Roboto fonts
+- ✅ define breakpoints
+- ✅ implement grid or use mini-lib ?
+- ✅ reactivate disabled modules ?
+- ✅ why not commit this one ? modules/appagebuilder/appagebuilder.php
+- ✅ comment webpack "devtool: 'inline-source-map'"
+- ✅ optimize bundle side [see webpack warning
+- ✅ ⛔️ verify permissions `chmod 755 themes/at_decor/cache`
+- ✅ ⛔️ execute `rm -rf ./cache/*` ???
+- ✅ ⛔️ execute `rm -rf assets/cache/*` ???
+- ✅ ⛔️ execute `rm -rf assets/css/*` ???
+- ✅ ⛔️ execute `rm -rf assets/js/*` ???
+- ✅ optimize image serving
+- ✅ me faire une bibliothèque sur classic-rocket (ex. lazysizes)
+- 👊 implement homepage "Quel barnum pour moi?"
 - 🟧 implement homepage "Destockage"
 - 🟧 implement homepage "Barnums preferes"
 - 🟧 implement homepage "Coups de coeur"
-- 🟧 implement homepage "Quel barnum pour moi?"
 - 🟧 implement homepage "Comment ouvrir une tente"
 - 🟧 implement homepage "5 garanties"
 - 🟧 implement homepage "Ils nous font confiance"
@@ -44,44 +51,37 @@
 - 🟧 implement homepage "Credits"
 - 🟧 tune space between section
 - 🟧 implement homepage "Google avis"
+- 🟥 fix SEO paragraph, title...
+- 🟥 search bar "Je cherche un barnum"
+- 🟥 implement login
+- 🟥 implement basket
 - 🟥 implement chat
 - 🟥 test pagelist BASIC
 - 🟥 test pageproduct BASIC
 - 🟥 deploy in PROD
 - 🟥 remove slider item "souriya le bg"
-- ✅ define breakpoints
-- ✅ implement grid or use mini-lib ?
 - 🟥 tune homepage responsive
 - 🟥 implement pagelist
 - 🟥 implement pageproduct
 - 🟥 implement devis form
 - 🟥 replace assets absolute path by relative one
-- ✅ reactivate disabled modules ?
-- ✅ why not commit this one ? modules/appagebuilder/appagebuilder.php
+- 🟥 make cache
+- 🟥 slim theme.js
 - 🟥 remove unused download
-- ✅ comment webpack "devtool: 'inline-source-map'"
-- ✅ optimize bundle side [see webpack warning
 - 🟥 use cache prestashop cache (Performance) ?
 - 🟥 increase policy for mobile
 - 🟥 check optimization of SEO
-- 🟧 ⛔️ verify "Afin d'utiliser Smarty Cache, le répertoire /var/www/html/app/../themes/at_decor/cache/ doit avoir les droits d'écriture."
-- 🟧 ⛔️⛔️⛔️⛔️⛔️⛔️⛔️ verify permissions `chown -R www-data:www-data classic-rocket/`
-- 🟧 ⛔️⛔️⛔️⛔️⛔️⛔️⛔️ verify permissions `chown -R www-data:www-data img/`
-- ✅ ⛔️ verify permissions `chmod 755 themes/at_decor/cache`
-- ✅ ⛔️ execute `rm -rf ./cache/*` ???
-- ✅ ⛔️ execute `rm -rf assets/cache/*` ???
-- ✅ ⛔️ execute `rm -rf assets/css/*` ???
-- ✅ ⛔️ execute `rm -rf assets/js/*` ???
-- 🟧 ⛔️ recompile webpack
-- 🟧 ⛔️ tpl, classes, modules => include it manually
-- ✅ optimize image serving
-- 🟧 optimize lighthouse
-- 🟧 optional prestashop : remove systematic "force recompilation" ?
-- 🟧 inform rouya : ⛔️ update theme/module
-- 🟧 valider sur https://www.dareboost.com/fr
-- ✅ me faire une bibliothèque sur classic-rocket (ex. lazysizes)
-- 🟧 copy all images under `/img/souriya/` on the server
-- 🟧 improve this warning `WARNING in entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
+- 🟥 ⛔️ verify "Afin d'utiliser Smarty Cache, le répertoire /var/www/html/app/../themes/at_decor/cache/ doit avoir les droits d'écriture."
+- 🟥 ⛔️⛔️⛔️⛔️⛔️⛔️⛔️ verify permissions `chown -R www-data:www-data classic-rocket/`
+- 🟥 ⛔️⛔️⛔️⛔️⛔️⛔️⛔️ verify permissions `chown -R www-data:www-data img/`
+- 🟥 ⛔️ recompile webpack
+- 🟥 ⛔️ tpl, classes, modules => include it manually
+- 🟥 optimize lighthouse
+- 🟥 optional prestashop : remove systematic "force recompilation" ?
+- 🟥 inform rouya : ⛔️ update theme/module
+- 🟥 valider sur https://www.dareboost.com/fr
+- 🟥 copy all images under `/img/souriya/` on the server
+- 🟥 improve this warning `WARNING in entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
 Entrypoints:
   theme (333 KiB)
       ../css/theme.css

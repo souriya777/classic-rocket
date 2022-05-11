@@ -7,13 +7,15 @@
   --color-search-bottom-border: #333;
   --color-search-color-active: #fe4e55;
   --color-question-tel: #ccc;
+  --color-quel-barnum-hr: #c0c0c0;
   --bg-color-primary: #fff;
   --bg-color-secondary: #282828;
   --bg-color-tertiary: #0b3ab0;
   --bg-color-souriya-slider: #d2694c;
   --bg-color-menu-hover: #e7e7e7;
-  --fill-kmx-check: #5d9edf;
-  --fill-kmx-minus: #d0d0d0;
+  --bg-color-quel-barnum: #f7f7f7;
+  --fill-checked: rgb(59, 92, 219);
+  --fill-unchecked: #d0d0d0;
   --font-size-small: 12px;
   --font-size-normal: 15px;
 }
@@ -36,7 +38,7 @@ h2 {
   font-weight: 700;
   letter-spacing: 4px;
   line-height: 21px;
-  margin-bottom: 14px;
+  margin: 30px 0 14px;
 }
 
 p {
