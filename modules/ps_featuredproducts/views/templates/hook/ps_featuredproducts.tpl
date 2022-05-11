@@ -23,6 +23,7 @@
  * International Registered Trademark & Property of PrestaShop SA
  *}
 <section class="featured-products clearfix">
+  <!-- 💎ps-featuredproducts -->
   <p class="products-section-title">
     {l s='Popular Products' d='Shop.Theme.Catalog'}
   </p>

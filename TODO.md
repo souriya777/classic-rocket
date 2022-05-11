@@ -27,10 +27,10 @@
 - 🟧 search bar "Je cherche un barnum"
 - 🟧 implement login
 - 🟧 implement basket
-- 🟧 make responsive "ps_leoproductsearch"
-- 🟧 implement homepage "Decouvrez notre gamme de barnum"
+- ✅ make responsive "ps_leoproductsearch"
+- ✅ implement homepage "Decouvrez notre gamme de barnum"
 - ✅ implement homepage "Une question ? Tel"
-- 🟧 implement homepage "Je decouvre"
+- ✅ implement homepage "Je decouvre"
 - 🟧 implement homepage "Destockage"
 - 🟧 implement homepage "Barnums preferes"
 - 🟧 implement homepage "Coups de coeur"
@@ -44,48 +44,42 @@
 - 🟧 implement homepage "Credits"
 - 🟧 tune space between section
 - 🟧 implement homepage "Google avis"
-- 🟧 check index.tpl :- This template file is for the Homepage purpose.
-- 🟧 check checkout/cart.tpl :- This template is used for the Detailed Cart.
-- 🟧 check checkout/checkout.tpl :- This template file is for the Checkout Process.
-- 🟧 check catalog/product.tpl :- This template is used for the Product Page.
-- 🟧 check catalog/listing/product-list.tpl :- This template file is for Product List Page.
 - 🟥 implement chat
 - 🟥 test pagelist BASIC
 - 🟥 test pageproduct BASIC
 - 🟥 deploy in PROD
 - 🟥 remove slider item "souriya le bg"
-- 🟥 define breakpoints
-- 🟥 implement grid or use mini-lib ?
+- ✅ define breakpoints
+- ✅ implement grid or use mini-lib ?
 - 🟥 tune homepage responsive
 - 🟥 implement pagelist
 - 🟥 implement pageproduct
 - 🟥 implement devis form
 - 🟥 replace assets absolute path by relative one
-- 🟥 reactivate disabled modules ?
-- 🟥 why not commit this one ? modules/appagebuilder/appagebuilder.php
+- ✅ reactivate disabled modules ?
+- ✅ why not commit this one ? modules/appagebuilder/appagebuilder.php
 - 🟥 remove unused download
-- 🟥 comment webpack "devtool: 'inline-source-map'"
-- 🟥 optimize bundle side [see webpack warning
+- ✅ comment webpack "devtool: 'inline-source-map'"
+- ✅ optimize bundle side [see webpack warning
 - 🟥 use cache prestashop cache (Performance) ?
 - 🟥 increase policy for mobile
 - 🟥 check optimization of SEO
-- 🟥 ⛔️ remove "Forcer la compilation à chaque appel."
 - 🟧 ⛔️ verify "Afin d'utiliser Smarty Cache, le répertoire /var/www/html/app/../themes/at_decor/cache/ doit avoir les droits d'écriture."
-- 🟧 ⛔️⛔️⛔️⛔️⛔️⛔️⛔️ verify permissions `chown -R www-data:www-data at_decor/`
+- 🟧 ⛔️⛔️⛔️⛔️⛔️⛔️⛔️ verify permissions `chown -R www-data:www-data classic-rocket/`
 - 🟧 ⛔️⛔️⛔️⛔️⛔️⛔️⛔️ verify permissions `chown -R www-data:www-data img/`
-- 🟧 ⛔️ verify permissions `chmod 755 themes/at_decor/cache`
-- 🟧 ⛔️ execute `rm -rf ./cache/*` ???
-- 🟧 ⛔️ execute `rm -rf assets/cache/*` ???
-- 🟧 ⛔️ execute `rm -rf assets/css/*` ???
-- 🟧 ⛔️ execute `rm -rf assets/js/*` ???
+- ✅ ⛔️ verify permissions `chmod 755 themes/at_decor/cache`
+- ✅ ⛔️ execute `rm -rf ./cache/*` ???
+- ✅ ⛔️ execute `rm -rf assets/cache/*` ???
+- ✅ ⛔️ execute `rm -rf assets/css/*` ???
+- ✅ ⛔️ execute `rm -rf assets/js/*` ???
 - 🟧 ⛔️ recompile webpack
 - 🟧 ⛔️ tpl, classes, modules => include it manually
-- 🟧 optimize image serving
+- ✅ optimize image serving
 - 🟧 optimize lighthouse
 - 🟧 optional prestashop : remove systematic "force recompilation" ?
 - 🟧 inform rouya : ⛔️ update theme/module
 - 🟧 valider sur https://www.dareboost.com/fr
-- 🟧 me faire une bibliothèque sur classic-rocket (ex. lazysizes)
+- ✅ me faire une bibliothèque sur classic-rocket (ex. lazysizes)
 - 🟧 copy all images under `/img/souriya/` on the server
 - 🟧 improve this warning `WARNING in entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
 Entrypoints:

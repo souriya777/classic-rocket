@@ -67,8 +67,8 @@ global_settings:
         - ps_shoppingcart
       displayNavFullWidth:
         - ps_mainmenu
-      displaySouriya:
-        - ps_banner
+      # displaySouriya:
+      #   - ps_banner
         # - souriya_module
       displayHome:
         - ps_imageslider

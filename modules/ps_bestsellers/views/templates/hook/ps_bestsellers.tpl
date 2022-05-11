@@ -23,6 +23,7 @@
  * International Registered Trademark & Property of PrestaShop SA
  *}
 <section class="featured-products clearfix mt-3">
+  <!-- 💎ps_bestsellers -->
   <p class="products-section-title">
     {l s='Best Sellers' d='Shop.Theme.Catalog'}
   </p>

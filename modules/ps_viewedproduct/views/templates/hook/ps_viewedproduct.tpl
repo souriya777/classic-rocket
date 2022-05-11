@@ -24,6 +24,7 @@
 *}
 
 <section class="featured-products mt-3">
+  <!-- 💎ps_viewedproduct -->
   <p class="products-section-title">{l s='Viewed products' d='Shop.Theme.Catalog'}</p>
   <div class="products">
     {foreach from=$products item="product"}

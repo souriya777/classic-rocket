@@ -24,6 +24,7 @@
  *}
 
 <section class="featured-products clearfix mt-3">
+  <!-- 💎ps_specials -->
   <p class="products-section-title">
     {l s='On sale' d='Shop.Theme.Catalog'}
   </p>
