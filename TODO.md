@@ -72,6 +72,7 @@
 - 🟥 ⛔️ remove "Forcer la compilation à chaque appel."
 - 🟧 ⛔️ verify "Afin d'utiliser Smarty Cache, le répertoire /var/www/html/app/../themes/at_decor/cache/ doit avoir les droits d'écriture."
 - 🟧 ⛔️⛔️⛔️⛔️⛔️⛔️⛔️ verify permissions `chown -R www-data:www-data at_decor/`
+- 🟧 ⛔️⛔️⛔️⛔️⛔️⛔️⛔️ verify permissions `chown -R www-data:www-data img/`
 - 🟧 ⛔️ verify permissions `chmod 755 themes/at_decor/cache`
 - 🟧 ⛔️ execute `rm -rf ./cache/*` ???
 - 🟧 ⛔️ execute `rm -rf assets/cache/*` ???

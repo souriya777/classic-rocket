@@ -45,7 +45,19 @@
             </p>
           </div>
           <div class="je-decouvre__right--img">
-            <img data-src="./img/souriya/barnum-aluminium-pro-barnum-pas-cher.jpeg" alt="barnum - barnum acier semi pro ts barnum - barnum pas cher" title="" class="img-fluid lazyloaded" src="./img/souriya/barnum-aluminium-pro-barnum-pas-cher.jpeg">
+            <img
+              data-srcset="./img/souriya/barnum-aluminium-pro-barnum-pas-cher-sm-576px.jpg 576w,
+                          ./img/souriya/barnum-aluminium-pro-barnum-pas-cher-md-768px.jpg 768w,
+                          ./img/souriya/barnum-aluminium-pro-barnum-pas-cher-lg-992px.jpg 992w,
+                          ./img/souriya/barnum-aluminium-pro-barnum-pas-cher-xl-1200px.jpg 1200w" 
+              data-src="./img/souriya/barnum-aluminium-pro-barnum-pas-cher-xl-1200px.jpg"
+              data-sizes="(max-width: 576px) 576px,
+                          (max-width: 768px) 768px,
+                          (max-width: 992px) 992px,
+                          (max-width: 1200px) 1200px,"
+              alt="barnum - barnum aluminium pro - barnum pas cher" 
+              class="img-fluid lazyloaded lazyload"
+            />
           </div>
         </div>
         <!-- 💎JE DECOUVRE RIGHT -->
@@ -61,7 +73,19 @@
             </p>
           </div>
           <div class="je-decouvre__left--img">
-            <img data-src="./img/souriya/barnum_20-20.jpeg" alt="barnum - barnum acier semi pro ts barnum - barnum pas cher" title="" class="img-fluid lazyloaded" src="./img/souriya/barnum_20-20.jpeg">
+            <img
+              data-srcset="./img/souriya/barnum_20-20-sm-576px.jpg 576w,
+                          ./img/souriya/barnum_20-20-md-768px.jpg 768w,
+                          ./img/souriya/barnum_20-20-lg-992px.jpg 992w,
+                          ./img/souriya/barnum_20-20-xl-1200px.jpg 1200w" 
+              data-src="./img/souriya/barnum_20-20-xl-1200px.jpg"
+              data-sizes="(max-width: 576px) 576px,
+                          (max-width: 768px) 768px,
+                          (max-width: 992px) 992px,
+                          (max-width: 1200px) 1200px,"
+              alt="barnum - barnum acier semi pro ts barnum - barnum pas cher" 
+              class="img-fluid lazyloaded lazyload"
+            />
           </div>
         </div>
         <!-- 💎JE DECOUVRE LEFT -->
