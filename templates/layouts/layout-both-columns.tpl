@@ -284,6 +284,51 @@
           </div>
         </div>
         <!-- 💎NOTRE HISTOIRE -->
+
+        <!-- 💎GARANTIES -->
+        <div class="garanties">
+          <ul>
+            <li>
+              <h3>PAIEMENT SÉCURISÉ</h3>
+              <div class="garanties__offer">
+                <p>Visa, Mastercard, CB ou Paypal.</p>
+                <p>Paiement X3 OU X4.</p>
+                <p>Virement bancaire.</p>
+              </div>
+            </li>
+            <li>
+              <h3>CLICK & COLLECT LIVRAISON RAPIDE</h3>
+              <div class="garanties__offer">
+                <p>Retrait magasin.</p>
+                <p>Livraison offerte à partir de 900€.</p>
+              </div>
+            </li>
+            <li>
+              <h3>CHAT</h3>
+              <div class="garanties__offer">
+                <p>Besoin d&acute;aide rapidement ?</p>
+                <p>Notre chat est disponible 7/7.</p>
+              </div>
+            </li>
+            <li>
+              <h3>PROGRAMME DE FIDELITÉ</h3>
+              <div class="garanties__offer">
+                <p>Premier programme de fidélité.</p>
+                <p>À chaque achat d&acute;un barnum,</p>
+                <p>nous vous récompensons.</p>
+              </div>
+            </li>
+            <li>
+              <h3>CLIENTS RAVIS 4.8/5</h3>
+              <div class="garanties__offer">
+                <p>Vos différents retours nous aident</p>
+                <p>à vous proposer un barnum au</p>
+                <p>meilleur rapport qualité prix du marché.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <!-- 💎GARANTIES -->
       </section>
 
       <footer id="footer" class="l-footer">

@@ -40,7 +40,7 @@
 - ✅ me faire une bibliothèque sur classic-rocket (ex. lazysizes)
 - ✅ implement homepage "Quel barnum pour moi?"
 - ✅ implement homepage "Comment ouvrir une tente"
-- 👊 implement homepage "Notre histoire"
+- ✅ implement homepage "Notre histoire"
 - 👊 implement homepage "5 garanties"
 - 👊 implement homepage "Ils nous font confiance"
 - 👊 implement homepage "Newsletter"
