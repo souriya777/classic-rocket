@@ -102,10 +102,8 @@
   }
 
   &__button {
-    & > a {
-      @include button;
-      padding: 12px 30px;
-    }
+    @include button;
+    padding: 12px 30px;
   }
   
   .checked,

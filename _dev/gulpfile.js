@@ -6,7 +6,7 @@ var autoprefixer = require('gulp-autoprefixer');
 var responsive = require('gulp-responsive');
 var del = require('del');
 
-const IMAGE_SRC_FOLDER = 'img_souriya/**/*';
+const IMAGE_SRC_FOLDER = 'img_souriya/';
 const IMAGE_DEST_FOLDER = '../../../img/souriya/';
 
 gulp.task('sass', function () {
@@ -33,7 +33,7 @@ gulp.task('clean', async function() {
 
 gulp.task('img', function () {
   return gulp
-    .src(IMAGE_SRC_FOLDER)
+    .src(`${IMAGE_SRC_FOLDER}/**/*.jpg`)
     .pipe(
       responsive(
         {
@@ -84,9 +84,58 @@ gulp.task('img', function () {
           // Do not emit the error when image is enlarged.
           errorOnEnlargement: false
         }
-      )
     )
-    .pipe(gulp.dest(IMAGE_DEST_FOLDER))
+  )
+  .pipe(gulp.dest(IMAGE_DEST_FOLDER))
+})
+
+gulp.task('imgsmall', function () {
+  return gulp
+  .src(`${IMAGE_SRC_FOLDER}/**/*.png`)
+    .pipe(
+      responsive(
+        {
+          '*.png': [
+            {
+              width: 390,
+              rename: {
+                suffix: '-xs-390px',
+                extname: '.png'
+              },
+              withoutEnlargement: true
+            },
+            {
+              width: 576,
+              rename: {
+                suffix: '-sm-576px',
+                extname: '.png'
+              },
+              withoutEnlargement: true
+            },
+            {
+              width: 768,
+              rename: {
+                suffix: '-md-768px',
+                extname: '.png'
+              },
+              withoutEnlargement: true
+            },
+          ]
+        },
+        {
+          // Global configuration for all images
+          // The output quality for JPEG, jpg and TIFF output formats
+          quality: 80,
+          // Use progressive (interlace) scan for JPEG and PNG output
+          progressive: true,
+          // Strip all metadata
+          withMetadata: false,
+          // Do not emit the error when image is enlarged.
+          errorOnEnlargement: false
+        }
+    )
+  )
+  .pipe(gulp.dest(IMAGE_DEST_FOLDER))
 })
 
 gulp.task('watch', function () {

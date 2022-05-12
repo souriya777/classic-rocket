@@ -154,7 +154,7 @@
               <p class="which-barnum__price">
                 À partir de 135&euro;
               </p>
-              <p class="which-barnum__button"><a href="#">En savoir plus</a></p>
+              <a class="which-barnum__button" href="#"><p>En savoir plus</p></a>
             </div>
 
             <div class="which-barnum__item">
@@ -192,7 +192,7 @@
               <p class="which-barnum__price">
                 À partir de 320&euro;
               </p>
-              <p class="which-barnum__button"><a href="#">En savoir plus</a></p>
+              <a class="which-barnum__button" href="#"><p>En savoir plus</p></a>
             </div>
 
             <div class="which-barnum__item">
@@ -229,7 +229,7 @@
               <p class="which-barnum__price">
                 À partir de 450&euro;
               </p>
-              <p class="which-barnum__button"><a href="#">En savoir plus</a></p>
+              <a class="which-barnum__button" href="#"><p>En savoir plus</p></a>
             </div>
           </div>
         </div>
@@ -237,14 +237,53 @@
 
         <!-- 💎COMMENT OUVRIR -->
         <div class="how-open">
-          <h2>COMMENT OUVRIR UNE TENTE PLIANTE TSBARNUM ?</h2>
-          <p>Découvrez comment monter un barnum TS BARNUM en quelques secondes un vrai jeu d&acute;enfant ;)</p>
-          <p>Toutes nos vidéos sur notre chaine YouTube.</p>
+           <div class="how-open__desc">
+            <h2>COMMENT OUVRIR UNE TENTE PLIANTE TSBARNUM ?</h2>
+            <p>Découvrez comment monter un barnum TS BARNUM en quelques secondes un vrai jeu d&acute;enfant ;)</p>
+            <p>Toutes nos vidéos sur notre chaine YouTube.</p>
+          </div>
           <div class="how-open__video">
-            <iframe width="800" height="450" src="https://www.youtube.com/embed/SdQE81GIgrI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/SdQE81GIgrI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
         </div>
         <!-- 💎COMMENT OUVRIR -->
+
+        <!-- 💎NOTRE HISTOIRE -->
+        <div class="our-story">
+          <div class="our-story__img">
+            <img
+              data-srcset="./img/souriya/notre-histoire-xs-390px.png 390w,
+                          ./img/souriya/notre-histoire-sm-576px.png 576w,
+                          ./img/souriya/notre-histoire-md-768px.png 768w,"
+              data-src="./img/souriya/notre-histoire-md-768px.png"
+              data-sizes="(max-width: 390px) 390px,
+                          (max-width: 576px) 576px,
+                          (max-width: 768px) 768px,"
+              alt="ts barnum notre histoire" 
+              class="img-fluid lazyloaded lazyload"
+            />
+          </div>
+          <div class="our-story__text">
+            <h2>NOTRE HISTOIRE</h2>
+            <div class="our-story__quality">
+              <p>🇫🇷&nbsp;&nbsp;ENTREPRISE FRANÇAISE</p>
+            </div>
+            <div class="our-story__quality">
+              <p>♻️&nbsp;&nbsp;MATÉRIAUX RECYCLÉS</p>
+            </div>
+            <div class="our-story__quality">
+              <p>❤️&nbsp;&nbsp;HUMAINS</p>
+            </div>
+             <div class="our-story__desc">
+              <p>TSBARNUM est une entreprise Française qui a vu le jour en 2006 sous le beau soleil bordelais. Le succès grandissant et fort de sa connaissance du marché, c'est en 2015 que la société installe son siège à Lille.</p>
+              <p>Nous accompagnons depuis plus de 10 ans les professionnels dans tous les domaines d&acute;activités.</p>
+            </div>
+            <a class="our-story__button" href="#">
+              <p>Lire la suite</p>
+            </a>
+          </div>
+        </div>
+        <!-- 💎NOTRE HISTOIRE -->
       </section>
 
       <footer id="footer" class="l-footer">

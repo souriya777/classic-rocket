@@ -22,9 +22,11 @@ $translate-offset-y-text: -10%;
     }
 
     a {
-      @include button;
       display: inline-block;
       margin-top: 16px;
+      p {
+        @include button;
+      }
     }
   }
 

@@ -39,18 +39,19 @@
 - ✅ optimize image serving
 - ✅ me faire une bibliothèque sur classic-rocket (ex. lazysizes)
 - ✅ implement homepage "Quel barnum pour moi?"
-- 👊 implement homepage "Comment ouvrir une tente"
+- ✅ implement homepage "Comment ouvrir une tente"
+- 👊 implement homepage "Notre histoire"
+- 👊 implement homepage "5 garanties"
+- 👊 implement homepage "Ils nous font confiance"
+- 👊 implement homepage "Newsletter"
+- 👊 implement homepage "Suivez-nous"
+- 👊 implement homepage "Mandatory links"
+- 👊 implement homepage "Credits"
+- 👊 implement homepage "Google avis"
 - 🟧 implement homepage "Destockage"
 - 🟧 implement homepage "Barnums preferes"
 - 🟧 implement homepage "Coups de coeur"
-- 🟧 implement homepage "5 garanties"
-- 🟧 implement homepage "Ils nous font confiance"
-- 🟧 implement homepage "Newsletter"
-- 🟧 implement homepage "Suivez-nous"
-- 🟧 implement homepage "Mandatory links"
-- 🟧 implement homepage "Credits"
 - 🟧 tune space between section
-- 🟧 implement homepage "Google avis"
 - 🟥 fix SEO paragraph, title...
 - 🟥 search bar "Je cherche un barnum"
 - 🟥 implement login

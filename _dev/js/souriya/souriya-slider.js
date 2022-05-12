@@ -79,10 +79,11 @@ window.onload = function () {
     observer.observe(SLIDER);
 
     // RESIZE EVENT
-    window.addEventListener('resize', function() {
-     clearTimeout(timeoutResize);
-     timeoutResize = setTimeout(resetSliderWidth,SLIDE_RESIZE_DELAY);
-    });
-    resetSliderWidth();
+    // FIXME
+    // window.addEventListener('resize', function() {
+    //  clearTimeout(timeoutResize);
+    //  timeoutResize = setTimeout(resetSliderWidth,SLIDE_RESIZE_DELAY);
+    // });
+    // resetSliderWidth();
   })();
 };

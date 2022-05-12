@@ -40,9 +40,9 @@
           <div class="je-decouvre__right--text">
             <h2>BARNUM GAMME ALUMINIUM</h2>
             <p>Le barnum pliant aluminium 45 & 55 est le produit coup de coeur des professionnels, collectivités et particuliers. Ces barnums pliants séduisent nos clients depuis plus de 10 ans. Qualité, robuste, léger, design et pas cher.</p>
-            <p>
-              <a href="./24-barnums-aluminium">JE DÉCOUVRE</a>
-            </p>
+            <a href="./24-barnums-aluminium">
+              <p>JE DÉCOUVRE</p>
+            </a>
           </div>
           <div class="je-decouvre__right--img">
             <img
@@ -68,9 +68,9 @@
             <h2>BARNUM GAMME ACIER</h2>
             <p>La gamme de tonnelle acier semi pro, est adressée aux particuliers et professionnels à la recherche d'une tonnelle pliante au meilleur rapport qualité prix. Créez seulement en quelques secondes un espace abrité.
             </p>
-            <p>
-              <a href="./17-barnums-acier">JE DÉCOUVRE</a>
-            </p>
+            <a href="./17-barnums-acier">
+              <p>JE DÉCOUVRE</p>
+            </a>
           </div>
           <div class="je-decouvre__left--img">
             <img

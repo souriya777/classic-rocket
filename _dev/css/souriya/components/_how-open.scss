@@ -3,11 +3,75 @@
   flex-direction: column;
   align-items: center;
 
+  &__desc,
+  &__video {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__desc {
+    background-color: yellow;
+    padding: 0 30px;
+    max-width: 550px;
+  }
+
   &__video {
     margin-top: 30px;
 
     iframe {
       border-radius: 22px;
+      width: 800px;
+      height: 450px;
+    }
+  }
+
+  @media (max-width: 880px) {
+    background-color: lightyellow;
+    &__video {
+      iframe {
+        width: 680px;
+        height: 383px;
+      }
+    }
+  }
+
+  @media (max-width: 765px) {
+    background-color: lightgray;
+    &__video {
+      iframe {
+        width: 558px;
+        height: 314px;
+      }
+    }
+  }
+
+  @media (max-width: 589px) {
+    background-color: lightsteelblue;
+    &__video {
+      iframe {
+        width: 498px;
+        height: 280px;
+      }
+    }
+  }
+  
+  @media (max-width: 510px) {
+    background-color: lightcyan;
+    &__video {
+      iframe {
+        width: 399px;
+        height: 224px;
+      }
+    }
+  }
+
+  @media (max-width: 418px) {
+    background-color: lightcoral;
+    &__video {
+      iframe {
+        width: 343px;
+        height: 193px;
+      }
     }
   }
 }
