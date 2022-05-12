@@ -234,6 +234,17 @@
           </div>
         </div>
         <!-- 💎QUEL BARNUM POUR MOI -->
+
+        <!-- 💎COMMENT OUVRIR -->
+        <div class="how-open">
+          <h2>COMMENT OUVRIR UNE TENTE PLIANTE TSBARNUM ?</h2>
+          <p>Découvrez comment monter un barnum TS BARNUM en quelques secondes un vrai jeu d&acute;enfant ;)</p>
+          <p>Toutes nos vidéos sur notre chaine YouTube.</p>
+          <div class="how-open__video">
+            <iframe width="800" height="450" src="https://www.youtube.com/embed/SdQE81GIgrI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+        <!-- 💎COMMENT OUVRIR -->
       </section>
 
       <footer id="footer" class="l-footer">

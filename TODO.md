@@ -38,11 +38,11 @@
 - ✅ ⛔️ execute `rm -rf assets/js/*` ???
 - ✅ optimize image serving
 - ✅ me faire une bibliothèque sur classic-rocket (ex. lazysizes)
-- 👊 implement homepage "Quel barnum pour moi?"
+- ✅ implement homepage "Quel barnum pour moi?"
+- 👊 implement homepage "Comment ouvrir une tente"
 - 🟧 implement homepage "Destockage"
 - 🟧 implement homepage "Barnums preferes"
 - 🟧 implement homepage "Coups de coeur"
-- 🟧 implement homepage "Comment ouvrir une tente"
 - 🟧 implement homepage "5 garanties"
 - 🟧 implement homepage "Ils nous font confiance"
 - 🟧 implement homepage "Newsletter"

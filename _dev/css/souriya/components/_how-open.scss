@@ -1,0 +1,13 @@
+.how-open {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__video {
+    margin-top: 30px;
+
+    iframe {
+      border-radius: 22px;
+    }
+  }
+}
