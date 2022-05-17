@@ -41,7 +41,10 @@
 - ✅ implement homepage "Quel barnum pour moi?"
 - ✅ implement homepage "Comment ouvrir une tente"
 - ✅ implement homepage "Notre histoire"
-- 👊 implement homepage "5 garanties"
+- ✅ implement homepage "5 garanties"
+- ✅ study "ps_featuredproducts.php"
+- ✅ implement ps_featuredproducts
+- 👊 implement other list product
 - 👊 implement homepage "Ils nous font confiance"
 - 👊 implement homepage "Newsletter"
 - 👊 implement homepage "Suivez-nous"
@@ -65,8 +68,8 @@
 - 🟥 implement pagelist
 - 🟥 implement pageproduct
 - 🟥 implement devis form
+- 🟥 fix bug "rupture de stock" ?
 - 🟥 replace assets absolute path by relative one
-- 🟥 make cache
 - 🟥 slim theme.js
 - 🟥 remove unused download
 - 🟥 use cache prestashop cache (Performance) ?

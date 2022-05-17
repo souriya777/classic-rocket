@@ -52,25 +52,27 @@
         {include file='_partials/notifications.tpl'}
       {/block}
 
-      {block name='image_home'}
-        <!-- 💎IMAGE HOME -->
-        <div class="image-home">
-          <img
-            data-srcset="./img/souriya/banner-sm-576px.jpg 576w,
-                         ./img/souriya/banner-md-768px.jpg 768w,
-                         ./img/souriya/banner-lg-992px.jpg 992w,
-                         ./img/souriya/banner-xl-1200px.jpg 1200w" 
-            data-src="./img/souriya/banner-xl-1200px.jpg"
-            data-sizes="(max-width: 576px) 576px,
-                        (max-width: 768px) 768px,
-                        (max-width: 992px) 992px,
-                        (max-width: 1200px) 1200px,"
-            alt="barnum pas cher - programme fidélité tente barnum - ts barnum" 
-            class="img-fluid lazyloaded lazyload"
-          />
-        </div>
-        <!-- 💎IMAGE HOME -->
-      {/block}
+      {if $page.page_name == 'index'}
+        <section id="souriya-banner">
+          <!-- 💎IMAGE HOME -->
+          <div class="image-home">
+            <img
+              data-srcset="./img/souriya/banner-sm-576px.jpg 576w,
+                          ./img/souriya/banner-md-768px.jpg 768w,
+                          ./img/souriya/banner-lg-992px.jpg 992w,
+                          ./img/souriya/banner-xl-1200px.jpg 1200w" 
+              data-src="./img/souriya/banner-xl-1200px.jpg"
+              data-sizes="(max-width: 576px) 576px,
+                          (max-width: 768px) 768px,
+                          (max-width: 992px) 992px,
+                          (max-width: 1200px) 1200px,"
+              alt="barnum pas cher - programme fidélité tente barnum - ts barnum" 
+              class="img-fluid lazyloaded lazyload"
+            />
+          </div>
+          <!-- 💎IMAGE HOME -->
+        </section>
+      {/if}
 
       {block name='wrapper'}
         <section id="wrapper" class="{block name='layoutWrapperClass'}l-wrapper{/block}">
