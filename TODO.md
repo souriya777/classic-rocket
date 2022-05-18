@@ -44,8 +44,10 @@
 - ✅ implement homepage "5 garanties"
 - ✅ study "ps_featuredproducts.php"
 - ✅ implement ps_featuredproducts
-- 👊 implement other list product
-- 👊 implement homepage "Ils nous font confiance"
+- ✅ implement other list product
+- ✅ implement homepage "Ils nous font confiance"
+- 👊 fix scroll by "Ils nous font confiance"
+- 👊 fix space responsive
 - 👊 implement homepage "Newsletter"
 - 👊 implement homepage "Suivez-nous"
 - 👊 implement homepage "Mandatory links"

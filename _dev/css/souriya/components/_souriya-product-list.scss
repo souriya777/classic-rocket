@@ -16,7 +16,7 @@ $svg: 'data:image/svg+xml; utf8, <svg width="24" height="24" xmlns="http://www.w
 
   p {
     display: block;
-    max-width: 550px;
+    max-width: var(--width-subtitle);
     margin: 0 auto 20px;
   }
 
@@ -57,47 +57,5 @@ $svg: 'data:image/svg+xml; utf8, <svg width="24" height="24" xmlns="http://www.w
 
   .product-description {
     text-align: left;
-  }
-
-  // SPECIFIC SLICK CAROUSEL
-  .slick-prev,
-  .slick-next {
-    @include svg("../img/fleche-petite.svg", 281px, var(--color-primary));
-    top: 32%;
-    width: 60px;
-    height: 19px;
-    font-size: 0;
-
-    &:hover {
-      background-color: var(--color-active);
-    }
-
-    &::after {
-      content: "";
-    }
-  }
-
-  .slick-prev {
-    transform: translateX(-100%) rotate(180deg);
-  }
-
-  .slick-next {
-    transform: translateX(100%);
-  }
-
-  @media (max-width: 588px) {
-    .slick-slide .product-miniature {
-      display: block !important;
-      max-width: 85%;
-      margin: 0 auto;
-    }
-
-    .slick-prev {
-      transform: translateX(-46%) rotate(180deg);
-    }
-
-    .slick-next {
-      transform: translateX(46%);
-    }
   }
 }

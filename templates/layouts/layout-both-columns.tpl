@@ -333,6 +333,129 @@
         <!-- 💎GARANTIES -->
       </section>
 
+      <section class="souriya-wrapper">
+        <!-- 💎IL NOUS FONT CONFIANCE -->
+        <div class="trust">
+          <h3>ILS NOUS FONT CONFIANCE</h3>
+          <p>Nous remercions tous les artisans, restaurateurs et pros de nous faire confiance tous les jours en choississant de travailler avec nos barnums pliants <3.</p>
+          <ul class="trust__list">
+            <li class="trust__img">
+              <img
+                data-src="./img/souriya/bordeaux.jpeg"
+                alt="bordeaux" 
+                class="img-fluid lazyload"
+              />
+            </li>
+            <li class="trust__img">
+              <img
+                data-src="./img/souriya/bordeaux-metropole.jpeg"
+                alt="bordeaux métropole" 
+                class="img-fluid lazyload"
+              />
+            </li>
+            <li class="trust__img">
+              <img
+                data-src="./img/souriya/camping-campeole.jpeg"
+                alt="camping campeole" 
+                class="img-fluid lazyload"
+              />
+            </li>
+            <li class="trust__img">
+              <img
+                data-src="./img/souriya/colas.jpeg"
+                alt="colas" 
+                class="img-fluid lazyload"
+              />
+            </li>
+            <li class="trust__img">
+              <img
+                data-src="./img/souriya/croix-rouge-francaise.jpeg"
+                alt="Croix Rouge Française" 
+                class="img-fluid lazyload"
+              />
+            </li>
+            <li class="trust__img">
+              <img
+                data-src="./img/souriya/don-du-sang.jpeg"
+                alt="don du sang" 
+                class="img-fluid lazyload"
+              />
+            </li>
+            <li class="trust__img">
+              <img
+                data-src="./img/souriya/eiffrage-construction.jpeg"
+                alt="eiffrage construction" 
+                class="img-fluid lazyload"
+              />
+            </li>
+            <li class="trust__img">
+              <img
+                data-src="./img/souriya/ford.jpeg"
+                alt="ford" 
+                class="img-fluid lazyload"
+              />
+            </li>
+            <li class="trust__img">
+              <img
+                data-src="./img/souriya/france-tv.jpeg"
+                alt="france tv" 
+                class="img-fluid lazyload"
+              />
+            </li>
+            <li class="trust__img">
+              <img
+                data-src="./img/souriya/maif.jpeg"
+                alt="maif" 
+                class="img-fluid lazyload"
+              />
+            </li>
+            <li class="trust__img">
+              <img
+                data-src="./img/souriya/mc-donald-s.jpeg"
+                alt="mc donald's" 
+                class="img-fluid lazyload"
+              />
+            </li>
+            <li class="trust__img">
+              <img
+                data-src="./img/souriya/ministere-des-armees.jpeg"
+                alt="Ministère des armées" 
+                class="img-fluid lazyload"
+              />
+            </li>
+            <li class="trust__img">
+              <img
+                data-src="./img/souriya/opera-de-lille.jpeg"
+                alt="Opéra de Lille" 
+                class="img-fluid lazyload"
+              />
+            </li>
+            <li class="trust__img">
+              <img
+                data-src="./img/souriya/tf1.jpeg"
+                alt="tf1" 
+                class="img-fluid lazyload"
+              />
+            </li>
+            <li class="trust__img">
+              <img
+                data-src="./img/souriya/ts-barnum.jpeg"
+                alt="TS BARNUM" 
+                class="img-fluid lazyload"
+              />
+            </li>
+            <li class="trust__img">
+              <img
+                data-src="./img/souriya/don-du-sang.jpeg"
+                alt="Ville de FACHES-THUMESNIL" 
+                class="img-fluid lazyload"
+              />
+            </li>
+          </ul>
+        </div>
+        <!-- 💎IL NOUS FONT CONFIANCE -->
+      </section>
+
       <footer id="footer" class="l-footer">
         {block name="footer"}
           {include file="_partials/footer.tpl"}

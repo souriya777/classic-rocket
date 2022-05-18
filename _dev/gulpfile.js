@@ -27,6 +27,15 @@ gulp.task('move', function () {
     .pipe(gulp.dest('../assets/img/'));
 });
 
+gulp.task('move', function () {
+  return gulp.src('img/**/*')
+    .pipe(gulp.dest('../assets/img/'));
+});
+gulp.task('move-noresponsive', function () {
+  return gulp.src('img_noresponsive/**/*')
+    .pipe(gulp.dest(IMAGE_DEST_FOLDER));
+});
+
 gulp.task('clean', async function() {
   del([`${IMAGE_DEST_FOLDER}/**/*`], { force: true })
 });

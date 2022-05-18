@@ -58,6 +58,7 @@ import lazysizes from 'lazysizes'
 // SOURIYA
 import './souriya/souriya-slider';
 import './souriya/souriya-product-slider';
+import './souriya/souriya-trust-slider';
 
 // "inherit" EventEmitter
 for (var i in EventEmitter.prototype) {

@@ -1,0 +1,36 @@
+.trust {
+  background-color: lightcyan;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1340px;
+  margin: 0 auto;
+
+  h3 {
+    color: var(--color-confiance);
+    font-size: 22px;
+    letter-spacing: 3px;
+  }
+
+  p {
+    max-width: var(--width-subtitle);
+  }
+
+  &__list {
+    display: flex;
+    max-width: calc(100% - 138px); // arrow size
+    margin: 28px auto;
+  }
+
+  // SLICK SPECIFIC
+  .slick-prev,
+  .slick-next {
+    top: 42%;
+  }
+
+  .slick-slide &__img {
+    background-color: pink;
+    display: flex !important;
+    justify-content: center;
+  }
+}

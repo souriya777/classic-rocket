@@ -11,6 +11,7 @@
   --color-active: #fe4e55;
   --color-question-tel: #ccc;
   --color-quel-barnum-hr: #c0c0c0;
+  --color-confiance: #a6bad3;
   --bg-color-primary: #fff;
   --bg-color-secondary: #282828;
   --bg-color-tertiary: #0b3ab0;
@@ -21,6 +22,7 @@
   --fill-unchecked: #d0d0d0;
   --font-size-small: 12px;
   --font-size-normal: 15px;
+  --width-subtitle: 550px;
 }
 
 body {
@@ -48,4 +50,8 @@ p {
   display: inline-block;
   margin: 0;
   line-height: 23px;
+}
+
+.souriya-wrapper {
+  padding: 0 15px;
 }
