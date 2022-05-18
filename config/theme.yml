@@ -73,7 +73,7 @@ global_settings:
       #   - ps_banner
         # - souriya_module
       displayHome:
-        - ps_imageslider
+        # - ps_imageslider
         - souriya_destockinglist
         - souriya_preferlist
         - souriya_heartlist

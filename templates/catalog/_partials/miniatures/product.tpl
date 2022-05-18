@@ -65,7 +65,7 @@
                         {if in_array($page.page_name, ['best-sales','category','manufacturer','new-products','prices-drop','product-list','search','supplier'])}
                         <h2 class="h3 product-title"><a href="{$product.url}">{$product.name|truncate:30:'...'}</a></h2>
                         {else}
-                            <p class="h3 product-title"><a href="{$product.url}">{$product.name|truncate:30:'...'}</a></p>
+                            <p class="h3 product-title"><h3><a href="{$product.url}">{$product.name}</a></h3></p>
                         {/if}
                     {/block}
                     {block name='product_reviews'}
