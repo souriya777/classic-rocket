@@ -7,7 +7,7 @@ window.onload = function () {
     const SLIDE_RESIZE_DELAY = 250;
     const SLIDE_MIN = 1;
     const SLIDER_LIST = document.querySelector(".souriya-slider ul");
-    if(!SLIDER_LIST) {
+    if (!SLIDER_LIST) {
       throw new Error('[souriya 😎] slider is not defined in app page builder');
     }
 
@@ -19,6 +19,7 @@ window.onload = function () {
     let sliderWidth;
     let currentSlide = 1;
     let slideInterval;
+    let windowEventListener;
     let timeoutResize = false;
 
     // FUNCTION
@@ -26,21 +27,33 @@ window.onload = function () {
       NEXT_BTN.click();
     }
 
-    function resetInterval() {
+    function resetSlideInterval() {
       if (slideInterval) {
         clearInterval(slideInterval);
       }
       slideInterval = setInterval(infiniteLoop, SLIDE_INTERVAL_MS);
     }
 
+    function resetResizeEventListener() {
+      if (windowEventListener) {
+        window.removeEventListener('resize', handleResizeEvent);
+      }
+      windowEventListener = window.addEventListener('resize', handleResizeEvent);
+    }
+
     function resetSliderWidth() {
       sliderWidth = SLIDER_ITEMS[0].scrollWidth;
-      resetInterval();
+      resetSlideInterval();
+    }
+
+    function handleResizeEvent() {
+      clearTimeout(timeoutResize);
+      timeoutResize = setTimeout(resetSliderWidth, SLIDE_RESIZE_DELAY);
     }
 
     function slide(offset) {
       SLIDER_LIST.style.transform = `translateX(-${offset * sliderWidth}px)`;
-      resetInterval();
+      resetSlideInterval();
     }
 
     // EVENT
@@ -71,19 +84,15 @@ window.onload = function () {
     // OBSERVER
     const observer = new IntersectionObserver(function (entries) {
       if (entries[0].isIntersecting === true) {
-        resetInterval();
+        resetSlideInterval();
+        resetResizeEventListener();
       } else {
         clearInterval(slideInterval);
+        window.removeEventListener('resize', handleResizeEvent);
       }
     }, { threshold: [1] });
     observer.observe(SLIDER);
 
-    // RESIZE EVENT
-    // FIXME
-    // window.addEventListener('resize', function() {
-    //  clearTimeout(timeoutResize);
-    //  timeoutResize = setTimeout(resetSliderWidth,SLIDE_RESIZE_DELAY);
-    // });
-    // resetSliderWidth();
+    resetSliderWidth();
   })();
 };
