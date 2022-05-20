@@ -1,0 +1,117 @@
+.network {
+  display: flex;
+  flex-wrap: wrap;
+
+  a {
+    color: inherit;
+    text-transform: uppercase;
+  }
+
+  input:-webkit-autofill,
+  input:-webkit-autofill:focus {
+    transition: background-color 600000s 0s, color 600000s 0s;
+  }
+  input[data-autocompleted] {
+    background-color: transparent !important;
+  }
+
+  &__content {
+    @include row;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  &__newsletter,
+  &__social {
+    display: flex;
+    flex-direction: column;
+    max-width: 540px;
+    padding: 0px 48px;
+    text-align: center;
+  }
+
+  &__newsletter {
+    background-color: lightgoldenrodyellow;
+  }
+
+  &__social {
+    background-color: lightgreen;
+
+    &__list {
+      display: flex;
+      justify-content: space-evenly;
+      font-weight: 700;
+      letter-spacing: 1px;
+    }
+  }
+
+  &__title {
+    margin: 15px 0;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 2px;
+  }
+
+  &__desc {
+    margin-bottom: 38px;
+  }
+
+  &__facebook {
+    order: 1;
+    color: var(--color-facebook);
+  }
+
+  &__instagram {
+    order: 2;
+    color: var(--color-instagram);
+  }
+
+  &__youtube {
+    order: 3;
+    color: var(--color-youtube);
+  }
+
+  // OVERIDE PRESTASHOP
+  .form-control {
+    background: none;
+    box-shadow: none;
+    background-color: var(--color-secondary);
+    border-width: 2px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: var(--color-tertiary);
+
+    &.is-invalid {
+      box-shadow: none;
+      border-color: var(--color-error);
+    }
+  }
+
+  form.was-validated .form-control:valid:focus,
+  .form-control.is-valid:focus {
+    box-shadow: none;
+  }
+
+  .input-group-append {
+    position: absolute;
+    right: 0;
+    top: 9px;
+    z-index: 4;
+  }
+
+  @media (max-width: 1079px) {
+    &__newsletter {
+      border-right: none;
+      border-bottom: 1px solid var(--color-tertiary);
+    }
+  }
+
+  @media (max-width: 495px) {
+    .network__newsletter,
+    .network__social {
+      padding: 0px 14px;
+    }
+  }
+}

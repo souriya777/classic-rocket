@@ -23,11 +23,13 @@
  * International Registered Trademark & Property of PrestaShop SA
  *}
 <div class="container">
-  <div class="row">
+  <!-- 💎NETWORK -->
+  <div class="network">
     {block name='hook_footer_before'}
       {hook h='displayFooterBefore'}
     {/block}
   </div>
+  <!-- 💎NETWORK -->
 </div>
 <div class="footer-container">
   <div class="container">
