@@ -1,5 +1,7 @@
 # My stuff
 
+## IMPLEMENTATION
+
 - ✅ speed up the theme
 - ✅ reset css
 - ✅ normalize
@@ -46,52 +48,57 @@
 - ✅ implement ps_featuredproducts
 - ✅ implement other list product
 - ✅ implement homepage "Ils nous font confiance"
-- 👊 fix scroll by "Ils nous font confiance"
-- 👊 fix space responsive
+- ✅ fix scroll by "Ils nous font confiance"
+- ✅ fix space responsive
+- ✅ tune homepage responsive
+- ✅ implement homepage "Destockage"
+- ✅ implement homepage "Barnums preferes"
+- ✅ implement homepage "Coups de coeur"
+- ✅ remove slider item "souriya le bg"
 - 👊 implement homepage "Newsletter"
 - 👊 implement homepage "Suivez-nous"
 - 👊 implement homepage "Mandatory links"
 - 👊 implement homepage "Credits"
 - 👊 implement homepage "Google avis"
-- 🟧 implement homepage "Destockage"
-- 🟧 implement homepage "Barnums preferes"
-- 🟧 implement homepage "Coups de coeur"
-- 🟧 tune space between section
-- 🟥 fix SEO paragraph, title...
 - 🟥 search bar "Je cherche un barnum"
 - 🟥 implement login
 - 🟥 implement basket
 - 🟥 implement chat
-- 🟥 test pagelist BASIC
-- 🟥 test pageproduct BASIC
-- 🟥 deploy in PROD
-- 🟥 remove slider item "souriya le bg"
-- 🟥 tune homepage responsive
-- 🟥 implement pagelist
-- 🟥 implement pageproduct
 - 🟥 implement devis form
 - 🟥 fix bug "rupture de stock" ?
-- 🟥 replace assets absolute path by relative one
+- 🟥 implement pagelist
+- 🟥 implement pageproduct
+- 🟥 implement command tunnel
+- 🟥 /modules => include it manually ? or switch to child ?
+
+## OPTIMIZATION
+- 🟥 optimize lighthouse
 - 🟥 slim theme.js
 - 🟥 remove unused download
-- 🟥 use cache prestashop cache (Performance) ?
-- 🟥 increase policy for mobile
-- 🟥 check optimization of SEO
-- 🟥 ⛔️ verify "Afin d'utiliser Smarty Cache, le répertoire /var/www/html/app/../themes/at_decor/cache/ doit avoir les droits d'écriture."
-- 🟥 ⛔️⛔️⛔️⛔️⛔️⛔️⛔️ verify permissions `chown -R www-data:www-data classic-rocket/`
-- 🟥 ⛔️⛔️⛔️⛔️⛔️⛔️⛔️ verify permissions `chown -R www-data:www-data img/`
-- 🟥 ⛔️ recompile webpack
-- 🟥 ⛔️ tpl, classes, modules => include it manually
-- 🟥 optimize lighthouse
-- 🟥 optional prestashop : remove systematic "force recompilation" ?
-- 🟥 inform rouya : ⛔️ update theme/module
-- 🟥 valider sur https://www.dareboost.com/fr
-- 🟥 copy all images under `/img/souriya/` on the server
 - 🟥 improve this warning `WARNING in entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
 Entrypoints:
   theme (333 KiB)
       ../css/theme.css
       theme.js`
+- 🟥 valider sur https://www.dareboost.com/fr
+- 🟥 check optimization of SEO
+
+## ROUYA FEEDBACK
+- 🟥 tune space between section
+- 🟥 tune fonts for desktop/mobile
+- 🟥 tune SEO paragraph, title...
+
+## PRODUCTION
+- 🟥 deploy in PROD
+- 🟥 copy all images under `/img/souriya/` on the server
+- 🟥 /modules => include it manually ?
+- 🟥 recompile webpack ?
+- 🟥 ⛔️ verify permissions `chown -R www-data:www-data classic-rocket/`
+- 🟥 ⛔️ verify permissions `chown -R www-data:www-data img/`
+- 🟥 optional prestashop : remove systematic "force recompilation" ?
+- 🟥 use cache prestashop cache (Performance) ?
+- 🟥 feel ps_socialfollow infos
+- 🟥 inform rouya : ⛔️ update theme/module
 
 # PERFORMANCE - CURRENT THEME
 [1st]
@@ -118,6 +125,13 @@ Entrypoints:
 20220412-Desktop-Performance-100%
 20220412-Mobile-Performance-95%
 
+# COMMAND
+
+- compile js : `gulp watch`
+- compile all for PROD : `npm run build`
+- debug : `npm run fulldebug`
+- copy my img : `gulp souriya-img`
+
 # DOCKER
 
 `docker network create prestashop-net2`
@@ -129,6 +143,8 @@ Entrypoints:
 `https://stackoverflow.com/questions/55661308/prestashop-starter-theme-deprecated`
 [debate which is the "best" starter theme (native prestashop or tuned from external entities ?)
 [I choose to tune at_decor theme (I try to remove useless downloaded code...)
+
+I finally choose `https://github.com/prestarocket-agence/classic-rocket`
 
 ## running
 FO : http://localhost:8080

@@ -43,9 +43,6 @@
                 showroom de Lille
               </p>
             </li>
-            <li>
-              <p>Souriya le bg</p>
-            </li>
           </ul>
         </div>
       </div>
