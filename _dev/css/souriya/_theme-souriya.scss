@@ -6,14 +6,17 @@
 @import "components/garanties";
 @import "components/how-open";
 @import "components/je-decouvre";
+@import "components/made-with";
 @import "components/network";
 @import "components/our-story";
 @import "components/question-tel";
+@import "components/souriya-footer";
 @import "components/souriya-product-list";
 @import "components/souriya-slider";
 @import "components/trust";
 @import "components/which-barnum";
 
+@import "vendors/linkblock-override";
 @import "vendors/ps_customersignin-override";
 @import "vendors/ps_shoppingcart-override";
 @import "vendors/slick-carousel-override";

@@ -84,8 +84,8 @@ global_settings:
         - ps_socialfollow
       displayFooter:
         - ps_linklist
-        - ps_customeraccountlinks
-        - ps_contactinfo
+        # - ps_customeraccountlinks
+        # - ps_contactinfo
       displayLeftColumn:
         - ps_categorytree
         - ps_facetedsearch

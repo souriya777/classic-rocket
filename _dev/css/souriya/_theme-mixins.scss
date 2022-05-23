@@ -32,7 +32,15 @@
 
 @mixin action-hover {
   &:hover {
-    background-color: var(--color-active);
+    background-color: var(--color-action);
+  }
+}
+
+@mixin link-action {
+  color: inherit;
+
+  &:hover {
+    color: var(--color-action);
   }
 }
 

@@ -1,0 +1,10 @@
+.souriya-footer {
+  margin-top: 0;
+  padding-top: 15px;
+  background-color: var(--bg-color-tertiary);
+  color: var(--color-footer-bottom);
+
+  .row {
+    flex-direction: column;
+  }
+}

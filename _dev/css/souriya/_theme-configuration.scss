@@ -2,14 +2,14 @@
   /* COLOR */
   --color-primary: #000;
   --color-secondary: #fff;
-  --color-tertiary: #888888;
-  --color-h1: #0a39b0;
+  --color-tertiary: #0a39b0;
+  --color-gray: #888888;
   --color-miniature-font: #969696;
   --color-search-bottom-border: #333;
   --color-search-color-active: #fe4e55;
-  --color-active: #fe4e55;
-  --color-price: var(--color-active); // FIXME #ff4850
-  --color-error: var(--color-active);
+  --color-action: #fe4e55;
+  --color-price: var(--color-action); // FIXME #ff4850
+  --color-error: var(--color-action);
   --color-success: #155724;
   --color-question-tel: #ccc;
   --color-quel-barnum-hr: #c0c0c0;
@@ -17,13 +17,13 @@
   --color-facebook: #4267b2;
   --color-instagram: #f77737;
   --color-youtube: #ff0000;
-  --color-tertiary: #0b3ab0;
+  --color-heart: #d0121a;
+  --color-footer-bottom: #717171;
   --bg-color-primary: #fff;
   --bg-color-secondary: #282828;
-  --bg-color-tertiary: var(--color-tertiary);
+  --bg-color-tertiary: #f7f7f7;
   --bg-color-souriya-slider: #d2694c;
   --bg-color-menu-hover: #e7e7e7;
-  --bg-color-quel-barnum: #f7f7f7;
   --fill-checked: #3b5cdb;
   --fill-unchecked: #d0d0d0;
   --font-size-small: 12px;
@@ -42,14 +42,14 @@ body {
 
 h1 {
   margin-bottom: 9px;
-  color: var(--color-h1);
+  color: var(--color-tertiary);
   font-size: 21px;
   font-weight: 700;
 }
 
 h2 {
   display: inline-block;
-  color: var(--color-h1);
+  color: var(--color-tertiary);
   font-size: 18px;
   font-weight: 700;
   letter-spacing: 4px;

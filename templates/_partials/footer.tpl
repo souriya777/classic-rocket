@@ -31,23 +31,20 @@
   </div>
 </div>
 <!-- 💎NETWORK -->
-<div class="footer-container">
-  <div class="container">
-    <div class="row">
-      {block name='hook_footer'}
-        {hook h='displayFooter'}
-      {/block}
-    </div>
-    <div class="row">
-      {block name='hook_footer_after'}
-        {hook h='displayFooterAfter'}
-      {/block}
-    </div>
-    <p class="text-center mb-0 pb-3">
+<div class="souriya-footer container">
+  <div class="row">
+    {block name='hook_footer'}
+      {hook h='displayFooter'}
+    {/block}
+
+    {block name='hook_footer_after'}
+      {hook h='displayFooterAfter'}
+    {/block}
+
+    <p class="made-with">
       {block name='copyright_link'}
-        <a class="_blank" href="https://prestarocket.com/" target="_blank" rel="nofollow">
-          {l s='%copyright% %year% - Theme by %prestashop%' sprintf=['%prestashop%' => 'Prestarocket™', '%year%' => 'Y'|date, '%copyright%' => '©'] d='Shop.Theme.Global'}
-        </a>
+        Made with <span class="heart">♥</span> by 
+        <a class="_blank" href="https://klapomme.fr/" target="_blank" rel="nofollow">cercle noir</a>
       {/block}
     </p>
   </div>
