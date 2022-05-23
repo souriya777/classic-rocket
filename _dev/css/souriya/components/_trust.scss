@@ -1,9 +1,9 @@
 .trust {
+  @include row;
   background-color: lightcyan;
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 1340px;
   margin: 0 auto;
 
   h3 {
@@ -18,7 +18,7 @@
 
   &__list {
     display: flex;
-    max-width: calc(100% - 138px); // arrow size
+    max-width: calc(100% - 198px); // arrow size
     margin: 28px auto;
   }
 
@@ -32,5 +32,14 @@
     background-color: pink;
     display: flex !important;
     justify-content: center;
+  }
+
+  @media (max-width: 589px) {
+    .slick-prev {
+      margin-left: -52px;
+    }
+    .slick-next {
+      margin-right: -52px;
+    }
   }
 }

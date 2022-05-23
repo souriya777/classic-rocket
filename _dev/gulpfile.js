@@ -31,11 +31,6 @@ gulp.task('watch', function () {
   gulp.watch('css/**/*.scss', gulp.series('sass', 'move-img'))
 });
 
-gulp.task('souriya-img-noresponsive', function () {
-  return gulp.src('img_souriya-noresponsive/**/*')
-    .pipe(gulp.dest(IMAGE_DEST_FOLDER));
-});
-
 gulp.task('souriya-clean-folder-img', async function() {
   del([`${IMAGE_DEST_FOLDER}/**/*`], { force: true })
 });
@@ -146,6 +141,12 @@ gulp.task('souriya-imgsmall-png', function () {
   )
   .pipe(gulp.dest(IMAGE_DEST_FOLDER))
 })
+
+gulp.task('souriya-img-noresponsive', function () {
+  return gulp.src('img_souriya-noresponsive/**/*')
+    .pipe(gulp.dest(IMAGE_DEST_FOLDER));
+});
+
 
 gulp.task(
   'souriya-img', 

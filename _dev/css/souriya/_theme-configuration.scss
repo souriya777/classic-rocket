@@ -7,25 +7,33 @@
   --color-miniature-font: #969696;
   --color-search-bottom-border: #333;
   --color-search-color-active: #fe4e55;
-  --color-price: #fe4e55; // FIXME #ff4850
   --color-active: #fe4e55;
+  --color-price: var(--color-active); // FIXME #ff4850
+  --color-error: var(--color-active);
+  --color-success: #155724;
   --color-question-tel: #ccc;
   --color-quel-barnum-hr: #c0c0c0;
   --color-confiance: #a6bad3;
   --color-facebook: #4267b2;
   --color-instagram: #f77737;
   --color-youtube: #ff0000;
+  --color-tertiary: #0b3ab0;
   --bg-color-primary: #fff;
   --bg-color-secondary: #282828;
-  --bg-color-tertiary: #0b3ab0;
+  --bg-color-tertiary: var(--color-tertiary);
   --bg-color-souriya-slider: #d2694c;
   --bg-color-menu-hover: #e7e7e7;
   --bg-color-quel-barnum: #f7f7f7;
-  --fill-checked: rgb(59, 92, 219);
+  --fill-checked: #3b5cdb;
   --fill-unchecked: #d0d0d0;
   --font-size-small: 12px;
   --font-size-normal: 15px;
+  --width-row: 1340px;
   --width-subtitle: 550px;
+  --width-fleche-button: 90px;
+  --width-shorcuts: 24px;
+  --height-fleche-button: 18px;
+  --size-fleche-slider: 281px;
 }
 
 body {

@@ -125,7 +125,7 @@
             <div class="which-barnum__item">
               <div class="which-barnum__desc">
                 <div class="which-barnum__img">
-                  <img src="./img/souriya/quel-barnum-orange.png" alt="mon barnum orange" class="class="img-fluid lazyloaded lazyload" />
+                  <img src="./img/souriya/quel-barnum-orange.svg" alt="mon barnum orange" class="class="img-fluid lazyloaded lazyload" />
                   <h3>ACIER 32</h3>
                 </div>
                 <hr />
@@ -162,7 +162,7 @@
             <div class="which-barnum__item">
               <div class="which-barnum__desc">
                 <div class="which-barnum__img">
-                  <img src="./img/souriya/quel-barnum-bleu.png" alt="mon barnum bleu" class="class="img-fluid lazyloaded lazyload" />
+                  <img src="./img/souriya/quel-barnum-bleu.svg" alt="mon barnum bleu" class="class="img-fluid lazyloaded lazyload" />
                   <div class="which-barnum__best-sellers">best sellers</div>
                   <h3>ALUMINIUM 45</h3>
                 </div>
@@ -200,7 +200,7 @@
             <div class="which-barnum__item">
               <div class="which-barnum__desc">
                 <div class="which-barnum__img">
-                  <img src="./img/souriya/quel-barnum-vert.png" alt="mon barnum vert" class="class="img-fluid lazyloaded lazyload" />
+                  <img src="./img/souriya/quel-barnum-vert.svg" alt="mon barnum vert" class="class="img-fluid lazyloaded lazyload" />
                   <h3>ALUMINIUM 55</h3>
                 </div>
                 <hr />

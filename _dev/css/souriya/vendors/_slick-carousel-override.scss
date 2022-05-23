@@ -1,15 +1,15 @@
 // SPECIFIC SLICK CAROUSEL
 .slick-prev,
 .slick-next {
-  @include svg("../img/fleche-petite.svg", 281px, var(--color-primary));
-  top: 32%;
-  width: 60px;
-  height: 19px;
-  font-size: 0;
+  @include svg("../img/fleche-petite.svg", var(--size-fleche-slider), var(--color-primary));
+  @include action-hover;
 
-  &:hover {
-    background-color: var(--color-active);
-  }
+  top: 32%;
+  width: var(--width-fleche-button);
+  height: var(--height-fleche-button);
+  padding: 0;
+  border: 0;
+  font-size: 0;
 
   &::after {
     content: "";

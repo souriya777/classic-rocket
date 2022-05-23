@@ -1,0 +1,25 @@
+.ps_shoppingcart {
+  background-color: burlywood;
+
+  img {
+    width: var(--width-shorcuts);
+  }
+
+  .shopping-cart {
+    position: relative;
+  }
+
+  .cart-products-count {
+    position: absolute;
+    top: -5px;
+    right: -13px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: var(--color-tertiary);
+    color: var(--color-secondary);
+    text-align: center;
+    font-size: 12px;
+    line-height: 20px;
+  }
+}

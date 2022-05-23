@@ -29,3 +29,14 @@
     outline: none;
   }
 }
+
+@mixin action-hover {
+  &:hover {
+    background-color: var(--color-active);
+  }
+}
+
+@mixin row {
+  max-width: var(--width-row);
+  margin: 0 auto;
+}

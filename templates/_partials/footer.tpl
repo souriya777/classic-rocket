@@ -22,15 +22,15 @@
  * @license   https://opensource.org/licenses/AFL-3.0 Academic Free License 3.0 (AFL-3.0)
  * International Registered Trademark & Property of PrestaShop SA
  *}
-<div class="container">
-  <!-- 💎NETWORK -->
-  <div class="network">
+<!-- 💎NETWORK -->
+<div class="network">
+  <div class="network__content">
     {block name='hook_footer_before'}
       {hook h='displayFooterBefore'}
     {/block}
   </div>
-  <!-- 💎NETWORK -->
 </div>
+<!-- 💎NETWORK -->
 <div class="footer-container">
   <div class="container">
     <div class="row">

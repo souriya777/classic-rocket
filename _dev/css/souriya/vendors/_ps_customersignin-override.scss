@@ -1,0 +1,11 @@
+.ps_customersignin {
+  background-color: aquamarine;
+
+  & > a {
+    display: flex;
+  }
+
+  img {
+    width: var(--width-shorcuts);
+  }
+}
