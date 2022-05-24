@@ -57,15 +57,16 @@
 - ✅ remove slider item "souriya le bg"
 - ✅ implement homepage "Newsletter"
 - ✅ implement homepage "Suivez-nous"
-- 👊 implement homepage "Mandatory links"
-- 👊 implement homepage "Credits"
+- ✅ implement homepage "Mandatory links"
+- ✅ implement homepage "Credits"
+- 👊 implement login
+- 👊 implement basket
+- 👊 search bar "Je cherche un barnum"
+- 👊 fix useless div http://localhost:8080/connexion?back=my-account#
+- 👊 implement chat
 - 👊 implement homepage "Google avis"
-- 🟥 search bar "Je cherche un barnum"
-- 🟥 implement login
-- 🟥 implement basket
-- 🟥 implement chat
-- 🟥 implement devis form
-- 🟥 fix bug "rupture de stock" ?
+- 👊 implement devis form
+- 👊 fix bug "rupture de stock" ?
 - 🟥 implement pagelist
 - 🟥 implement pageproduct
 - 🟥 implement command tunnel

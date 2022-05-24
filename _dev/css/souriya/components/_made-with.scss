@@ -1,7 +1,9 @@
 .made-with {
+  margin: 20px auto 0;
   font-size: var(--font-size-small);
 
   a {
+    @include link-action;
     color: var(--color-gray);
   }
 

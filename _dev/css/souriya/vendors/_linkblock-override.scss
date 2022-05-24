@@ -1,11 +1,12 @@
 .linkblock {
   background-color: lightcoral;
-  font-size: var(--font-size-small);
+  font-size: var(--font-size-medium);
   
   ul {
     display: flex;
     justify-content: space-evenly;
-    max-width: 460px;
+    flex-wrap: wrap;
+    max-width: 529px;
     margin: 0 auto;
 
     li:last-child {

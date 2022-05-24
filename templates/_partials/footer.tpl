@@ -41,6 +41,22 @@
       {hook h='displayFooterAfter'}
     {/block}
 
+    <div class="copyright">
+      <div class="copyright__img">
+        <img
+          data-src="./img/souriya/pictogramme-tsbarnum.svg"
+          alt="logo tente barnum ts barnum et tonnelle" 
+          class="img-fluid lazyload"
+        />
+      </div>
+      <div class="copyright__when">
+        © TENTE BARNUM TS - <span class="copyright__date">2006 - {$smarty.now|date_format:"%Y"}</span>
+      </div>
+      <div class="copyright__what">
+        TS BARNUM est une entreprise Française basée dans le Nord. Tonnelle et barnum pour particuliers, professionnels et collectivités.
+      </div>
+    </div>
+
     <p class="made-with">
       {block name='copyright_link'}
         Made with <span class="heart">♥</span> by 
