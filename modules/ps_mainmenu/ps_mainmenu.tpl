@@ -1,7 +1,7 @@
 {assign var=_counter value=0}
 {function name="menu" nodes=[] depth=0 parent=null}
   {if $nodes|count}
-    <ul {if $depth === 0}class="menu-top h-100" id="top-menu" role="navigation"{else} class="menu-sub__list menu-sub__list--{$depth}"{/if} data-depth="{$depth}">
+    <ul {if $depth === 0}class="souriya-menu__list menu-top h-100" id="top-menu" role="navigation"{else} class="menu-sub__list menu-sub__list--{$depth}"{/if} data-depth="{$depth}">
       {foreach from=$nodes item=node}
         {if $node.children|count}
           {assign var=_expand_id value=10|mt_rand:100000}
@@ -47,6 +47,6 @@
   {/if}
 {/function}
 
-<nav class="menu visible--desktop" id="_desktop_top_menu">
+<nav class="souriya-menu menu visible--desktop" id="_desktop_top_menu">
   {menu nodes=$menu.children}
 </nav>
