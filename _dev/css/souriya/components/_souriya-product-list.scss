@@ -20,6 +20,10 @@ $svg: 'data:image/svg+xml; utf8, <svg width="24" height="24" xmlns="http://www.w
     margin: 0 auto 20px;
   }
 
+  .heart {
+    background-color: var(--bg-color-section-pink);
+  }
+
   .products {
     max-width: 88%;
     margin: 40px auto 0;

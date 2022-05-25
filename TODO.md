@@ -59,17 +59,31 @@
 - ✅ implement homepage "Suivez-nous"
 - ✅ implement homepage "Mandatory links"
 - ✅ implement homepage "Credits"
-- 👊 implement login
-- 👊 implement basket
+- ✅ implement basket
+- ✅ fix bug "rupture de stock"
+- ✅ fix banner responsive reload
+- 👊 heart list 100% width
+- 👊 add ⭐️ produit
+- 👊 make quick login/register
+- 👊 add facebook/google login/register
+- 👊 optimize space "quel barnum pour moi?"
+- 👊 change message "rupture de stock" (cf. maquette)
+- 👊 add prestashop "avis" => test it
+- 👊 "notre histoire" => text before image
+- 👊 module crisp, devis
 - 👊 search bar "Je cherche un barnum"
 - 👊 fix useless div http://localhost:8080/connexion?back=my-account#
+- (enable product comments ?)
+- (enable video de produit par Smart Module)
 - 👊 implement chat
 - 👊 implement homepage "Google avis"
 - 👊 implement devis form
-- 👊 fix bug "rupture de stock" ?
 - 🟥 implement pagelist
 - 🟥 implement pageproduct
+- 👊 copy zara.com ?
 - 🟥 implement command tunnel
+- 🟥 illustration coup de coeur svg [ROUYA]🌙
+- 🟥 module avertissez-moi [ROUYA]🌙
 - 🟥 /modules => include it manually ? or switch to child ?
 
 ## OPTIMIZATION

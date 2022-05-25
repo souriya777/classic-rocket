@@ -18,4 +18,10 @@
     margin: 0;
     padding: 10px 0;
   }
+
+  // OVERRIDE PRESTASHOP
+  .container {
+    display: flex;
+    justify-content: center;
+  }
 }
