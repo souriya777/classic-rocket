@@ -1,5 +1,6 @@
 .souriya-menu {
   background-color: lightblue;
+  padding: 0;
 
   &__list {
     background-color: lightgreen;
@@ -7,5 +8,47 @@
 
   .menu__item {
     background-color: lightgoldenrodyellow;
+  }
+
+  // override desktop menu on classic-rocket theme
+  @media (min-width: 992px) {
+    &__list {
+      background-color: pink;
+
+      // ROOT NODES
+      & > li {
+        width: 134px;
+        padding: 20px 10px;
+
+        &:hover {
+          background-color: var(--bg-color-menu-hover);
+          color: var(--color-menu-hover);
+
+          & > .menu__item-header > a,
+          & > a {
+            color: inherit;
+            text-decoration: underline;
+          }
+        }
+
+        & > .menu__item-header > a,
+        & > a {
+          justify-content: center;
+          align-items: center;
+        }
+
+        &.has-children > .menu__item-header > a:after {
+          @include svg-pseudo-element($svg-path-caret-down, 12px, var(--color-primary));
+          margin-left: 6px;
+        }
+      }
+    }
+
+    // OTHER NODES
+    li {
+      a {
+        text-transform: capitalize;
+      }
+    }
   }
 }

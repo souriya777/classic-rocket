@@ -6,7 +6,7 @@
         {if $node.children|count}
           {assign var=_expand_id value=10|mt_rand:100000}
         {/if}
-        <li class="h-100 menu__item--{$depth} {$node.type} menu__item {if $depth === 0}menu__item--top{else}menu__item--sub{/if}{if $node.current} menu__item--current{/if}"
+        <li class="h-100 menu__item--{$depth} {$node.type} menu__item {if $depth === 0}menu__item--top{else}menu__item--sub{/if}{if $node.current} menu__item--current{/if}{if $node.children|count} has-children{/if}"
           id="{$node.page_identifier}" {if $node.children|count}aria-haspopup="true" aria-expanded="false"
           aria-owns="top_sub_menu_{$_expand_id}" aria-controls="top_sub_menu_{$_expand_id}"{/if}>
           {assign var=_counter value=$_counter+1}

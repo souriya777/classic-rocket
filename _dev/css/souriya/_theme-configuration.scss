@@ -1,3 +1,4 @@
+// GLOBAL VARIABLES
 :root {
   /* COLOR */
   --color-primary: #000;
@@ -19,6 +20,7 @@
   --color-youtube: #ff0000;
   --color-heart: #d0121a;
   --color-footer-bottom: #717171;
+  --color-menu-hover: #555;
   --bg-color-primary: #fff;
   --bg-color-secondary: #282828;
   --bg-color-tertiary: #f7f7f7;
@@ -38,6 +40,7 @@
   --size-fleche-slider: 281px;
 }
 
+// GLOBAL STYLES
 body {
   font-size: var(--font-size-normal);
 }
@@ -68,3 +71,6 @@ p {
 .souriya-wrapper {
   padding: 0 15px;
 }
+
+// SVG
+$svg-path-caret-down: '/img/souriya/caret-down.svg';
