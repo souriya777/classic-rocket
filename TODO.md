@@ -15,10 +15,10 @@
 - ✅ can it so hard to optimize existing at_decor ?
 - ✅ fix ps_shoppingcart
 - ✅ if I include jQuery, why not going in the standard AT_DECOR vierge ?
-- ✅ deploy in PRODUCTION tentebarnumts.fr__at_decor-original
+- ✅ deploy in PRODUCTION tentebarnumts.fr\_\_at_decor-original
 - ✅ fix ps_leoproductsearch / fix ps_searchbar
 - ✅ fix ps_customersignin
-- ✅ fix logo + menu + ps_* positions
+- ✅ fix logo + menu + ps\_\* positions
 - ✅ implement logo
 - ✅ implement basket shortcut ?
 - ✅ fix slider size
@@ -62,6 +62,7 @@
 - ✅ implement basket
 - ✅ fix bug "rupture de stock"
 - ✅ fix banner responsive reload
+- ✅ adapt menu
 - 👊 heart list 100% width
 - 👊 add ⭐️ produit
 - 👊 make quick login/register
@@ -87,23 +88,22 @@
 - 🟥 /modules => include it manually ? or switch to child ?
 
 ## OPTIMIZATION
+
 - 🟥 optimize lighthouse
 - 🟥 slim theme.js
 - 🟥 remove unused download
-- 🟥 improve this warning `WARNING in entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
-Entrypoints:
-  theme (333 KiB)
-      ../css/theme.css
-      theme.js`
+- 🟥 improve this warning `WARNING in entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance. Entrypoints: theme (333 KiB) ../css/theme.css theme.js`
 - 🟥 valider sur https://www.dareboost.com/fr
 - 🟥 check optimization of SEO
 
 ## ROUYA FEEDBACK
+
 - 🟥 tune space between section
 - 🟥 tune fonts for desktop/mobile
 - 🟥 tune SEO paragraph, title...
 
 ## PRODUCTION
+
 - 🟥 deploy in PROD
 - 🟥 copy all images under `/img/souriya/` on the server
 - 🟥 /modules => include it manually ?
@@ -116,11 +116,13 @@ Entrypoints:
 - 🟥 inform rouya : ⛔️ update theme/module
 
 # PERFORMANCE - CURRENT THEME
+
 [1st]
 20220303-Desktop-Performance-81%
 20220303-Mobile-Performance-46%
 
 # PERFORMANCE - OPTIMIZED THEME ("Ap Profile = home 2")
+
 [1st]
 20220303-Desktop-Performance-52%
 20220303-Mobile-Performance-16%
@@ -162,6 +164,7 @@ Entrypoints:
 I finally choose `https://github.com/prestarocket-agence/classic-rocket`
 
 ## running
+
 FO : http://localhost:8080
 BO : http://localhost:8080/admin136t2nw5t
 (laosoupi59@gmail.com/<>)
