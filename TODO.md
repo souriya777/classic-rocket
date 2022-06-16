@@ -83,7 +83,7 @@
 - 🟥 implement pageproduct
 - 👊 copy zara.com ?
 - 🟥 implement command tunnel
-- 🟥 illustration coup de coeur svg [ROUYA]🌙
+- ✅ illustration coup de coeur svg [ROUYA]🌙
 - 🟥 module avertissez-moi [ROUYA]🌙
 - 🟥 /modules => include it manually ? or switch to child ?
 
