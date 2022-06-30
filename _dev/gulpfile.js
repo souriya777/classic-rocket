@@ -35,6 +35,7 @@ gulp.task('souriya-clean-folder-img', async function() {
   del([`${IMAGE_DEST_FOLDER}/**/*`], { force: true })
 });
 
+// in "souriya-img"
 gulp.task('souriya-img-jpg', function () {
   return gulp
     .src(`${IMAGE_SRC_FOLDER}/**/*.jpg`)
@@ -93,6 +94,7 @@ gulp.task('souriya-img-jpg', function () {
   .pipe(gulp.dest(IMAGE_DEST_FOLDER))
 })
 
+// in "souriya-img"
 gulp.task('souriya-imgsmall-png', function () {
   return gulp
   .src(`${IMAGE_SRC_FOLDER}/**/*.png`)
@@ -142,12 +144,13 @@ gulp.task('souriya-imgsmall-png', function () {
   .pipe(gulp.dest(IMAGE_DEST_FOLDER))
 })
 
+// in "souriya-img"
 gulp.task('souriya-img-noresponsive', function () {
   return gulp.src('img_souriya-noresponsive/**/*')
     .pipe(gulp.dest(IMAGE_DEST_FOLDER));
 });
 
-
+// main task
 gulp.task(
   'souriya-img', 
   gulp.series('souriya-img-jpg', 'souriya-imgsmall-png', 'souriya-img-noresponsive')
