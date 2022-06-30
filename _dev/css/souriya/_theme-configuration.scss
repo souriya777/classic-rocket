@@ -34,9 +34,9 @@
   --font-size-normal: 15px;
   --width-row: 1340px;
   --width-subtitle: 550px;
-  --width-fleche-button: 90px;
+  --width-fleche-button: 38px;
   --width-shorcuts: 24px;
-  --height-fleche-button: 18px;
+  --height-fleche-button: 12px;
   --size-fleche-slider: 281px;
 }
 
@@ -70,6 +70,30 @@ p {
 
 .souriya-wrapper {
   padding: 0 15px;
+}
+
+.souriya-l-wrapper {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+
+  @media (min-width: 576px) {
+    max-width: 540px;
+  }
+  
+  @media (min-width: 768px) {
+    max-width: 720px;
+  }
+
+  @media (min-width: 992px) {
+    max-width: 960px;
+  }
+
+  @media (min-width: 1200px) {
+    max-width: 1140px;
+  }
 }
 
 // SVG

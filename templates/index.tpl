@@ -29,9 +29,11 @@
 
         <!-- 💎DISCOVER RANGE -->
         <div class="discover-range">
-          <h1>DECOUVREZ NOTRE GAMME DE BARNUM PLIANT ALUMINIUM ET ACIER.</h1>
-          <p>Tous nos barnums sont faciles et rapides à monter.</p>
-          <p>Montage en 60 sec. sans outils et de manière fiable : un vrai jeu d'enfant ;)</p>
+          <div class="souriya-l-wrapper">
+            <h1>DECOUVREZ NOTRE GAMME DE BARNUM PLIANT ALUMINIUM ET ACIER.</h1>
+            <p>Tous nos barnums sont faciles et rapides à monter.</p>
+            <p>Montage en 60 sec. sans outils et de manière fiable : un vrai jeu d'enfant ;)</p>
+          </div>
         </div>
         <!-- 💎DISCOVER RANGE -->
 
@@ -94,15 +96,13 @@
         {/block}
     </section>
 
-    <section>
-        <div>testa2</div>
+    <section class="souriya">
         {block name='page_content'}
             {block name='hook_home'}
               {$HOOK_HOME nofilter}
             {/block}
         {/block}
 
-        <div>testa3</div>
         <!-- 💎QUEL BARNUM POUR MOI -->
         <div class="which-barnum">
           <h2>QUEL BARNUM POUR MOI ?</h2>

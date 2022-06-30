@@ -75,7 +75,7 @@
       {/if}
 
       {block name='wrapper'}
-        <section id="wrapper" class="{block name='layoutWrapperClass'}l-wrapper{/block}">
+        <section id="wrapper">
         {hook h="displayWrapperTop"}
           {block name='breadcrumb'}
             {include file='_partials/breadcrumb.tpl'}

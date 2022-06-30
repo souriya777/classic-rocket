@@ -21,19 +21,21 @@ $svg: 'data:image/svg+xml; utf8, <svg width="24" height="24" xmlns="http://www.w
   }
 
   &.heart {
+    background-color: var(--bg-color-section-pink);
+
     img {
       height: 80px;
       margin-right: 10px;
     }
   }
 
-  .heart {
-    background-color: var(--bg-color-section-pink);
-  }
-
   .products {
     max-width: 88%;
     margin: 40px auto 0;
+  }
+
+  .slick-arrow {
+    top: -28px;
   }
 
   .card-body {
