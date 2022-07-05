@@ -23,7 +23,7 @@ $svg: 'data:image/svg+xml; utf8, <svg width="24" height="24" xmlns="http://www.w
   &.heart {
     background-color: var(--bg-color-section-pink);
 
-    img {
+    & > img {
       height: 80px;
       margin-right: 10px;
     }

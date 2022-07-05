@@ -63,7 +63,7 @@
 - ✅ fix bug "rupture de stock"
 - ✅ fix banner responsive reload
 - ✅ adapt menu
-- 👊 heart list 100% width
+- ✅ heart list 100% width
 - 👊 add ⭐️ produit
 - 👊 make quick login/register
 - 👊 add facebook/google login/register
