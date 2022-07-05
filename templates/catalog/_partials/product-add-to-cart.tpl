@@ -54,6 +54,7 @@
             {l s='Add to cart' d='Shop.Theme.Actions'}
           </button>
         </div>
+          <!-- 💎 souriya wish list -->
           {hook h='displayProductActions' product=$product}
       </div>
     {/block}

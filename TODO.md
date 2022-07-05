@@ -64,7 +64,8 @@
 - ✅ fix banner responsive reload
 - ✅ adapt menu
 - ✅ heart list 100% width
-- 👊 add ⭐️ produit
+- ✅ add ⭐️ produit
+- 👊 fix "brand" slider
 - 👊 make quick login/register
 - 👊 add facebook/google login/register
 - 👊 optimize space "quel barnum pour moi?"

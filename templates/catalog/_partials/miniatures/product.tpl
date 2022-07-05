@@ -24,7 +24,7 @@
  *}
 {block name='product_miniature_item'}
     <article class="product-miniature js-product-miniature mb-3" data-id-product="{$product.id_product}" data-id-product-attribute="{$product.id_product_attribute}">
-        <div class="card card-product">
+        <div class="card card-product thumbnail-container">
 
             <div class="card-img-top product__card-img">
                 {block name='product_thumbnail'}
@@ -41,6 +41,10 @@
                         {else}
                             <img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==">
                         {/if}
+                        <span class="souriya-wishlist">
+                           <!-- 💎 souriya wish list -->
+                           {hook h='displayProductActions' product=$product}
+                        </span>
                     </a>
                 {/block}
                 <div class="highlighted-informations text-center p-2{if !$product.main_variants} no-variants{/if} visible--desktop">
