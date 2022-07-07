@@ -1,5 +1,6 @@
 .discover-range {
   background-color: yellowgreen;
+  @include row;
   display: flex;
   flex-direction: column;
   justify-content: center;

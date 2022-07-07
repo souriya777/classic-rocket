@@ -96,6 +96,16 @@ p {
   }
 }
 
+.row {
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+}
+
+.col-12 {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+}
+
 // SVG
 $svg-path-caret-down: '/img/souriya/caret-down.svg';
 $svg-path-triangle: '/img/souriya/triangle.svg';

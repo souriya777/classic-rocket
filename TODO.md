@@ -70,6 +70,7 @@
 - ✅ illustration coup de coeur svg [ROUYA]🌙
 - ✅ optimize space "quel barnum pour moi?"
 - ✅ fix "blockwishlist" : the bug "modal that cover thumbnail"
+- ✅ fix homepage rows "margin-left:-15px; margin-right:-15px"
 - 👊 pageproduct: fix pictures not found
 - 👊 pageproduct: add raw informations
 - 👊 pageproduct: copy zara.com content positions
@@ -81,6 +82,7 @@
 - 🟧 implement pagelist
 - 🟧 implement devis form
 - 🟧 implement command tunnel
+- 🟧 implement CGV
 - 🟧 change message "rupture de stock" (cf. maquette)
 - 🟧 make quick login/register
 - 🟧 add facebook/google login/register

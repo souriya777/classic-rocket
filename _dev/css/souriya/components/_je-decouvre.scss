@@ -4,6 +4,7 @@ $translate-offset-y-text: -10%;
 .je-decouvre {
   &__right,
   &__left {
+    @include row;
     display: flex;
 
     img {
