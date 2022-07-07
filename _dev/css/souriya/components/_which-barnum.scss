@@ -3,6 +3,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-bottom: 30px;
   background-color: var(--bg-color-tertiary);
   
   h3 {
@@ -121,6 +122,10 @@
 
   @media (max-width: 840px) {
     background: red;
+    ul > li {
+      margin: 14px 0;
+    }
+
     &__item-list {
       flex-direction: column;
       width: 100%;
@@ -134,10 +139,15 @@
     &__features {
       display: grid;
       grid-template-columns: repeat(4, 1fr);
+      margin-top: 0px;
     }
 
     &__img {
       text-align: center;
+
+      & > img {
+        max-width: 45%;
+      }
     }
   }
 
@@ -158,6 +168,21 @@
     &__features {
       grid-template-columns: repeat(2, 1fr);
     }
+
+    &__img {
+      & > img {
+        max-width: 55%;
+      }
+    }
+  }
+
+  @media (max-width: 445px) {
+    background: lightyellow;
+    &__img {
+      & > img {
+        max-width: 62%;
+      }
+    }
   }
 
   @media (max-width: 365px) {
@@ -166,6 +191,12 @@
       margin-right: 10px;
       margin-left: 10px;
     }
+
+    &__img {
+      & > img {
+        max-width: 75%;
+      }
+    }
   }
 
   @media (max-width: 322px) {
@@ -173,6 +204,12 @@
     &__item {
       margin-right: 0;
       margin-left: 0;
+    }
+
+    &__img {
+      & > img {
+        max-width: 83%;
+      }
     }
   }
 }

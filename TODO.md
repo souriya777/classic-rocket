@@ -68,9 +68,9 @@
 - ✅ fix "brand" slider
 - ✅ "notre histoire" => text before image
 - ✅ illustration coup de coeur svg [ROUYA]🌙
-- 👊 optimize space "quel barnum pour moi?"
+- ✅ optimize space "quel barnum pour moi?"
+- 👊 implement pageproduct
 - 🟧 implement pagelist
-- 🟧 implement pageproduct
 - 🟧 implement devis form
 - 🟧 implement command tunnel
 - 🟧 change message "rupture de stock" (cf. maquette)
