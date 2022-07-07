@@ -69,7 +69,8 @@
 - ✅ "notre histoire" => text before image
 - ✅ illustration coup de coeur svg [ROUYA]🌙
 - ✅ optimize space "quel barnum pour moi?"
-- 👊 implement pageproduct
+- ✅ fix "blockwishlist" : the bug "modal that cover thumbnail"
+- 🟧 implement pageproduct
 - 🟧 implement pagelist
 - 🟧 implement devis form
 - 🟧 implement command tunnel
