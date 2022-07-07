@@ -48,11 +48,11 @@
           </div>
           <div class="je-decouvre__right--img">
             <img
-              data-srcset="./img/souriya/barnum-aluminium-pro-barnum-pas-cher-sm-576px.jpg 576w,
-                          ./img/souriya/barnum-aluminium-pro-barnum-pas-cher-md-768px.jpg 768w,
-                          ./img/souriya/barnum-aluminium-pro-barnum-pas-cher-lg-992px.jpg 992w,
-                          ./img/souriya/barnum-aluminium-pro-barnum-pas-cher-xl-1200px.jpg 1200w" 
-              data-src="./img/souriya/barnum-aluminium-pro-barnum-pas-cher-xl-1200px.jpg"
+              data-srcset="/img/souriya/barnum-aluminium-pro-barnum-pas-cher-sm-576px.jpg 576w,
+                          /img/souriya/barnum-aluminium-pro-barnum-pas-cher-md-768px.jpg 768w,
+                          /img/souriya/barnum-aluminium-pro-barnum-pas-cher-lg-992px.jpg 992w,
+                          /img/souriya/barnum-aluminium-pro-barnum-pas-cher-xl-1200px.jpg 1200w" 
+              data-src="/img/souriya/barnum-aluminium-pro-barnum-pas-cher-xl-1200px.jpg"
               data-sizes="(max-width: 576px) 576px,
                           (max-width: 768px) 768px,
                           (max-width: 992px) 992px,
@@ -76,11 +76,11 @@
           </div>
           <div class="je-decouvre__left--img">
             <img
-              data-srcset="./img/souriya/barnum_20-20-sm-576px.jpg 576w,
-                          ./img/souriya/barnum_20-20-md-768px.jpg 768w,
-                          ./img/souriya/barnum_20-20-lg-992px.jpg 992w,
-                          ./img/souriya/barnum_20-20-xl-1200px.jpg 1200w" 
-              data-src="./img/souriya/barnum_20-20-xl-1200px.jpg"
+              data-srcset="/img/souriya/barnum_20-20-sm-576px.jpg 576w,
+                          /img/souriya/barnum_20-20-md-768px.jpg 768w,
+                          /img/souriya/barnum_20-20-lg-992px.jpg 992w,
+                          /img/souriya/barnum_20-20-xl-1200px.jpg 1200w" 
+              data-src="/img/souriya/barnum_20-20-xl-1200px.jpg"
               data-sizes="(max-width: 576px) 576px,
                           (max-width: 768px) 768px,
                           (max-width: 992px) 992px,
@@ -111,7 +111,7 @@
             <div class="which-barnum__item">
               <div class="which-barnum__desc">
                 <div class="which-barnum__img">
-                  <img src="./img/souriya/quel-barnum-orange.svg" alt="mon barnum orange" class="img-fluid lazyloaded lazyload" />
+                  <img src="/img/souriya/quel-barnum-orange.svg" alt="mon barnum orange" class="img-fluid lazyloaded lazyload" />
                   <h3>ACIER 32</h3>
                 </div>
                 <hr />
@@ -148,7 +148,7 @@
             <div class="which-barnum__item">
               <div class="which-barnum__desc">
                 <div class="which-barnum__img">
-                  <img src="./img/souriya/quel-barnum-bleu.svg" alt="mon barnum bleu" class="img-fluid lazyloaded lazyload" />
+                  <img src="/img/souriya/quel-barnum-bleu.svg" alt="mon barnum bleu" class="img-fluid lazyloaded lazyload" />
                   <div class="which-barnum__best-sellers">best sellers</div>
                   <h3>ALUMINIUM 45</h3>
                 </div>
@@ -186,7 +186,7 @@
             <div class="which-barnum__item">
               <div class="which-barnum__desc">
                 <div class="which-barnum__img">
-                  <img src="./img/souriya/quel-barnum-vert.svg" alt="mon barnum vert" class="img-fluid lazyloaded lazyload" />
+                  <img src="/img/souriya/quel-barnum-vert.svg" alt="mon barnum vert" class="img-fluid lazyloaded lazyload" />
                   <h3>ALUMINIUM 55</h3>
                 </div>
                 <hr />
@@ -240,10 +240,10 @@
         <div class="our-story">
           <div class="our-story__img">
             <img
-              data-srcset="./img/souriya/notre-histoire-xs-390px.png 390w,
-                          ./img/souriya/notre-histoire-sm-576px.png 576w,
-                          ./img/souriya/notre-histoire-md-768px.png 768w,"
-              data-src="./img/souriya/notre-histoire-md-768px.png"
+              data-srcset="/img/souriya/notre-histoire-xs-390px.png 390w,
+                          /img/souriya/notre-histoire-sm-576px.png 576w,
+                          /img/souriya/notre-histoire-md-768px.png 768w,"
+              data-src="/img/souriya/notre-histoire-md-768px.png"
               data-sizes="(max-width: 390px) 390px,
                           (max-width: 576px) 576px,
                           (max-width: 768px) 768px,"

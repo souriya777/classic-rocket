@@ -19,7 +19,7 @@
       rel="nofollow"
     >
       <span>
-        <img src="./img/souriya/mon-compte-ts-barnum.svg" alt="mon compte" class="class="img-fluid lazyloaded lazyload" />
+        <img src="/img/souriya/mon-compte-ts-barnum.svg" alt="mon compte" class="class="img-fluid lazyloaded lazyload" />
       </span>
       {*
       <span class="visible--desktop small">{l s='Sign in' d='Shop.Theme.Actions'}</span>

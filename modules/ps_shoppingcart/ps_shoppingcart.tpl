@@ -29,7 +29,7 @@
         <a rel="nofollow" href="{$cart_url}" class="u-link-body">
       {/if}
         <span>
-          <img src="./img/souriya/panier-ts-barnum.svg" alt="mon compte" class="class="img-fluid lazyloaded lazyload" />
+          <img src="/img/souriya/panier-ts-barnum.svg" alt="mon compte" class="class="img-fluid lazyloaded lazyload" />
         </i></span>
         {*
         <span class="visible--desktop blockcart__label small">{l s='Cart' d='Shop.Theme.Checkout'}</span>

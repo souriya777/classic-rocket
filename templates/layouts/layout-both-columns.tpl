@@ -57,11 +57,11 @@
           <!-- 💎IMAGE HOME -->
           <div class="image-home">
             <img
-              data-srcset="./img/souriya/banner-sm-576px.jpg 576w,
-                          ./img/souriya/banner-md-768px.jpg 768w,
-                          ./img/souriya/banner-lg-992px.jpg 992w,
-                          ./img/souriya/banner-xl-1200px.jpg 1200w" 
-              data-src="./img/souriya/banner-xl-1200px.jpg"
+              data-srcset="/img/souriya/banner-sm-576px.jpg 576w,
+                          /img/souriya/banner-md-768px.jpg 768w,
+                          /img/souriya/banner-lg-992px.jpg 992w,
+                          /img/souriya/banner-xl-1200px.jpg 1200w" 
+              data-src="/img/souriya/banner-xl-1200px.jpg"
               data-sizes="(max-width: 576px) 576px,
                           (max-width: 768px) 768px,
                           (max-width: 992px) 992px,
@@ -171,112 +171,112 @@
           <ul class="trust__list">
             <li class="trust__img">
               <img
-                data-src="./img/souriya/bordeaux.jpeg"
+                data-src="/img/souriya/bordeaux.jpeg"
                 alt="bordeaux" 
                 class="img-fluid lazyload"
               />
             </li>
             <li class="trust__img">
               <img
-                data-src="./img/souriya/bordeaux-metropole.jpeg"
+                data-src="/img/souriya/bordeaux-metropole.jpeg"
                 alt="bordeaux métropole" 
                 class="img-fluid lazyload"
               />
             </li>
             <li class="trust__img">
               <img
-                data-src="./img/souriya/camping-campeole.jpeg"
+                data-src="/img/souriya/camping-campeole.jpeg"
                 alt="camping campeole" 
                 class="img-fluid lazyload"
               />
             </li>
             <li class="trust__img">
               <img
-                data-src="./img/souriya/colas.jpeg"
+                data-src="/img/souriya/colas.jpeg"
                 alt="colas" 
                 class="img-fluid lazyload"
               />
             </li>
             <li class="trust__img">
               <img
-                data-src="./img/souriya/croix-rouge-francaise.jpeg"
+                data-src="/img/souriya/croix-rouge-francaise.jpeg"
                 alt="Croix Rouge Française" 
                 class="img-fluid lazyload"
               />
             </li>
             <li class="trust__img">
               <img
-                data-src="./img/souriya/don-du-sang.jpeg"
+                data-src="/img/souriya/don-du-sang.jpeg"
                 alt="don du sang" 
                 class="img-fluid lazyload"
               />
             </li>
             <li class="trust__img">
               <img
-                data-src="./img/souriya/eiffrage-construction.jpeg"
+                data-src="/img/souriya/eiffrage-construction.jpeg"
                 alt="eiffrage construction" 
                 class="img-fluid lazyload"
               />
             </li>
             <li class="trust__img">
               <img
-                data-src="./img/souriya/ford.jpeg"
+                data-src="/img/souriya/ford.jpeg"
                 alt="ford" 
                 class="img-fluid lazyload"
               />
             </li>
             <li class="trust__img">
               <img
-                data-src="./img/souriya/france-tv.jpeg"
+                data-src="/img/souriya/france-tv.jpeg"
                 alt="france tv" 
                 class="img-fluid lazyload"
               />
             </li>
             <li class="trust__img">
               <img
-                data-src="./img/souriya/maif.jpeg"
+                data-src="/img/souriya/maif.jpeg"
                 alt="maif" 
                 class="img-fluid lazyload"
               />
             </li>
             <li class="trust__img">
               <img
-                data-src="./img/souriya/mc-donald-s.jpeg"
+                data-src="/img/souriya/mc-donald-s.jpeg"
                 alt="mc donald's" 
                 class="img-fluid lazyload"
               />
             </li>
             <li class="trust__img">
               <img
-                data-src="./img/souriya/ministere-des-armees.jpeg"
+                data-src="/img/souriya/ministere-des-armees.jpeg"
                 alt="Ministère des armées" 
                 class="img-fluid lazyload"
               />
             </li>
             <li class="trust__img">
               <img
-                data-src="./img/souriya/opera-de-lille.jpeg"
+                data-src="/img/souriya/opera-de-lille.jpeg"
                 alt="Opéra de Lille" 
                 class="img-fluid lazyload"
               />
             </li>
             <li class="trust__img">
               <img
-                data-src="./img/souriya/tf1.jpeg"
+                data-src="/img/souriya/tf1.jpeg"
                 alt="tf1" 
                 class="img-fluid lazyload"
               />
             </li>
             <li class="trust__img">
               <img
-                data-src="./img/souriya/ts-barnum.jpeg"
+                data-src="/img/souriya/ts-barnum.jpeg"
                 alt="TS BARNUM" 
                 class="img-fluid lazyload"
               />
             </li>
             <li class="trust__img">
               <img
-                data-src="./img/souriya/don-du-sang.jpeg"
+                data-src="/img/souriya/don-du-sang.jpeg"
                 alt="Ville de FACHES-THUMESNIL" 
                 class="img-fluid lazyload"
               />

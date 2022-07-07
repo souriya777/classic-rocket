@@ -44,7 +44,7 @@
     <div class="copyright">
       <div class="copyright__img">
         <img
-          data-src="./img/souriya/pictogramme-tsbarnum.svg"
+          data-src="/img/souriya/pictogramme-tsbarnum.svg"
           alt="logo tente barnum ts barnum et tonnelle" 
           class="img-fluid lazyload"
         />
