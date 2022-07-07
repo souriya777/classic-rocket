@@ -66,55 +66,56 @@
 - ✅ heart list 100% width
 - ✅ add ⭐️ produit
 - ✅ fix "brand" slider
-- 👊 "notre histoire" => text before image
-- 👊 change message "rupture de stock" (cf. maquette)
-- 👊 optimize space "quel barnum pour moi?"
-- 👊 make quick login/register
-- 👊 add facebook/google login/register
-- 👊 add prestashop "avis" => test it
-- 👊 module crisp, devis
-- 👊 search bar "Je cherche un barnum"
-- 👊 fix useless div http://localhost:8080/connexion?back=my-account#
-- (enable product comments ?)
-- (enable video de produit par Smart Module)
-- 👊 implement chat
-- 👊 implement homepage "Google avis"
-- 👊 implement devis form
-- 🟥 implement pagelist
-- 🟥 implement pageproduct
-- 🟥 implement command tunnel
+- ✅ "notre histoire" => text before image
 - ✅ illustration coup de coeur svg [ROUYA]🌙
+- 👊 optimize space "quel barnum pour moi?"
+- 🟧 implement pagelist
+- 🟧 implement pageproduct
+- 🟧 implement devis form
+- 🟧 implement command tunnel
+- 🟧 change message "rupture de stock" (cf. maquette)
+- 🟧 make quick login/register
+- 🟧 add facebook/google login/register
+- 🟧 implement chat
+- 🟧🟧 add prestashop "avis" => test it
+- 🟧🟧 OR implement homepage "Google avis"
+- 🟧 module crisp, devis
+- 🟧 search bar "Je cherche un barnum"
+- 🟧 fix useless div http://localhost:8080/connexion?back=my-account#
+- 🟧 /modules => include it manually ? or switch to child ?
 - 🟥 module avertissez-moi [ROUYA]🌙
-- 🟥 /modules => include it manually ? or switch to child ?
+- 🟥 (enable product comments ?)
+- 🟥 (enable video de produit par Smart Module)
 - 🟥 copy zara.com ?
 
 ## OPTIMIZATION
 
-- 🟥 optimize lighthouse
-- 🟥 slim theme.js
-- 🟥 remove unused download
-- 🟥 improve this warning `WARNING in entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance. Entrypoints: theme (333 KiB) ../css/theme.css theme.js`
-- 🟥 valider sur https://www.dareboost.com/fr
-- 🟥 check optimization of SEO
+- 🟧 optimize lighthouse
+- 🟧 remove unused download
+- 🟧 improve this warning `WARNING in entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance. Entrypoints: theme (333 KiB) ../css/theme.css theme.js`
+- 🟧 slim theme.js
+- 🟧 valider sur https://www.dareboost.com/fr
+- 🟧 check optimization of SEO
 
 ## ROUYA FEEDBACK
 
-- 🟥 tune space between section
-- 🟥 tune fonts for desktop/mobile
-- 🟥 tune SEO paragraph, title...
+- 🟧 tune space between section
+- 🟧 tune fonts for desktop/mobile
+- 🟧 tune SEO paragraph, title...
 
 ## PRODUCTION
 
-- 🟥 deploy in PROD
-- 🟥 copy all images under `/img/souriya/` on the server
-- 🟥 /modules => include it manually ?
-- 🟥 recompile webpack ?
-- 🟥 ⛔️ verify permissions `chown -R www-data:www-data classic-rocket/`
-- 🟥 ⛔️ verify permissions `chown -R www-data:www-data img/`
-- 🟥 optional prestashop : remove systematic "force recompilation" ?
-- 🟥 use cache prestashop cache (Performance) ?
-- 🟥 feel ps_socialfollow infos
-- 🟥 inform rouya : ⛔️ update theme/module
+- 🟧 deploy in PROD
+- 🟧 copy all images under `/img/souriya/` on the server
+- 🟧 /modules => include it manually ?
+- ⛔️ manually install "Wishlist" module from prestashop
+- 🟧 recompile webpack ?
+- 🟧 ⛔️ verify permissions `chown -R www-data:www-data classic-rocket/`
+- 🟧 ⛔️ verify permissions `chown -R www-data:www-data img/`
+- 🟧 optional prestashop : remove systematic "force recompilation" ?
+- 🟧 use cache prestashop cache (Performance) ?
+- 🟧 feel ps_socialfollow infos
+- 🟧 inform rouya : ⛔️ update theme/module
 
 # PERFORMANCE - CURRENT THEME
 

@@ -37,6 +37,8 @@
     &__img {
       display: flex;
       justify-content: center;
+      order: 2;
+      margin-top: 30px;
     }
 
     &__text {
