@@ -70,7 +70,14 @@
 - ✅ illustration coup de coeur svg [ROUYA]🌙
 - ✅ optimize space "quel barnum pour moi?"
 - ✅ fix "blockwishlist" : the bug "modal that cover thumbnail"
-- 🟧 implement pageproduct
+- 👊 pageproduct: fix pictures not found
+- 👊 pageproduct: add raw informations
+- 👊 pageproduct: copy zara.com content positions
+- 👊 pageproduct: add style
+- 👊 pageproduct: improve display of characteristics (4,5mx3m; pvc-polyester; orange)
+- 👊 pageproduct: add tabs
+- 👊 pageproduct: add "les clients ont choisis ça"
+- 👊 pageproduct: copy zara.com image slider
 - 🟧 implement pagelist
 - 🟧 implement devis form
 - 🟧 implement command tunnel
@@ -87,7 +94,6 @@
 - 🟥 module avertissez-moi [ROUYA]🌙
 - 🟥 (enable product comments ?)
 - 🟥 (enable video de produit par Smart Module)
-- 🟥 copy zara.com ?
 
 ## OPTIMIZATION
 
