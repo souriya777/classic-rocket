@@ -27,7 +27,7 @@
 {block name='content'}
 
   <section id="main">
-    <div class="row">
+    <div class="souriya-row-product">
       <div class="col-lg-6">
         {block name='page_content_container'}
           <section class="page-content--product" id="content">

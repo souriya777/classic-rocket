@@ -96,6 +96,12 @@ p {
   }
 }
 
+.souriya-row-product {
+  @include row;
+  display: flex;
+  justify-content: center;
+}
+
 .row {
   margin-right: 0 !important;
   margin-left: 0 !important;
