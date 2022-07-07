@@ -65,13 +65,13 @@
 - ✅ adapt menu
 - ✅ heart list 100% width
 - ✅ add ⭐️ produit
-- 👊 fix "brand" slider
+- ✅ fix "brand" slider
+- 👊 "notre histoire" => text before image
+- 👊 change message "rupture de stock" (cf. maquette)
+- 👊 optimize space "quel barnum pour moi?"
 - 👊 make quick login/register
 - 👊 add facebook/google login/register
-- 👊 optimize space "quel barnum pour moi?"
-- 👊 change message "rupture de stock" (cf. maquette)
 - 👊 add prestashop "avis" => test it
-- 👊 "notre histoire" => text before image
 - 👊 module crisp, devis
 - 👊 search bar "Je cherche un barnum"
 - 👊 fix useless div http://localhost:8080/connexion?back=my-account#
@@ -82,11 +82,11 @@
 - 👊 implement devis form
 - 🟥 implement pagelist
 - 🟥 implement pageproduct
-- 👊 copy zara.com ?
 - 🟥 implement command tunnel
 - ✅ illustration coup de coeur svg [ROUYA]🌙
 - 🟥 module avertissez-moi [ROUYA]🌙
 - 🟥 /modules => include it manually ? or switch to child ?
+- 🟥 copy zara.com ?
 
 ## OPTIMIZATION
 
