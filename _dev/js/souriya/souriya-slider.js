@@ -2,7 +2,7 @@ window.onload = function () {
   (function () {
     console.debug('souriya-slider.js 😎');
 
-    // VARIABLE
+    // VARIABLES
     const SLIDE_INTERVAL_MS = 3500;
     const SLIDE_RESIZE_DELAY = 250;
     const SLIDE_MIN = 1;
@@ -22,7 +22,7 @@ window.onload = function () {
     let windowEventListener;
     let timeoutResize = false;
 
-    // FUNCTION
+    // FUNCTIONS
     function infiniteLoop() {
       NEXT_BTN.click();
     }

@@ -71,19 +71,20 @@
 - ✅ optimize space "quel barnum pour moi?"
 - ✅ fix "blockwishlist" : the bug "modal that cover thumbnail"
 - ✅ fix homepage rows "margin-left:-15px; margin-right:-15px"
-- 👊 pageproduct: fix pictures not found
-- 👊 pageproduct: add raw informations
-- 👊 pageproduct: copy zara.com content positions
-- 👊 pageproduct: add style
+- ✅ pageproduct: fix pictures not found
+- ✅ pageproduct: fix max size of content (souriya-row-product)
+- ✅ pageproduct: add raw informations
+- ✅ pageproduct: copy zara.com image slider
 - 👊 pageproduct: improve display of characteristics (4,5mx3m; pvc-polyester; orange)
 - 👊 pageproduct: add tabs
+- 👊 pageproduct: copy zara.com content positions / style
 - 👊 pageproduct: add "les clients ont choisis ça"
-- 👊 pageproduct: copy zara.com image slider
+- 🟧 change message "rupture de stock" (cf. maquette)
+- 🟧 homepage : display reviews under/over thumbnails
 - 🟧 implement pagelist
 - 🟧 implement devis form
 - 🟧 implement command tunnel
 - 🟧 implement CGV
-- 🟧 change message "rupture de stock" (cf. maquette)
 - 🟧 make quick login/register
 - 🟧 add facebook/google login/register
 - 🟧 implement chat
@@ -93,12 +94,15 @@
 - 🟧 search bar "Je cherche un barnum"
 - 🟧 fix useless div http://localhost:8080/connexion?back=my-account#
 - 🟧 /modules => include it manually ? or switch to child ?
+- 🟧 check h3 pageproduct (<h3>Barnum aluminium professionnel 3m x 3m : section tube hexagonale 45mm gris</h3>)
+- 🟧 fix console error "MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 "
 - 🟥 module avertissez-moi [ROUYA]🌙
 - 🟥 (enable product comments ?)
 - 🟥 (enable video de produit par Smart Module)
 
 ## OPTIMIZATION
 
+- 🟧 improve perf : https://buy-addons.com/blog/prestashop-tips-clean-prestashop-database-improved-performance/
 - 🟧 optimize lighthouse
 - 🟧 remove unused download
 - 🟧 improve this warning `WARNING in entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance. Entrypoints: theme (333 KiB) ../css/theme.css theme.js`

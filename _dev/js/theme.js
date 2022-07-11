@@ -51,7 +51,6 @@ import TopMenu from './components/top-menu';
 import prestashop from 'prestashop';
 import EventEmitter from 'events';
 
-
 import './components/block-cart';
 import lazysizes from 'lazysizes'
 
@@ -59,6 +58,7 @@ import lazysizes from 'lazysizes'
 import './souriya/souriya-slider';
 import './souriya/souriya-product-slider';
 import './souriya/souriya-trust-slider';
+import './souriya/souriya-zara-slider';
 
 // "inherit" EventEmitter
 for (var i in EventEmitter.prototype) {

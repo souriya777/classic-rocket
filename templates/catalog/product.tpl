@@ -55,6 +55,10 @@
             {include file='catalog/_partials/product-prices.tpl'}
           {/block}
 
+           <!-- 💎 souriya 🛑🛑🛑🛑🛑🛑module:productcomments -->
+          {include file='module:productcomments/views/templates/hook/average-grade-stars.tpl' grade=$average_grade}
+           <!-- 💎 souriya module:productcomments -->
+
           <div class="product-information">
             {block name='product_description_short'}
               <div id="product-description-short-{$product.id}">{$product.description_short nofilter}</div>
