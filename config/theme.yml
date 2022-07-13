@@ -103,27 +103,27 @@ global_settings:
   image_types:
     cart_default:
       width: 125
-      height: 125
+      height: 157
       scope: [products]
     small_default:
       width: 98
-      height: 98
+      height: 123
       scope: [products, categories, manufacturers, suppliers]
     medium_default:
       width: 452
-      height: 452
+      height: 565
       scope: [products, manufacturers, suppliers]
     home_default:
-      width: 250
-      height: 250
+      width: 378
+      height: 472
       scope: [products]
     large_default:
       width: 800
-      height: 800
+      height: 1000
       scope: [products, manufacturers, suppliers]
     category_default:
-      width: 141
-      height: 180
+      width: 1170
+      height: 320
       scope: [categories]
     stores_default:
       width: 170
@@ -131,19 +131,19 @@ global_settings:
       scope: [stores]
     pdt_180:
       width: 180
-      height: 180
+      height: 225
       scope: [products]
     pdt_300:
       width: 300
-      height: 300
+      height: 375
       scope: [products]
     pdt_360:
       width: 360
-      height: 360
+      height: 450
       scope: [products]
     pdt_540:
-      width: 540
-      height: 540
+      width: 800
+      height: 1000
       scope: [products]
 
 theme_settings:
