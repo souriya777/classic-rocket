@@ -37,6 +37,7 @@
   --width-fleche-button: 38px;
   --width-shorcuts: 24px;
   --height-fleche-button: 12px;
+  --height-images-container: 700px;
   --size-fleche-slider: 281px;
 }
 
@@ -100,6 +101,10 @@ p {
   @include row;
   display: flex;
   justify-content: center;
+}
+
+.souriya-images-container {
+  height: var(--height-images-container);
 }
 
 .row {

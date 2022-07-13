@@ -79,6 +79,7 @@
 - 👊 pageproduct: add tabs
 - 👊 pageproduct: copy zara.com content positions / style
 - 👊 pageproduct: add "les clients ont choisis ça"
+- 👊 pageproduct: see new design rouya
 - 🟧 change message "rupture de stock" (cf. maquette)
 - 🟧 homepage : display reviews under/over thumbnails
 - 🟧 implement pagelist
@@ -99,6 +100,7 @@
 - 🟥 module avertissez-moi [ROUYA]🌙
 - 🟥 (enable product comments ?)
 - 🟥 (enable video de produit par Smart Module)
+- 🟥 (enable Intense ?)
 
 ## OPTIMIZATION
 

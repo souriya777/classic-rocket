@@ -1,4 +1,4 @@
-<div class="images-container">
+<div class="images-container souriya-images-container">
   {block name='product_cover'}
     <!-- 💎 souriya zara slider -->
     <div class="zara-slider">
