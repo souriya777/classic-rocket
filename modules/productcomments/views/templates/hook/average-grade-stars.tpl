@@ -1,6 +1,6 @@
 {if $nb_comments != 0}
   <div class="comments-note souriya">
-    <span>{l s='Grade' d='Modules.Productcomments.Shop'}</span>
+    <span class="souriya-label">{l s='Grade' d='Modules.Productcomments.Shop'}</span>
     <div class="grade-stars">
       {section name="i" start=0 loop=5 step=1}
           {strip}
@@ -21,5 +21,8 @@
           {/strip}
       {/section}
     </div>
+
+    {* 💎souriya : include "10 avis" *}
+    <a class="souriya-avis" href="#avis">{$nb_comments} avis</a>
   </div>
 {/if}

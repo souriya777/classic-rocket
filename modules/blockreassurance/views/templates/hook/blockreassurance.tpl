@@ -23,7 +23,8 @@
  * International Registered Trademark & Property of PrestaShop SA
  *}
 {if $elements}
-    <div class="card card--reassurance mb-3">
+    {* FIXME display later ? *}
+    {*<div class="card card--reassurance mb-3">
         <ul class="list-group list-group-flush">
             {foreach from=$elements item=element}
             <li class="list-group-item">
@@ -32,5 +33,5 @@
             </li>
             {/foreach}
         </ul>
-    </div>
+    </div>*}
 {/if}

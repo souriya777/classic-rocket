@@ -1,0 +1,190 @@
+$border-chevron: 3px solid var(--color-secondary);
+
+.souriya-product {
+  @include row;
+
+  h3 {
+    margin-bottom: 20px;
+    font-weight: 600;
+  }
+
+  &__top {
+    display: flex;
+  }
+
+  .h1 {
+    margin-bottom: 6px;
+    color: var(--color-primary);
+    font-weight: 600;
+  }
+
+  .product-information,
+  .product-actions,
+  .product-add-to-cart {
+    margin-top: 30px;
+  }
+
+  #product-description-short-1,
+  #product-description-short-2,
+  #product-description-short-3 {
+    text-align: justify;
+  }
+
+  .product-variants {
+    display: none;
+  }
+
+  .product-add-to-cart .qty {
+    margin: 0;
+  }
+
+  .product-quantity {
+    .qty > .input-group {
+      background: lawngreen;
+      position: relative;
+      width: 76px;
+
+      input {
+        display: inline-block;
+        height: 50px;
+        max-width: 50px;
+      }
+
+      .input-group-btn {
+        position: absolute;
+        right: 0;
+        height: 50%;
+        margin: 0;
+
+        button {
+          background-color: var(--color-primary);
+          padding: 6px;
+          font-size: 0px;
+
+          &::after {
+            content: " ";
+            display: inline-block;
+            border-bottom: $border-chevron;
+            border-right: $border-chevron;
+            height: 10px;
+            width: 10px;
+          }
+
+          &:hover {
+            background-color: var(--color-action);
+          }
+        }
+      }
+
+      .input-group-btn:first-child {
+        button::after {
+          transform: rotate(-135deg);
+        }
+      }
+
+      .input-group-btn:last-child {
+        bottom: 0;
+        button::after {
+          transform: rotate(45deg);
+        }
+      }
+    }
+  }
+
+  .product-add-to-cart .add {
+    margin-top: 0;
+    margin-left: 12px;
+  }
+
+  .product-add-to-cart .product-quantity {
+    margin-top: 0;
+  }
+
+  .add-to-cart {
+    @include button;
+
+    height: 50px;
+    padding: 8px 50px;
+    font-size: 18px;
+    font-weight: normal;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+    opacity: 1;
+    cursor: pointer;
+
+    .material-icons {
+      display: none;
+    }
+
+    &:hover {
+      background-color: var(--color-action);
+      color: var(--color-secondary);
+      border-color: var(--color-action);
+    }
+  }
+
+  #product-availability > img {
+    width: 250px;
+  }
+
+  .price {
+    color: var(--color-tertiary);
+    font-size: 18px;
+    font-weight: normal;
+  }
+
+  .current-price {
+    display: flex !important;
+    align-items: flex-end;
+    margin-bottom: 10px;
+  }
+
+  .product-discount {
+    margin-right: 10px;
+  }
+
+  .discount {
+    margin-left: 20px;
+    margin-bottom: -3px;
+  }
+
+  .tax-shipping-delivery-label {
+    margin-left: 8px;
+    color: var(--color-gray-ttc);
+  }
+
+  .souriya-avis {
+    text-decoration: underline;
+  }
+
+  .souriya-label {
+    font-size: 16px;
+  }
+
+  .grade-stars,
+  .souriya-avis {
+    margin-left: 15px;
+  }
+
+  .star {
+    padding-top: 3px;
+  }
+
+  .star > .material-icons {
+    font-size: 16px;
+  }
+
+  .tabs,
+  .nav-tabs {
+    border: none;
+  }
+
+  .tabs {
+    margin-top: 20px;
+
+    .product-description ul,
+    .product-description p {
+      margin-left: 50px;
+    }
+  }
+}

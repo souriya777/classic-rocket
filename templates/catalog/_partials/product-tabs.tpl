@@ -20,6 +20,14 @@
                         aria-controls="product-details"
                         {if !$product.description} aria-selected="true"{/if}>{l s='Product Details' d='Shop.Theme.Catalog'}</a>
             </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                data-toggle="tab"
+                href="#avis"
+                role="tab"
+                aria-controls="avis">Avis</a>
+            </li>
             {if $product.attachments}
                 <li class="nav-item">
                     <a
@@ -52,6 +60,10 @@
             {block name='product_details'}
                 {include file='catalog/_partials/product-details.tpl'}
             {/block}
+
+            <div class="tab-pane fade" id="avis" role="tabpanel">
+                {include file='module:productcomments/views/templates/hook/product-comments-list.tpl'}
+            </div>
 
             {block name='product_attachments'}
                 {if $product.attachments}

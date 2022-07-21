@@ -5,6 +5,8 @@
   --color-secondary: #fff;
   --color-tertiary: #0a39b0;
   --color-gray: #888888;
+  --color-gray-breadcrumb: #f6f6f6;
+  --color-gray-ttc: #868686;
   --color-miniature-font: #969696;
   --color-search-bottom-border: #333;
   --color-search-color-active: #fe4e55;
@@ -21,6 +23,8 @@
   --color-heart: #d0121a;
   --color-footer-bottom: #717171;
   --color-menu-hover: #555;
+  --color-zara-progressbar: #cbcbcb;
+  --color-zara-progressbar-filled: #000;
   --bg-color-primary: #fff;
   --bg-color-secondary: #282828;
   --bg-color-tertiary: #f7f7f7;
@@ -97,12 +101,6 @@ p {
   }
 }
 
-.souriya-row-product {
-  @include row;
-  display: flex;
-  justify-content: center;
-}
-
 .souriya-images-container {
   height: var(--height-images-container);
 }
@@ -115,6 +113,10 @@ p {
 .col-12 {
   padding-right: 0 !important;
   padding-left: 0 !important;
+}
+
+.breadcrumb {
+  background-color: var(--color-gray-breadcrumb);
 }
 
 // SVG

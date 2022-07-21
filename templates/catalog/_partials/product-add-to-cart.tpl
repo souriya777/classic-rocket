@@ -1,34 +1,29 @@
-{**
- * 2007-2017 PrestaShop
- *
- * NOTICE OF LICENSE
- *
- * This source file is subject to the Academic Free License 3.0 (AFL-3.0)
- * that is bundled with this package in the file LICENSE.txt.
- * It is also available through the world-wide-web at this URL:
- * https://opensource.org/licenses/AFL-3.0
- * If you did not receive a copy of the license and are unable to
- * obtain it through the world-wide-web, please send an email
- * to license@prestashop.com so we can send you a copy immediately.
- *
- * DISCLAIMER
- *
- * Do not edit or add to this file if you wish to upgrade PrestaShop to newer
- * versions in the future. If you wish to customize PrestaShop for your
- * needs please refer to http://www.prestashop.com for more information.
- *
- * @author    PrestaShop SA <contact@prestashop.com>
- * @copyright 2007-2017 PrestaShop SA
- * @license   https://opensource.org/licenses/AFL-3.0 Academic Free License 3.0 (AFL-3.0)
- * International Registered Trademark & Property of PrestaShop SA
- *}
+{block name='product_availability'}
+  <div id="product-availability">
+    {if $product.show_availability && $product.availability_message}
+      {if $product.availability == 'available'}
+        <i class="material-icons rtl-no-flip product-available text-success">&#xE5CA;</i>
+      {elseif $product.availability == 'last_remaining_items'}
+        <i class="material-icons product-last-itemstext-warning">&#xE002;</i>
+      {else}
+        <img
+          data-src="/img/souriya/barnum-victime-de-son-succes.png"
+          alt="zero stock" 
+          class="img-fluid lazyload"
+        />
+      {/if}
+      {*$product.availability_message*}
+    {/if}
+  </div>
+{/block}
+
 <div class="product-add-to-cart">
   {if !$configuration.is_catalog}
 
     {block name='product_quantity'}
       <div class="product-quantity row align-items-center no-gutters">
-        <label for="quantity_wanted" class="quantity__label col-auto">{l s='Quantity' d='Shop.Theme.Catalog'}</label>
-        <div class="qty col-auto">
+        {*<label for="quantity_wanted" class="quantity__label col-auto">{l s='Quantity' d='Shop.Theme.Catalog'}</label>*}
+        <div class="qty col-auto souriya">
           <input
             type="number"
             name="qty"
@@ -57,21 +52,6 @@
           <!-- 💎 souriya wish list -->
           {hook h='displayProductActions' product=$product}
       </div>
-    {/block}
-
-    {block name='product_availability'}
-      <span id="product-availability">
-        {if $product.show_availability && $product.availability_message}
-          {if $product.availability == 'available'}
-            <i class="material-icons rtl-no-flip product-available text-success">&#xE5CA;</i>
-          {elseif $product.availability == 'last_remaining_items'}
-            <i class="material-icons product-last-itemstext-warning">&#xE002;</i>
-          {else}
-            <i class="material-icons product-unavailable text-danger">&#xE14B;</i>
-          {/if}
-          {$product.availability_message}
-        {/if}
-      </span>
     {/block}
 
     {block name='product_minimal_quantity'}

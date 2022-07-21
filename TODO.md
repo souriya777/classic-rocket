@@ -75,11 +75,12 @@
 - ✅ pageproduct: fix max size of content (souriya-row-product)
 - ✅ pageproduct: add raw informations
 - ✅ pageproduct: copy zara.com image slider
+- ✅ pageproduct: fix "Aucun avis n'a été publié pour le moment."
+- 👊 pageproduct: fix anchor "#avis"
+- 👊 pageproduct: synchronize with new design rouya
 - 👊 pageproduct: improve display of characteristics (4,5mx3m; pvc-polyester; orange)
 - 👊 pageproduct: add tabs
-- 👊 pageproduct: copy zara.com content positions / style
 - 👊 pageproduct: add "les clients ont choisis ça"
-- 👊 pageproduct: see new design rouya
 - 🟧 change message "rupture de stock" (cf. maquette)
 - 🟧 homepage : display reviews under/over thumbnails
 - 🟧 implement pagelist

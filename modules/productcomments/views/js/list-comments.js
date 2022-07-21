@@ -123,18 +123,18 @@ jQuery(document).ready(function () {
 
     const $comment = $(commentTemplate);
     var grade_html = '';
-      for (i = 0; i < 5; i++) {
-          grade_html +='<div class="star"><i class="material-icons">';
-          if (comment.grade <= i) {
-              grade_html +='&#xE83A;';
-          }else if (comment.grade>i && comment.grade < (i + 1)){
-              grade_html +='&#xE839;';
-          }
-          else{
-              grade_html +='&#xE838;';
-          }
-          grade_html +='</i></div>';
-      }
+    for (i = 0; i < 5; i++) {
+        grade_html +='<div class="star"><i class="material-icons">';
+        if (comment.grade <= i) {
+            grade_html +='&#xE83A;';
+        }else if (comment.grade>i && comment.grade < (i + 1)){
+            grade_html +='&#xE839;';
+        }
+        else{
+            grade_html +='&#xE838;';
+        }
+        grade_html +='</i></div>';
+    }
     $('.grade-stars', $comment).html(grade_html);
     $('.useful-review', $comment).click(function() {
       updateCommentUsefulness($comment, comment.id_product_comment, 1);
