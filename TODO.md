@@ -83,7 +83,7 @@
 - ✅ pageproduct: add "les clients ont choisis ca"
 - ✅ pageproduct: style "details du produit" tab
 - ✅ homepage : optimize slider list responsiveness
-- 👊 pageproduct : optimize slider list responsiveness
+- ✅ pageproduct : optimize slider list responsiveness
 - 👊 pageproduct: responsive
 - 👊 implement pagelist
 - 👊 homepage : display reviews under/over thumbnails

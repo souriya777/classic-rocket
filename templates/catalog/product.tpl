@@ -106,8 +106,8 @@
 
     {block name='product_accessories'}
       {if $accessories}
-        <section class="product-accessories mt-3">
-          <p class="products-section-title">{l s='You might also like' d='Shop.Theme.Catalog'}</p>
+        <section class="souriya-product-list advise">
+          <h2>NOUS VOUS CONSEILLONS ÇA</h2>
           <div class="products">
             {foreach from=$accessories item="product_accessory"}
               {block name='product_miniature'}
