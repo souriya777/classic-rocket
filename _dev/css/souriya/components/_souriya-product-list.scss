@@ -1,6 +1,7 @@
 $svg: 'data:image/svg+xml; utf8, <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M21.883 12l-7.527 6.235.644.765 9-7.521-9-7.479-.645.764 7.529 6.236h-21.884v1h21.883z"/></svg>';
 
 .souriya-product-list {
+  background-color: coral;
   @include row;
   display: flex;
   flex-direction: column;
@@ -24,22 +25,13 @@ $svg: 'data:image/svg+xml; utf8, <svg width="24" height="24" xmlns="http://www.w
     margin: 0 auto 20px;
   }
 
-  &.heart {
-    max-width: 100%;
-    padding: 20px 0;
-    background-color: var(--bg-color-section-pink);
-
-    & > .souriya-product-list__title > img {
-      height: 80px;
-      margin-right: 10px;
-    }
-
-    .products {
-      max-width: var(--width-row);
-    }
+  &.heart .souriya-product-list__title img {
+    height: 80px;
+    margin-right: 10px;
   }
 
   .products {
+    background-color: lightgreen;
     max-width: 88%;
     margin: 40px auto 0;
   }
