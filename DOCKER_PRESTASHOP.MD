@@ -86,5 +86,6 @@ OR
 - switch to at_decor
 - ⛔️ manually install "Wishlist" module from prestashop
 - choose home->profile2
+- choose the good "theme builder"
 - (clean Ap PageBuilder) or import static_appagebuilder_souriya/appagebuilderhomeALL.xml
 - remove "force compilation" ?

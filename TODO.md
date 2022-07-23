@@ -81,11 +81,13 @@
 - ✅ pageproduct change message "rupture de stock" (cf. maquette)
 - ✅ pageproduct: synchronize with new design rouya
 - ✅ pageproduct: add "les clients ont choisis ca"
+- ✅ pageproduct: style "details du produit" tab
+- 👊 pageproduct : optimize slider list responsiveness
+- 👊 homepage : optimize slider list responsiveness
 - 👊 pageproduct: responsive
+- 👊 implement pagelist
+- 👊 homepage : display reviews under/over thumbnails
 - 👊 pageproduct: improve display of characteristics (4,5mx3m; pvc-polyester; orange)
-- 🟧 implement pagelist
-- 🟧 homepage : display reviews under/over thumbnails
-- 🟧 homepage : optimize slider list responsiveness
 - 🟧 implement devis form
 - 🟧 implement command tunnel
 - 🟧 implement CGV
