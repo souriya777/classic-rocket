@@ -84,7 +84,7 @@
 - ✅ pageproduct: style "details du produit" tab
 - ✅ homepage : optimize slider list responsiveness
 - ✅ pageproduct : optimize slider list responsiveness
-- 👊 pageproduct: responsive
+- ✅ pageproduct: improve responsive
 - 👊 implement pagelist
 - 👊 homepage : display reviews under/over thumbnails
 - 👊 pageproduct: improve display of characteristics (4,5mx3m; pvc-polyester; orange)

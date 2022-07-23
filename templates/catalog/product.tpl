@@ -5,7 +5,7 @@
   <section id="main">
     <div class="souriya-product">
       <div class="souriya-product__top">
-        <div class="col-lg-6">
+        <div class="souriya-product__top--img">
           {block name='page_content_container'}
             <section class="page-content--product" id="content">
               {block name='page_content'}
@@ -22,7 +22,7 @@
             </section>
           {/block}
           </div>
-          <div class="col-lg-6">
+          <div class="souriya-product__top--text">
             {block name='page_header_container'}
               {block name='page_header'}
                 <h1 class="h1">{block name='page_title'}{$product.name}{/block}</h1>
