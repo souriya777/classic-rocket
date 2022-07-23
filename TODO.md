@@ -76,12 +76,12 @@
 - ✅ pageproduct: add raw informations
 - ✅ pageproduct: copy zara.com image slider
 - ✅ pageproduct: fix "Aucun avis n'a été publié pour le moment."
-- 👊 pageproduct: fix anchor "#avis"
-- 👊 pageproduct: synchronize with new design rouya
-- 👊 pageproduct: improve display of characteristics (4,5mx3m; pvc-polyester; orange)
-- 👊 pageproduct: add tabs
+- ✅ pageproduct: add tabs
+- ✅ pageproduct: fix anchor "#avis"
+- ✅ pageproduct change message "rupture de stock" (cf. maquette)
+- ✅ pageproduct: synchronize with new design rouya
 - 👊 pageproduct: add "les clients ont choisis ça"
-- 🟧 change message "rupture de stock" (cf. maquette)
+- 👊 pageproduct: improve display of characteristics (4,5mx3m; pvc-polyester; orange)
 - 🟧 homepage : display reviews under/over thumbnails
 - 🟧 implement pagelist
 - 🟧 implement devis form

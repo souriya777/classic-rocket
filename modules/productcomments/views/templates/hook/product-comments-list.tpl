@@ -3,7 +3,7 @@
   var productCommentAbuseReportErrorMessage = '{l|escape:'javascript' s='Sorry, your abuse report cannot be sent.' d='Modules.Productcomments.Shop'}';
 </script>
 <div class="product-comments">
-  <div id="avis">
+  <div>
     <div class="comments__header" id="product-comments-list-header">
         {*<div class="comments-nb">
           <i class="material-icons shopping-cart">chat</i>

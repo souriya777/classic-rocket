@@ -22,6 +22,7 @@
             </li>
             <li class="nav-item">
               <a
+                id="avis-link"
                 class="nav-link"
                 data-toggle="tab"
                 href="#avis"
@@ -61,7 +62,11 @@
                 {include file='catalog/_partials/product-details.tpl'}
             {/block}
 
-            <div class="tab-pane fade" id="avis" role="tabpanel">
+            <div
+              id="avis"
+              class="tab-pane fade"
+              role="tabpanel"
+            >
                 {include file='module:productcomments/views/templates/hook/product-comments-list.tpl'}
             </div>
 

@@ -23,6 +23,6 @@
     </div>
 
     {* 💎souriya : include "10 avis" *}
-    <a class="souriya-avis" href="#avis">{$nb_comments} avis</a>
+    <a class="souriya-avis" href="#avis-link" onclick="document.getElementById('avis-link').click(); document.querySelector('.souriya-product__bottom').scrollIntoView();">{$nb_comments} avis</a>
   </div>
 {/if}
