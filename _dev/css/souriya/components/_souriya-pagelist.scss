@@ -1,0 +1,76 @@
+.souriya-pagelist {
+  background-color: pink;
+
+  //// LEFT CATEGORY MENU
+  .category-top-menu {
+    .text-uppercase {
+      font-weight: 600;
+
+      &:hover {
+        color: var(--color-action);
+      }
+    }
+
+    .category-sub__item {
+      cursor: pointer;
+
+      &:hover,
+      &:hover > a {
+        color: var(--color-action);
+      }
+
+      &--1 {
+        margin-left: 20px;
+      }
+    }
+
+    div[aria-expanded="true"] {
+      .add {
+        display: none;
+      }
+
+      .remove {
+        display: block;
+      }
+    }
+  }
+  ////
+
+  //// DESCRIPTION
+  #category-description {
+    background-color: yellowgreen;
+
+    p {
+      text-align: justify;
+    }
+  }
+  ////
+
+  //// FILTERS
+  .search_filters {
+    .text-uppercase {
+      margin-bottom: 18px;
+      font-weight: 600;
+    }
+
+    .facet__title {
+      text-transform: uppercase;
+    }
+
+    .custom-control {
+      input:hover,
+      label:hover {
+        color: var(--color-action);
+        cursor: pointer;
+      }
+    }
+  }
+  ////
+
+  //// MEDIA QUERIES
+  @media (max-width: 991px) {
+    &__display {
+      margin: 36px 15px 22px !important;
+    }
+  }
+}

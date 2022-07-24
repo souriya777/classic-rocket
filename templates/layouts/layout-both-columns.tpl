@@ -80,7 +80,7 @@
           {block name='breadcrumb'}
             {include file='_partials/breadcrumb.tpl'}
           {/block}
-            <div class="row">
+            <div class="row souriya-pagelist">
           {block name="left_column"}
             <div id="left-column" class="left-column col-12 col-lg-3">
               {if $page.page_name == 'product'}

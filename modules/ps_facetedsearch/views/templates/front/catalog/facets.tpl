@@ -49,8 +49,10 @@
       <section class="facet__block">
           <div class="facet__header">
               <p class="facet__title">{$facet.label}</p>
-              <a href="#facet_{$_expand_id}" class="icon-collapse visible--mobile stretched-link" data-toggle="collapse"{if !$_collapse} aria-expanded="true"{/if}>
-                  <i class="material-icons">&#xE313;</i>
+              {* 💎souriya : remove "stretched-link" from classes of <a> *}
+              <a href="#facet_{$_expand_id}" class="icon-collapse visible--mobile" data-toggle="collapse"{if !$_collapse} aria-expanded="true"{/if}>
+                  <i class="material-icons closed">&#xE313;</i>
+                  <i class="material-icons opened">&#xE316;</i>
               </a>
           </div>
 

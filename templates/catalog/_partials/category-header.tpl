@@ -7,11 +7,12 @@
             {if $category.description}
                 <div id="category-description" class="text-muted">{$category.description nofilter}</div>
             {/if}
-            {if $category.image.large.url}
+            {* 💎souriya : do not show image *}
+            {*if $category.image.large.url}
                 <div class="category-cover">
                     <img src="{$category.image.large.url}" class="lazyload" alt="{if !empty($category.image.legend)}{$category.image.legend}{else}{$category.name}{/if}">
                 </div>
-            {/if}
+            {/if*}
         </div>
     {/if}
 </div>

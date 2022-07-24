@@ -85,7 +85,8 @@
 - ✅ homepage : optimize slider list responsiveness
 - ✅ pageproduct : optimize slider list responsiveness
 - ✅ pageproduct: improve responsive
-- 👊 implement pagelist
+- ✅ pagelist : synchronize with existing site (general)
+- ✅ pagelist : responsiveness
 - 👊 homepage : display reviews under/over thumbnails
 - 👊 pageproduct: improve display of characteristics (4,5mx3m; pvc-polyester; orange)
 - 🟧 implement devis form

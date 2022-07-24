@@ -44,7 +44,7 @@
       {/if}
     </div>
   </div>
-    <div class="visible--mobile text-sm-center mt-1 col-12 ">
+    <div class="visible--mobile text-sm-center mt-1 col-12 souriya-pagelist__display">
         {l s='Showing %from%-%to% of %total% item(s)' d='Shop.Theme.Catalog' sprintf=[
         '%from%' => $listing.pagination.items_shown_from ,
         '%to%' => $listing.pagination.items_shown_to,
