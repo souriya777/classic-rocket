@@ -1,8 +1,6 @@
 import { debounce, throttle } from './souriya-utils';
 
-console.log('souriya-zara-sliderrrr.js 😎');
-
-window.onload = function () {
+window.addEventListener('load', function () {
   (function () {
     if (!document.querySelector(".zara-slider__images")) {
       return;
@@ -151,4 +149,4 @@ window.onload = function () {
     init();
 
   })();
-};
+});

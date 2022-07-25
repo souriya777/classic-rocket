@@ -1,4 +1,4 @@
-window.onload = function () {
+window.addEventListener('load', function () {
   (function () {
     console.log('souriya-slider.js 😎');
 
@@ -95,4 +95,4 @@ window.onload = function () {
 
     resetSliderWidth();
   })();
-};
+});

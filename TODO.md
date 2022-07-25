@@ -91,7 +91,7 @@
 - ✅ "quel barnum pour moi" => liens vers les catégories
 - ✅ SUPPRIMER wishlist
 - ✅ FIX "notre histoire"
-- 🛑 top slider homepage : not working
+- ✅ top slider homepage : not working
 - 🛑 DESTOCKAGE : code brut HTML (comme la maquette)
 - 🛑 homepage : slider : custom "text"/price/avis (cf. google phone)
 - 🛑 slider : "ajouter au panier" au lieu "aperçu rapide"
