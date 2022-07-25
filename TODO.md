@@ -107,7 +107,7 @@
 - 🛑 liste produit : ISO maquette
 - 👊 optimize
 - ✅ delete JS console error
-- 👊 change theme basics infos
+- ✅ change theme basics infos
 - 🛑 homepage : slider : fleche plus fine [ROUYA]
 - 🟧 implement devis form
 - 🟧 implement command tunnel
@@ -118,11 +118,9 @@
 - 🟧🟧 add prestashop "avis" => test it
 - 🟧🟧 OR implement homepage "Google avis"
 - 🟧 module crisp, devis
-- 🟧 search bar "Je cherche un barnum"
 - 🟧 fix useless div http://localhost:8080/connexion?back=my-account#
 - 🟧 /modules => include it manually ? or switch to child ?
 - 🟧 check h3 pageproduct (<h3>Barnum aluminium professionnel 3m x 3m : section tube hexagonale 45mm gris</h3>)
-- 🟧 fix console error "MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 "
 - 🟥 module avertissez-moi [ROUYA]🌙
 - 🟥 (enable product comments ?)
 - 🟥 (enable Intense ?)
@@ -150,7 +148,7 @@
 - 🟧 create caracteristic "Video"
 - 🟧 /modules => include it manually ?
 - 🟧 recompile webpack ?
-- 🟧 ⛔️ verify permissions `chown -R www-data:www-data classic-rocket/`
+- 🟧 ⛔️ verify permissions `chown -R www-data:www-data soleil-noir/`
 - 🟧 ⛔️ verify permissions `chown -R www-data:www-data img/`
 - 🟧 optional prestashop : remove systematic "force recompilation" ?
 - 🟧 use cache prestashop cache (Performance) ?

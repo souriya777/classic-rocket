@@ -1,7 +1,7 @@
 $transition-menu-item: all ease-in-out 0.3s;
 
 .souriya-menu {
-  // override desktop menu on classic-rocket theme
+  // override desktop menu of theme
   @media (min-width: 992px) {
     &__list {
       // ROOT NODES
