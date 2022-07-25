@@ -98,7 +98,7 @@
 - ✅ "couleur aleatoires pastelles" (nos garanties)
 - 🛑 fiche produit pas bonne sur les "autres"
 - 🛑 fiche produit : video "caracteristique" => https://www.youtube.com/watch?v=SdQE81GIgrI
-- 🛑 fiche produit : menu burger à IMPLÉMENTER
+- 🛑 fiche produit : menu burger a IMPLEMENTER (4,5mx3m; pvc-polyester; orange)
 - 🛑 fiche produit : details produit => "blocs à la google"
 - ✅ fiche produit : ne garder que facebook & pinterest
 - ✅ fiche produit : supprimer "les clients ont choisis ca" (slider), ne garde QUE le "nous vous conseillons ca" ET le slideriser
@@ -106,8 +106,7 @@
 - 🛑 fiche produit : tout doit être aligné à gauche et à droite (cf. la règle et maquette)
 - 🛑 liste produit : ISO maquette
 - 👊 optimize
-- 👊 delete JS console error
-- 👊 pageproduct: improve display of characteristics (4,5mx3m; pvc-polyester; orange)
+- ✅ delete JS console error
 - 👊 change theme basics infos
 - 🛑 homepage : slider : fleche plus fine [ROUYA]
 - 🟧 implement devis form
