@@ -143,6 +143,17 @@ $subtitle-size: 18px;
     width: 250px;
   }
 
+  .outofstockproduct {
+    padding: 5px;
+    background-color: var(--bg-color-menu-hover);
+    text-align: center;
+
+    &__warn {
+      color: var(--bg-color-souriya-slider);
+      font-weight: 600;
+    }
+  }
+
   .price {
     color: var(--color-tertiary);
     font-size: 18px;

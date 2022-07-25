@@ -6,11 +6,14 @@
       {elseif $product.availability == 'last_remaining_items'}
         <i class="material-icons product-last-itemstext-warning">&#xE002;</i>
       {else}
-        <img
-          data-src="/img/souriya/barnum-victime-de-son-succes.png"
-          alt="zero stock" 
-          class="img-fluid lazyload"
-        />
+        <div class="outofstockproduct">
+          <p class="outofstockproduct__warn">
+            DÉJÀ EN RUPTURE DE STOCK, VICTIME DE SON SUCCÈS.
+          </p>
+          <p>
+            Contactez-nous par mail (<a href="mailto:contact@tentebarnumts.fr">contact@tentebarnumts.fr</a>) si vous souhaitez réserver votre barnum.
+          </p>
+        </div>
       {/if}
       {*$product.availability_message*}
     {/if}
