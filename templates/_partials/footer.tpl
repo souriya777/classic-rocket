@@ -31,7 +31,7 @@
   </div>
 </div>
 <!-- 💎NETWORK -->
-<div class="souriya-footer container">
+<div class="souriya-footer">
   <div class="row">
     {block name='hook_footer'}
       {hook h='displayFooter'}
