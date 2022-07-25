@@ -1,0 +1,63 @@
+.destocking {
+  display: flex;
+
+  h2 {
+    text-transform: uppercase;
+  }
+
+  h2,
+  p {
+    text-align: center;
+  }
+
+  img,
+  &__promotions-text {
+    max-height: 450px;
+    margin-bottom: 100px;
+  }
+
+  > * {
+    position: relative;
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: var(--padding-homepage-2) 0;
+  }
+
+  &__promotions {
+    background-color: var(--bg-color-destocking);
+
+    &-text {
+      display: flex;
+      flex-direction: column;
+      flex-grow: 2;
+      justify-content: center;
+
+      p {
+        color: var(--color-tertiary);
+        font-size: 32px;
+        font-style: italic;
+        line-height: 64px;
+        letter-spacing: 2px;
+      }
+    }
+  }
+
+  &__desc {
+    max-width: 84%;
+    margin-bottom: var(--padding-homepage-2);
+  }
+
+  &__button {
+    @include button;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    padding: 12px 30px;
+  }
+
+  @media (max-width: 964px) {
+    flex-direction: column;
+  }
+}

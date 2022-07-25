@@ -92,7 +92,7 @@
 - ✅ SUPPRIMER wishlist
 - ✅ FIX "notre histoire"
 - ✅ top slider homepage : not working
-- 🛑 DESTOCKAGE : code brut HTML (comme la maquette)
+- ✅ DESTOCKAGE : code brut HTML (comme la maquette)
 - 🛑 homepage : slider : custom "text"/price/avis (cf. google phone)
 - 🛑 slider : "ajouter au panier" au lieu "aperçu rapide"
 - ✅ "couleur aleatoires pastelles" (nos garanties)

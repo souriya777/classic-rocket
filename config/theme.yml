@@ -52,9 +52,9 @@ global_settings:
   modules:
    to_enable:
      - ps_linklist
-     - souriya_destockinglist
      - souriya_preferlist
      - souriya_heartlist
+     - souriya_destockinglist
      - souriya_choosinglist
    to_disable:
      - ps_searchbar
@@ -75,9 +75,9 @@ global_settings:
         # - souriya_module
       displayHome:
         # - ps_imageslider
-        - souriya_destockinglist
         - souriya_preferlist
         - souriya_heartlist
+        - souriya_destockinglist
         # - ps_banner
         # - ps_customtext
       displayFooterBefore:
@@ -161,7 +161,7 @@ theme_settings:
 dependencies:
   modules:
     - ps_searchbarjqauto
-    - souriya_destockinglist
     - souriya_preferlist
     - souriya_heartlist
+    - souriya_destockinglist
     - souriya_choosinglist
