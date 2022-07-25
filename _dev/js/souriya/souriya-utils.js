@@ -18,11 +18,19 @@ function throttle(callback, time) {
 }
 
 function getPastelColor() {
-  return `hsl(
+  const SATURATION_MIN = 25;
+  // const LIGHTNESS_MIN = 85;
+  // ${LIGHTNESS_MIN + 10 * Math.random()}
+  const LIGHTNESS = 88;
+
+  const pastel = `hsl(
     ${360 * Math.random()},
-    ${25 + 70 * Math.random()}%,
-    ${85 + 10 * Math.random()}%
+    ${SATURATION_MIN + 70 * Math.random()}%,
+    ${LIGHTNESS}%
   )`;
+  // TO DEBUG
+  // console.log(`background-color: ${pastel}`);
+  return pastel;
 }
 
 export { debounce, throttle, getPastelColor };

@@ -497,7 +497,11 @@ new IntersectionObserver((function(e){if(true===e[0].isIntersecting){v();m()}els
 /***/function(e,t,i){"use strict";i.r(t);
 /* harmony export (binding) */i.d(t,"debounce",(function(){return r}));
 /* harmony export (binding) */i.d(t,"throttle",(function(){return s}));
-/* harmony export (binding) */i.d(t,"getPastelColor",(function(){return a}));var n;var o;function r(e,t){window.clearTimeout(n);n=window.setTimeout(e,t)}function s(e,t){if(o)return;o=true;e();setTimeout((function(){o=false}),t)}function a(){return"hsl(\n    ".concat(360*Math.random(),",\n    ").concat(25+70*Math.random(),"%,\n    ").concat(85+10*Math.random(),"%\n  )")}
+/* harmony export (binding) */i.d(t,"getPastelColor",(function(){return a}));var n;var o;function r(e,t){window.clearTimeout(n);n=window.setTimeout(e,t)}function s(e,t){if(o)return;o=true;e();setTimeout((function(){o=false}),t)}function a(){var e=25;// const LIGHTNESS_MIN = 85;
+// ${LIGHTNESS_MIN + 10 * Math.random()}
+var t=88;// TO DEBUG
+// console.log(`background-color: ${pastel}`);
+return"hsl(\n    ".concat(360*Math.random(),",\n    ").concat(e+70*Math.random(),"%,\n    ").concat(t,"%\n  )")}
 /***/},
 /***/"./js/souriya/souriya-zara-slider.js":
 /*!*******************************************!*\
