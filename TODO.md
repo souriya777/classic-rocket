@@ -93,13 +93,12 @@
 - ✅ FIX "notre histoire"
 - ✅ top slider homepage : not working
 - ✅ DESTOCKAGE : code brut HTML (comme la maquette)
-- 🛑 homepage : slider : custom "text"/price/avis (cf. google phone)
+- ✅ homepage : slider : custom "text"/price/avis (cf. google phone)
 - 🛑 slider : "ajouter au panier" au lieu "aperçu rapide"
 - ✅ "couleur aleatoires pastelles" (nos garanties)
 - 🛑 fiche produit pas bonne sur les "autres"
 - 🛑 fiche produit : tout doit être aligné à gauche et à droite (cf. la règle et maquette)
 - 🛑 fiche produit : menu burger à IMPLÉMENTER
-- 🛑 fiche produit : installer module vidéo (FTP )
 - 🛑 fiche produit : video "caracteristique" => https://www.youtube.com/watch?v=SdQE81GIgrI
 - 🛑 fiche produit : details produit => "blocs à la google"
 - 🛑 fiche produit : ne garder que facebook & pinterest

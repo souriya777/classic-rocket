@@ -78,6 +78,19 @@ $margin-products: 88px;
   }
 
   .product-description {
+    display: flex;
+    flex-direction: column;
+    min-height: 88px;
     text-align: left;
+  }
+
+  .card-body {
+    h3:hover a {
+      color: var(--color-action);
+    }
+
+    .grade-stars {
+      justify-content: flex-start;
+    }
   }
 }
