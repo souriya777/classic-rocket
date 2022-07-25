@@ -89,7 +89,7 @@
 - ✅ pagelist : responsiveness
 - ✅ tune space between section
 - ✅ "quel barnum pour moi" => liens vers les catégories
-- 🛑 SUPPRIMER wishlist
+- ✅ SUPPRIMER wishlist
 - 🛑 FIX "notre histoire"
 - 🛑 "NOTRE HISTOIRE" => image refaire (ça a sauté)
 - 🛑 top slider homepage : not working
@@ -110,6 +110,7 @@
 - 👊 optimize
 - 👊 delete JS console error
 - 👊 pageproduct: improve display of characteristics (4,5mx3m; pvc-polyester; orange)
+- 👊 change theme basics infos
 - 🛑 homepage : slider : fleche plus fine [ROUYA]
 - 🟧 implement devis form
 - 🟧 implement command tunnel
@@ -150,7 +151,6 @@
 - 🟧 copy all images under `/img/souriya/` on the server
 - 🟧 create caracteristic "Video"
 - 🟧 /modules => include it manually ?
-- ⛔️ manually install "Wishlist" module from prestashop
 - 🟧 recompile webpack ?
 - 🟧 ⛔️ verify permissions `chown -R www-data:www-data classic-rocket/`
 - 🟧 ⛔️ verify permissions `chown -R www-data:www-data img/`
