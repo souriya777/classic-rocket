@@ -90,8 +90,7 @@
 - ✅ tune space between section
 - ✅ "quel barnum pour moi" => liens vers les catégories
 - ✅ SUPPRIMER wishlist
-- 🛑 FIX "notre histoire"
-- 🛑 "NOTRE HISTOIRE" => image refaire (ça a sauté)
+- ✅ FIX "notre histoire"
 - 🛑 top slider homepage : not working
 - 🛑 DESTOCKAGE : code brut HTML (comme la maquette)
 - 🛑 homepage : slider : custom "text"/price/avis (cf. google phone)

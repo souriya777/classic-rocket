@@ -1,7 +1,7 @@
 .our-story {
-  
-  @include row;
   display: flex;
+  align-items: center;
+  margin-top: var(--margin-homepage);
   background-color: var(--bg-color-tertiary);
 
   & > div {
@@ -43,6 +43,7 @@
     }
 
     &__text {
+      margin-top: var(--margin-homepage);
       padding: 0 20px;
     }
   }
