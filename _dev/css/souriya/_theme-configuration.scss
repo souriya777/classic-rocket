@@ -23,13 +23,16 @@
   --color-youtube: #ff0000;
   --color-heart: #d0121a;
   --color-footer-bottom: #717171;
+  --color-fleche-slider: #717171;
   --color-menu-hover: #555;
   --color-zara-progressbar: #cbcbcb;
   --color-zara-progressbar-filled: #000;
+  --color-pastel-default: #8ab9e5;
   --bg-color-primary: #fff;
   --bg-color-secondary: #282828;
   --bg-color-tertiary: #f7f7f7;
   --bg-color-souriya-slider: #d2694c;
+  --bg-color-detail: #ffb37f;
   --bg-color-menu-hover: #e7e7e7;
   --bg-color-section-pink: #f9ebeb;
   --fill-checked: #3b5cdb;
@@ -113,6 +116,7 @@ p {
 
 .row-heart {
   width: 100%;
+  padding-bottom: 30px;
   background-color: var(--bg-color-section-pink);
 }
 

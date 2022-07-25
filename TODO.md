@@ -87,8 +87,29 @@
 - ✅ pageproduct: improve responsive
 - ✅ pagelist : synchronize with existing site (general)
 - ✅ pagelist : responsiveness
+- 🛑 top slider homepage : not working
+- 🛑 homepage : SAME spacing "top/bottom"
+- 🛑 homepage : slider : custom "text"/price/avis (cf. google phone)
+- 🛑 homepage : slider : fleche plus fine [ROUYA]
+- 🛑 slider : "ajouter au panier" au lieu "aperçu rapide"
+- 🛑 SUPPRIMER wishlist
+- 🛑 DESTOCKAGE : code brut HTML (comme la maquette)
+- 🛑 "quel barnum pour moi" => liens vers les catégories
+- 🛑 "NOTRE HISTOIRE" => image refaire (ça a sauté)
+- ✅ "couleur aleatoires pastelles" (nos garanties)
+- 🛑 fiche produit pas bonne sur les "autres"
+- 🛑 fiche produit : tout doit être aligné à gauche et à droite (cf. la règle et maquette)
+- 🛑 fiche produit : menu burger à IMPLÉMENTER
+- 🛑 fiche produit : installer module vidéo (FTP )
+- 🛑 fiche produit : video "caracteristique" => https://www.youtube.com/watch?v=SdQE81GIgrI
+- 🛑 fiche produit : details produit => "blocs à la google"
+- 🛑 fiche produit : ne garder que facebook & pinterest
+- 🛑 fiche produit : supprimer "les clients ont choisis ça" (slider), ne garde QUE le "nous vous conseillons ça" ET le slideriser
+- 🛑 fiche produit : supprimer "victime de son succès" par ce qu'il y a sur la maquette "déjà en rupture de stock..."
+- 🛑 liste produit : ISO maquette
 - 👊 homepage : display reviews under/over thumbnails
 - 👊 pageproduct: improve display of characteristics (4,5mx3m; pvc-polyester; orange)
+- 👊 optimize
 - 🟧 implement devis form
 - 🟧 implement command tunnel
 - 🟧 implement CGV
@@ -128,6 +149,7 @@
 
 - 🟧 deploy in PROD
 - 🟧 copy all images under `/img/souriya/` on the server
+- 🟧 create caracteristic "Video"
 - 🟧 /modules => include it manually ?
 - ⛔️ manually install "Wishlist" module from prestashop
 - 🟧 recompile webpack ?
@@ -191,6 +213,11 @@ I finally choose `https://github.com/prestarocket-agence/classic-rocket`
 FO : http://localhost:8080
 BO : http://localhost:8080/admin136t2nw5t
 (laosoupi59@gmail.com/<>)
+
+# DEPLOY ON PRODUCTION
+
+- export active theme
+- copy all img `/img/souriya/*`
 
 # HELPING RESOURCES
 

@@ -59,6 +59,7 @@ import './souriya/souriya-slider';
 import './souriya/souriya-product-slider';
 import './souriya/souriya-trust-slider';
 import './souriya/souriya-zara-slider';
+import { getPastelColor } from './souriya/souriya-utils'
 
 // "inherit" EventEmitter
 for (var i in EventEmitter.prototype) {
@@ -81,6 +82,8 @@ $(document).ready(() => {
       $(this).next('.custom-file-label').addClass("selected").html(fileName);
   })
 
+  // pastel color
+  $('.garanties').css('background-color', getPastelColor());
 });
 document.addEventListener('lazyloaded', function(e){
     $(e.target).parent().addClass('rc--lazyload');

@@ -8,7 +8,7 @@ function debounce(callback, time) {
 
 function throttle(callback, time) {
   if (throttlePause) return;
-  
+
   throttlePause = true;
   callback();
 
@@ -17,4 +17,12 @@ function throttle(callback, time) {
   }, time);
 }
 
-export { debounce, throttle };
+function getPastelColor() {
+  return `hsl(
+    ${360 * Math.random()},
+    ${25 + 70 * Math.random()}%,
+    ${85 + 10 * Math.random()}%
+  )`;
+}
+
+export { debounce, throttle, getPastelColor };
