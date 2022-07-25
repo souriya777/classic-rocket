@@ -49,16 +49,32 @@
                 {/block}
                 <div class="highlighted-informations text-center p-2{if !$product.main_variants} no-variants{/if} visible--desktop">
                     {block name='quick_view'}
-                        <span class="quick-view" data-link-action="quickview">
-                      <i class="material-icons search">&#xE8B6;</i> {l s='Quick view' d='Shop.Theme.Actions'}
-                  </span>
+
+                      {* 💎souriya : add to cart *}
+                      {if !$configuration.is_catalog}
+                        {if $product.availability == 'unavailable'}
+                          <span class="outofstock">EN RUPTURE DE STOCK</span>
+                        {else}
+                          <form action="{$urls.pages.cart}" method="post">
+                              <input type="hidden" name="token" value="{$static_token}" />
+                              <input type="hidden" value="{$product.id_product}" name="id_product" />
+                              <input type="hidden" value="1" name="qty" />
+                              <button 
+                                data-button-action="add-to-cart"
+                                class="btn grid-cart-btn btn-primary"
+                              >
+                                Ajouter au panier <i class="material-icons search">&#xE854;</i>    
+                              </button>
+                          </form>
+                        {/if}
+                      {/if}
                     {/block}
 
-                    {block name='product_variants'}
+                    {*block name='product_variants'}
                         {if $product.main_variants}
                             {include file='catalog/_partials/variant-links.tpl' variants=$product.main_variants}
                         {/if}
-                    {/block}
+                    {/block*}
                 </div>
             </div>
             {* end card-img-top*}

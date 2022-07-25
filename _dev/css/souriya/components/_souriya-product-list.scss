@@ -85,6 +85,8 @@ $margin-products: 88px;
   }
 
   .card-body {
+    padding-top: 10px;
+
     h3:hover a {
       color: var(--color-action);
     }
@@ -92,5 +94,23 @@ $margin-products: 88px;
     .grade-stars {
       justify-content: flex-start;
     }
+  }
+
+  .grid-cart-btn {
+    @include button;
+    border: none;
+    background-color: inherit;
+    box-shadow: none;
+    color: var(--color-primary);
+    opacity: 1;
+    cursor: pointer;
+
+    &:hover {
+      color: var(--color-action);
+    }
+  }
+
+  .outofstock {
+    color: var(--color-error);
   }
 }

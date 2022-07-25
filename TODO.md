@@ -94,7 +94,7 @@
 - ✅ top slider homepage : not working
 - ✅ DESTOCKAGE : code brut HTML (comme la maquette)
 - ✅ homepage : slider : custom "text"/price/avis (cf. google phone)
-- 🛑 slider : "ajouter au panier" au lieu "aperçu rapide"
+- ✅ slider : "ajouter au panier" au lieu "apercu rapide"
 - ✅ "couleur aleatoires pastelles" (nos garanties)
 - 🛑 fiche produit pas bonne sur les "autres"
 - 🛑 fiche produit : tout doit être aligné à gauche et à droite (cf. la règle et maquette)
