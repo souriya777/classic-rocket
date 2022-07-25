@@ -82,10 +82,8 @@ OR
 # DEPLOY ON PRODUCTION
 
 - export active theme
-- manually install at_decor.zip theme
-- switch to at_decor
+- manually install *.zip theme
+- switch to theme
 - ⛔️ manually install "Wishlist" module from prestashop
-- choose home->profile2
-- choose the good "theme builder"
 - (clean Ap PageBuilder) or import static_appagebuilder_souriya/appagebuilderhomeALL.xml
 - remove "force compilation" ?

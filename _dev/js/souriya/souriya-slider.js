@@ -1,6 +1,6 @@
 window.onload = function () {
   (function () {
-    console.debug('souriya-slider.js 😎');
+    console.log('souriya-slider.js 😎');
 
     // VARIABLES
     const SLIDE_INTERVAL_MS = 3500;

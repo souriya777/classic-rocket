@@ -1,7 +1,8 @@
 .our-story {
-  background-color: lightgoldenrodyellow;
+  
   @include row;
   display: flex;
+  background-color: var(--bg-color-tertiary);
 
   & > div {
     width: 50%;
@@ -27,7 +28,6 @@
   }
 
   @media (max-width: 1400px) {
-    background-color: lightcoral;
     flex-direction: column;
     align-items: center;
 
@@ -48,35 +48,30 @@
   }
 
   @media (max-width: 880px) {
-    background-color: lightseagreen;
     & > div {
       width: 680px;
     }
   }
 
   @media (max-width: 768px) {
-    background-color: lightgreen;
     & > div {
       width: 558px;
     }
   }
 
   @media (max-width: 589px) {
-    background-color: lightpink;
     & > div {
       width: 498px;
     }
   }
 
   @media (max-width: 510px) {
-    background-color: lightcyan;
     & > div {
       width: 399px;
     }
   }
 
   @media (max-width: 418px) {
-    background-color: lightgoldenrodyellow;
     & > div {
       width: 343px;
     }

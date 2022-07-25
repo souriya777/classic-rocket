@@ -87,12 +87,14 @@
 - ✅ pageproduct: improve responsive
 - ✅ pagelist : synchronize with existing site (general)
 - ✅ pagelist : responsiveness
+- ✅ tune space between section
 - 🛑 top slider homepage : not working
 - 🛑 homepage : SAME spacing "top/bottom"
 - 🛑 homepage : slider : custom "text"/price/avis (cf. google phone)
 - 🛑 homepage : slider : fleche plus fine [ROUYA]
 - 🛑 slider : "ajouter au panier" au lieu "aperçu rapide"
 - 🛑 SUPPRIMER wishlist
+- 🛑 FIX "notre histoire"
 - 🛑 DESTOCKAGE : code brut HTML (comme la maquette)
 - 🛑 "quel barnum pour moi" => liens vers les catégories
 - 🛑 "NOTRE HISTOIRE" => image refaire (ça a sauté)
@@ -107,9 +109,9 @@
 - 🛑 fiche produit : supprimer "les clients ont choisis ça" (slider), ne garde QUE le "nous vous conseillons ça" ET le slideriser
 - 🛑 fiche produit : supprimer "victime de son succès" par ce qu'il y a sur la maquette "déjà en rupture de stock..."
 - 🛑 liste produit : ISO maquette
-- 👊 homepage : display reviews under/over thumbnails
-- 👊 pageproduct: improve display of characteristics (4,5mx3m; pvc-polyester; orange)
 - 👊 optimize
+- 👊 delete JS console error
+- 👊 pageproduct: improve display of characteristics (4,5mx3m; pvc-polyester; orange)
 - 🟧 implement devis form
 - 🟧 implement command tunnel
 - 🟧 implement CGV
@@ -126,7 +128,6 @@
 - 🟧 fix console error "MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 "
 - 🟥 module avertissez-moi [ROUYA]🌙
 - 🟥 (enable product comments ?)
-- 🟥 (enable video de produit par Smart Module)
 - 🟥 (enable Intense ?)
 
 ## OPTIMIZATION
@@ -141,7 +142,6 @@
 
 ## ROUYA FEEDBACK
 
-- 🟧 tune space between section
 - 🟧 tune fonts for desktop/mobile
 - 🟧 tune SEO paragraph, title...
 

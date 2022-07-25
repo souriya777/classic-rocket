@@ -45,4 +45,6 @@ const SLIDER_OPTIONS = {
   ]
 }
 
+console.log('souriya-trust-slider.js 😎');
+
 $('.trust__list').slick({...SLIDER_OPTIONS});

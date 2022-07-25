@@ -29,6 +29,8 @@ const SLIDER_OPTIONS = {
   ]
 }
 
+console.log('souriya-product-slider.js 😎');
+
 $('.souriya-product-list.destocking .products').slick({...SLIDER_OPTIONS});
 $('.souriya-product-list.prefer .products').slick({...SLIDER_OPTIONS});
 $('.souriya-product-list.heart .products').slick({...SLIDER_OPTIONS});

@@ -286,7 +286,7 @@
         <!-- 💎IL NOUS FONT CONFIANCE -->
       </section>
 
-      <footer id="footer" class="l-footer">
+      <footer id="footer">
         {block name="footer"}
           {include file="_partials/footer.tpl"}
         {/block}

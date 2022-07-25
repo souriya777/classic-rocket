@@ -47,6 +47,9 @@
   --height-fleche-button: 12px;
   --height-images-container: 700px;
   --size-fleche-slider: 281px;
+  --margin-homepage: 60px;
+  --padding-homepage: 14px;
+  --padding-homepage-2: 30px;
 }
 
 // GLOBAL STYLES
@@ -68,7 +71,7 @@ h2 {
   font-weight: 700;
   letter-spacing: 4px;
   line-height: 21px;
-  margin: 30px 0 14px;
+  margin-bottom: 14px;
 }
 
 p {
@@ -116,7 +119,6 @@ p {
 
 .row-heart {
   width: 100%;
-  padding-bottom: 30px;
   background-color: var(--bg-color-section-pink);
 }
 

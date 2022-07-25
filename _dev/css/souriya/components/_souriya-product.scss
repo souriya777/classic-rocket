@@ -14,7 +14,6 @@ $padding-zone-top: 0 10px;
   }
 
   &__top {
-    background-color: lavender;
     display: flex;
     padding: $padding-zone-top;
 
@@ -59,7 +58,6 @@ $padding-zone-top: 0 10px;
 
   .product-quantity {
     .qty > .input-group {
-      background: lawngreen;
       position: relative;
       width: 76px;
 
@@ -202,10 +200,6 @@ $padding-zone-top: 0 10px;
     border: none;
   }
 
-  .nav-tabs {
-    background-color: antiquewhite;
-  }
-
   .tabs {
     margin-top: 20px;
 
@@ -248,7 +242,6 @@ $padding-zone-top: 0 10px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 8px;
-    // align-items: center;
 
     * {
       margin: 0;
@@ -261,11 +254,17 @@ $padding-zone-top: 0 10px;
     :nth-child(6n) {
       background-color: #ebebeb;
     }
+
+    .name {
+      background-color: var(--bg-color-detail);
+    }
+    .value {
+      background-color: var(--bg-color-tertiary);
+    }
   }
 
   @media (max-width: 1101px) {
     &__top {
-      background-color: dodgerblue;
       flex-direction: column;
       padding: 0;
 
@@ -297,9 +296,6 @@ $padding-zone-top: 0 10px;
   }
 
   @media (max-width: 465px) {
-    &__top {
-      background-color: papayawhip;
-    }
     .product-quantity {
       display: flex;
       justify-content: center;
@@ -311,28 +307,18 @@ $padding-zone-top: 0 10px;
   }
 
   @media (max-width: 405px) {
-    &__top {
-      background-color: lime;
-    }
-
     .product-quantity > :nth-child(2) {
       margin-top: 20px;
     }
   }
 
   @media (max-width: 391px) {
-    &__top {
-      background-color: lightcoral;
-    }
     .nav-link {
       padding: 8px;
     }
   }
 
   @media (max-width: 352px) {
-    &__top {
-      background-color: hotpink;
-    }
     .nav-link {
       padding: 6px;
       font-size: 13px;

@@ -467,14 +467,14 @@ o()(document).on("click",".js-add-to-cart:enabled:not(.is--loading)",(function()
 /*! no exports provided */
 /***/function(e,t,i){"use strict";i.r(t);
 /* harmony import */var n=i(/*! jquery */"jquery");
-/* harmony import */var o=i.n(n);function r(e,t){var i=Object.keys(e);if(Object.getOwnPropertySymbols){var n=Object.getOwnPropertySymbols(e);t&&(n=n.filter((function(t){return Object.getOwnPropertyDescriptor(e,t).enumerable}))),i.push.apply(i,n)}return i}function s(e){for(var t=1;t<arguments.length;t++){var i=null!=arguments[t]?arguments[t]:{};t%2?r(Object(i),!0).forEach((function(t){a(e,t,i[t])})):Object.getOwnPropertyDescriptors?Object.defineProperties(e,Object.getOwnPropertyDescriptors(i)):r(Object(i)).forEach((function(t){Object.defineProperty(e,t,Object.getOwnPropertyDescriptor(i,t))}))}return e}function a(e,t,i){if(t in e)Object.defineProperty(e,t,{value:i,enumerable:true,configurable:true,writable:true});else e[t]=i;return e}var l={infinite:true,slidesToShow:4,slidesToScroll:4,responsive:[{breakpoint:1024,settings:{slidesToShow:3,slidesToScroll:3}},{breakpoint:768,settings:{slidesToShow:2,slidesToScroll:2}},{breakpoint:589,settings:{slidesToShow:1,slidesToScroll:1}}]};o()(".souriya-product-list.destocking .products").slick(s({},l));o()(".souriya-product-list.prefer .products").slick(s({},l));o()(".souriya-product-list.heart .products").slick(s({},l));o()(".souriya-product-list.advise .products").slick(s(s({},l),{},{slidesToShow:3,slidesToScroll:3}));o()(".souriya-product-list.choosing .products").slick(s({},l));
+/* harmony import */var o=i.n(n);function r(e,t){var i=Object.keys(e);if(Object.getOwnPropertySymbols){var n=Object.getOwnPropertySymbols(e);t&&(n=n.filter((function(t){return Object.getOwnPropertyDescriptor(e,t).enumerable}))),i.push.apply(i,n)}return i}function s(e){for(var t=1;t<arguments.length;t++){var i=null!=arguments[t]?arguments[t]:{};t%2?r(Object(i),!0).forEach((function(t){a(e,t,i[t])})):Object.getOwnPropertyDescriptors?Object.defineProperties(e,Object.getOwnPropertyDescriptors(i)):r(Object(i)).forEach((function(t){Object.defineProperty(e,t,Object.getOwnPropertyDescriptor(i,t))}))}return e}function a(e,t,i){if(t in e)Object.defineProperty(e,t,{value:i,enumerable:true,configurable:true,writable:true});else e[t]=i;return e}var l={infinite:true,slidesToShow:4,slidesToScroll:4,responsive:[{breakpoint:1024,settings:{slidesToShow:3,slidesToScroll:3}},{breakpoint:768,settings:{slidesToShow:2,slidesToScroll:2}},{breakpoint:589,settings:{slidesToShow:1,slidesToScroll:1}}]};console.log("souriya-product-slider.js 😎");o()(".souriya-product-list.destocking .products").slick(s({},l));o()(".souriya-product-list.prefer .products").slick(s({},l));o()(".souriya-product-list.heart .products").slick(s({},l));o()(".souriya-product-list.advise .products").slick(s(s({},l),{},{slidesToShow:3,slidesToScroll:3}));o()(".souriya-product-list.choosing .products").slick(s({},l));
 /***/},
 /***/"./js/souriya/souriya-slider.js":
 /*!**************************************!*\
   !*** ./js/souriya/souriya-slider.js ***!
   \**************************************/
 /*! no static exports found */
-/***/function(e,t){window.onload=function(){!function(){console.debug("souriya-slider.js 😎");// VARIABLES
+/***/function(e,t){window.onload=function(){!function(){console.log("souriya-slider.js 😎");// VARIABLES
 var e=3500;var t=250;var i=1;var n=document.querySelector(".souriya-slider ul");if(!n)throw new Error("[souriya 😎] slider is not defined in app page builder");var o=n.childElementCount;var r=document.querySelector(".souriya-slider .souriya-slider-prev");var s=document.querySelector(".souriya-slider .souriya-slider-next");var a=document.querySelector(".souriya-slider");var l=n.children;var c;var u=1;var d;var f;var p=false;// FUNCTIONS
 function h(){s.click()}function v(){if(d)clearInterval(d);d=setInterval(h,e)}function m(){if(f)window.removeEventListener("resize",y);f=window.addEventListener("resize",y)}function g(){c=l[0].scrollWidth;v()}function y(){clearTimeout(p);p=setTimeout(g,t)}function b(e){n.style.transform="translateX(-".concat(e*c,"px)");v()}// EVENT
 r.addEventListener("click",(function(){if(u===i)return;b(--u-1)}),false);s.addEventListener("click",(function(){if(u===o)u=i-1;b(u);u++}),false);// OBSERVER
@@ -487,16 +487,17 @@ new IntersectionObserver((function(e){if(true===e[0].isIntersecting){v();m()}els
 /*! no exports provided */
 /***/function(e,t,i){"use strict";i.r(t);
 /* harmony import */var n=i(/*! jquery */"jquery");
-/* harmony import */function o(e,t){var i=Object.keys(e);if(Object.getOwnPropertySymbols){var n=Object.getOwnPropertySymbols(e);t&&(n=n.filter((function(t){return Object.getOwnPropertyDescriptor(e,t).enumerable}))),i.push.apply(i,n)}return i}function r(e){for(var t=1;t<arguments.length;t++){var i=null!=arguments[t]?arguments[t]:{};t%2?o(Object(i),!0).forEach((function(t){s(e,t,i[t])})):Object.getOwnPropertyDescriptors?Object.defineProperties(e,Object.getOwnPropertyDescriptors(i)):o(Object(i)).forEach((function(t){Object.defineProperty(e,t,Object.getOwnPropertyDescriptor(i,t))}))}return e}function s(e,t,i){if(t in e)Object.defineProperty(e,t,{value:i,enumerable:true,configurable:true,writable:true});else e[t]=i;return e}var a={infinite:true,slidesToShow:6,slidesToScroll:6,autoplay:true,autoplaySpeed:3e3,responsive:[{breakpoint:1361,settings:{slidesToShow:5,slidesToScroll:5}},{breakpoint:929,settings:{slidesToShow:4,slidesToScroll:4}},{breakpoint:660,settings:{slidesToShow:3,slidesToScroll:3}},{breakpoint:589,settings:{slidesToShow:2,slidesToScroll:2}},{breakpoint:499,settings:{slidesToShow:1,slidesToScroll:1}}]};i.n(n)()(".trust__list").slick(r({},a));
+/* harmony import */var o=i.n(n);function r(e,t){var i=Object.keys(e);if(Object.getOwnPropertySymbols){var n=Object.getOwnPropertySymbols(e);t&&(n=n.filter((function(t){return Object.getOwnPropertyDescriptor(e,t).enumerable}))),i.push.apply(i,n)}return i}function s(e){for(var t=1;t<arguments.length;t++){var i=null!=arguments[t]?arguments[t]:{};t%2?r(Object(i),!0).forEach((function(t){a(e,t,i[t])})):Object.getOwnPropertyDescriptors?Object.defineProperties(e,Object.getOwnPropertyDescriptors(i)):r(Object(i)).forEach((function(t){Object.defineProperty(e,t,Object.getOwnPropertyDescriptor(i,t))}))}return e}function a(e,t,i){if(t in e)Object.defineProperty(e,t,{value:i,enumerable:true,configurable:true,writable:true});else e[t]=i;return e}var l={infinite:true,slidesToShow:6,slidesToScroll:6,autoplay:true,autoplaySpeed:3e3,responsive:[{breakpoint:1361,settings:{slidesToShow:5,slidesToScroll:5}},{breakpoint:929,settings:{slidesToShow:4,slidesToScroll:4}},{breakpoint:660,settings:{slidesToShow:3,slidesToScroll:3}},{breakpoint:589,settings:{slidesToShow:2,slidesToScroll:2}},{breakpoint:499,settings:{slidesToShow:1,slidesToScroll:1}}]};console.log("souriya-trust-slider.js 😎");o()(".trust__list").slick(s({},l));
 /***/},
 /***/"./js/souriya/souriya-utils.js":
 /*!*************************************!*\
   !*** ./js/souriya/souriya-utils.js ***!
   \*************************************/
-/*! exports provided: debounce, throttle */
+/*! exports provided: debounce, throttle, getPastelColor */
 /***/function(e,t,i){"use strict";i.r(t);
 /* harmony export (binding) */i.d(t,"debounce",(function(){return r}));
-/* harmony export (binding) */i.d(t,"throttle",(function(){return s}));var n;var o;function r(e,t){window.clearTimeout(n);n=window.setTimeout(e,t)}function s(e,t){if(o)return;o=true;e();setTimeout((function(){o=false}),t)}
+/* harmony export (binding) */i.d(t,"throttle",(function(){return s}));
+/* harmony export (binding) */i.d(t,"getPastelColor",(function(){return a}));var n;var o;function r(e,t){window.clearTimeout(n);n=window.setTimeout(e,t)}function s(e,t){if(o)return;o=true;e();setTimeout((function(){o=false}),t)}function a(){return"hsl(\n    ".concat(360*Math.random(),",\n    ").concat(25+70*Math.random(),"%,\n    ").concat(85+10*Math.random(),"%\n  )")}
 /***/},
 /***/"./js/souriya/souriya-zara-slider.js":
 /*!*******************************************!*\
@@ -504,7 +505,7 @@ new IntersectionObserver((function(e){if(true===e[0].isIntersecting){v();m()}els
   \*******************************************/
 /*! no exports provided */
 /***/function(e,t,i){"use strict";i.r(t);
-/* harmony import */var n=i(/*! ./souriya-utils */"./js/souriya/souriya-utils.js");window.onload=function(){!function(){if(!document.querySelector(".zara-slider__images"))return;console.log("souriya-zara-slider.js 😎");// VARIABLES
+/* harmony import */var n=i(/*! ./souriya-utils */"./js/souriya/souriya-utils.js");console.log("souriya-zara-sliderrrr.js 😎");window.onload=function(){!function(){if(!document.querySelector(".zara-slider__images"))return;console.log("souriya-zara-slider.js 😎");// VARIABLES
 var e=document.querySelector(".zara-slider__images");// FIXME INTENSE
 // const MEDIAS = document.querySelectorAll('.zara-slider__images img');
 var t=document.querySelectorAll(".zara-slider__thumbnails button");var i=document.querySelector(".zara-slider__progress-bar");var o=document.querySelector(".zara-slider__progress");var r=document.querySelector(".zara-slider__images > ul").childElementCount;var s=1;var a=false;var l=false;var c;var u=0;var d=0;// FUNCTIONS
@@ -566,6 +567,7 @@ f()}()};
 /* harmony import */i(/*! ./souriya/souriya-product-slider */"./js/souriya/souriya-product-slider.js");
 /* harmony import */i(/*! ./souriya/souriya-trust-slider */"./js/souriya/souriya-trust-slider.js");
 /* harmony import */i(/*! ./souriya/souriya-zara-slider */"./js/souriya/souriya-zara-slider.js");
+/* harmony import */var u=i(/*! ./souriya/souriya-utils */"./js/souriya/souriya-utils.js");
 /**
  * 2007-2017 PrestaShop
  *
@@ -592,8 +594,9 @@ f()}()};
  */
 // SOURIYA
 // "inherit" EventEmitter
-for(var u in c.a.prototype)a.a[u]=c.a.prototype[u];$(document).ready((function(){var e=new o.default;var t=new n.default;var i=$("#_desktop_top_menu #top-menu");var s=new r.default(i);e.init();t.init();s.init();//display input file content in custom file input BS
-$(".custom-file-input").on("change",(function(){var e=$(this).val().split("\\").pop();$(this).next(".custom-file-label").addClass("selected").html(e)}))}));document.addEventListener("lazyloaded",(function(e){$(e.target).parent().addClass("rc--lazyload")}));
+for(var d in c.a.prototype)a.a[d]=c.a.prototype[d];$(document).ready((function(){var e=new o.default;var t=new n.default;var i=$("#_desktop_top_menu #top-menu");var s=new r.default(i);e.init();t.init();s.init();//display input file content in custom file input BS
+$(".custom-file-input").on("change",(function(){var e=$(this).val().split("\\").pop();$(this).next(".custom-file-label").addClass("selected").html(e)}));// pastel color
+$(".garanties").css("background-color",Object(u.getPastelColor)())}));document.addEventListener("lazyloaded",(function(e){$(e.target).parent().addClass("rc--lazyload")}));
 /***/},
 /***/"./node_modules/bootstrap-touchspin/dist/jquery.bootstrap-touchspin.js":
 /*!*****************************************************************************!*\

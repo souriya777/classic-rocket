@@ -3,7 +3,6 @@ $transition-cubic: 850ms cubic-bezier(0.285, 0.465, 0, 0.915);
 $transition-thumbails: 650ms ease;
 
 .zara-slider {
-  background: pink;
   height: 100%;
   display: flex;
   justify-content: center;
@@ -23,7 +22,6 @@ $transition-thumbails: 650ms ease;
   }
 
   &__images {
-    background: lightcyan;
     transition: transform $transition-cubic;
     cursor: pointer;
   }
@@ -67,8 +65,6 @@ $transition-thumbails: 650ms ease;
   }
 
   @media screen and (max-width: 695px) {
-    background: red;
-
     &__progress {
       display: none;
     }

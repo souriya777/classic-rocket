@@ -1,7 +1,7 @@
 // SPECIFIC SLICK CAROUSEL
 .slick-prev,
 .slick-next {
-  @include svg("../img/fleche-petite.svg", var(--size-fleche-slider), var(--color-primary));
+  @include svg("../img/fleche-petite.svg", var(--size-fleche-slider), var(--color-fleche-slider));
   @include action-hover;
 
   top: 32%;
@@ -25,6 +25,10 @@
 .slick-next {
   right: 46px;
   transform: translateX(100%);
+}
+
+.product-miniature .card {
+  background-color: inherit;
 }
 
 @media (max-width: 588px) {
