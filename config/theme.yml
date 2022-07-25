@@ -55,7 +55,7 @@ global_settings:
      - souriya_preferlist
      - souriya_heartlist
      - souriya_destockinglist
-     - souriya_choosinglist
+    #  - souriya_choosinglist
    to_disable:
      - ps_searchbar
   hooks:
@@ -94,8 +94,8 @@ global_settings:
         - ps_searchbarjqauto
       displayProductAdditionalInfo:
         - ps_sharebuttons
-      displayFooterProduct:
-        - souriya_choosinglist
+      # displayFooterProduct:
+      #   - souriya_choosinglist
       displayReassurance:
         - blockreassurance
       displayOrderConfirmation2:
@@ -164,4 +164,4 @@ dependencies:
     - souriya_preferlist
     - souriya_heartlist
     - souriya_destockinglist
-    - souriya_choosinglist
+    # - souriya_choosinglist

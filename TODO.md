@@ -97,13 +97,13 @@
 - ✅ slider : "ajouter au panier" au lieu "apercu rapide"
 - ✅ "couleur aleatoires pastelles" (nos garanties)
 - 🛑 fiche produit pas bonne sur les "autres"
-- 🛑 fiche produit : tout doit être aligné à gauche et à droite (cf. la règle et maquette)
-- 🛑 fiche produit : menu burger à IMPLÉMENTER
 - 🛑 fiche produit : video "caracteristique" => https://www.youtube.com/watch?v=SdQE81GIgrI
+- 🛑 fiche produit : menu burger à IMPLÉMENTER
 - 🛑 fiche produit : details produit => "blocs à la google"
-- 🛑 fiche produit : ne garder que facebook & pinterest
-- 🛑 fiche produit : supprimer "les clients ont choisis ça" (slider), ne garde QUE le "nous vous conseillons ça" ET le slideriser
+- ✅ fiche produit : ne garder que facebook & pinterest
+- ✅ fiche produit : supprimer "les clients ont choisis ca" (slider), ne garde QUE le "nous vous conseillons ca" ET le slideriser
 - 🛑 fiche produit : supprimer "victime de son succès" par ce qu'il y a sur la maquette "déjà en rupture de stock..."
+- 🛑 fiche produit : tout doit être aligné à gauche et à droite (cf. la règle et maquette)
 - 🛑 liste produit : ISO maquette
 - 👊 optimize
 - 👊 delete JS console error
@@ -147,6 +147,7 @@
 
 - 🟧 deploy in PROD
 - 🟧 copy all images under `/img/souriya/` on the server
+- 🟧 configure "Boutons de partage sur réseaux sociaux" => only FACEBOOK & PINTEREST
 - 🟧 create caracteristic "Video"
 - 🟧 /modules => include it manually ?
 - 🟧 recompile webpack ?
