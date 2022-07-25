@@ -88,16 +88,14 @@
 - ✅ pagelist : synchronize with existing site (general)
 - ✅ pagelist : responsiveness
 - ✅ tune space between section
-- 🛑 top slider homepage : not working
-- 🛑 homepage : SAME spacing "top/bottom"
-- 🛑 homepage : slider : custom "text"/price/avis (cf. google phone)
-- 🛑 homepage : slider : fleche plus fine [ROUYA]
-- 🛑 slider : "ajouter au panier" au lieu "aperçu rapide"
+- ✅ "quel barnum pour moi" => liens vers les catégories
 - 🛑 SUPPRIMER wishlist
 - 🛑 FIX "notre histoire"
-- 🛑 DESTOCKAGE : code brut HTML (comme la maquette)
-- 🛑 "quel barnum pour moi" => liens vers les catégories
 - 🛑 "NOTRE HISTOIRE" => image refaire (ça a sauté)
+- 🛑 top slider homepage : not working
+- 🛑 DESTOCKAGE : code brut HTML (comme la maquette)
+- 🛑 homepage : slider : custom "text"/price/avis (cf. google phone)
+- 🛑 slider : "ajouter au panier" au lieu "aperçu rapide"
 - ✅ "couleur aleatoires pastelles" (nos garanties)
 - 🛑 fiche produit pas bonne sur les "autres"
 - 🛑 fiche produit : tout doit être aligné à gauche et à droite (cf. la règle et maquette)
@@ -112,6 +110,7 @@
 - 👊 optimize
 - 👊 delete JS console error
 - 👊 pageproduct: improve display of characteristics (4,5mx3m; pvc-polyester; orange)
+- 🛑 homepage : slider : fleche plus fine [ROUYA]
 - 🟧 implement devis form
 - 🟧 implement command tunnel
 - 🟧 implement CGV

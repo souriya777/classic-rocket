@@ -146,7 +146,7 @@
               <p class="which-barnum__price">
                 À partir de 135&euro;
               </p>
-              <a class="which-barnum__button" href="#"><p>En savoir plus</p></a>
+              <a class="which-barnum__button" href="/barnums-acier"><p>En savoir plus</p></a>
             </div>
 
             <div class="which-barnum__item">
@@ -184,7 +184,7 @@
               <p class="which-barnum__price">
                 À partir de 320&euro;
               </p>
-              <a class="which-barnum__button" href="#"><p>En savoir plus</p></a>
+              <a class="which-barnum__button" href="/barnum-aluminium-45"><p>En savoir plus</p></a>
             </div>
 
             <div class="which-barnum__item">
@@ -221,7 +221,7 @@
               <p class="which-barnum__price">
                 À partir de 450&euro;
               </p>
-              <a class="which-barnum__button" href="#"><p>En savoir plus</p></a>
+              <a class="which-barnum__button" href="/barnum-aluminium-55"><p>En savoir plus</p></a>
             </div>
           </div>
         </div>
