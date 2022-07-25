@@ -1,5 +1,6 @@
 $border-chevron: 3px solid var(--color-secondary);
 $padding-zone-top: 0 10px;
+$subtitle-size: 18px;
 
 .souriya-product {
   @include row;
@@ -7,10 +8,6 @@ $padding-zone-top: 0 10px;
   h3 {
     margin-bottom: 20px;
     font-weight: 600;
-  }
-
-  dt {
-    font-weight: normal;
   }
 
   &__top {
@@ -33,6 +30,8 @@ $padding-zone-top: 0 10px;
   }
 
   .h6 {
+    margin-bottom: 24px;
+    font-size: $subtitle-size;
     font-weight: 600;
   }
 
@@ -228,6 +227,7 @@ $padding-zone-top: 0 10px;
     margin-top: 10px;
     margin-right: 12px;
     font-weight: 600;
+    font-size: $subtitle-size;
   }
 
   .product-quantities {
@@ -236,31 +236,6 @@ $padding-zone-top: 0 10px;
 
   .product-features {
     margin: 15px 0 30px;
-  }
-
-  .data-sheet {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 8px;
-
-    * {
-      margin: 0;
-      padding: 8px;
-      background-color: #f6f6f6;
-    }
-
-    :nth-child(-1n+2),
-    :nth-child(5n),
-    :nth-child(6n) {
-      background-color: #ebebeb;
-    }
-
-    .name {
-      background-color: var(--bg-color-detail);
-    }
-    .value {
-      background-color: var(--bg-color-tertiary);
-    }
   }
 
   @media (max-width: 1101px) {

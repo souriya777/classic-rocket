@@ -1,0 +1,42 @@
+$box-radius: 30px;
+
+.souriya-data {
+  display: flex;
+
+  > * {
+    flex-basis: 50%;
+    padding: 20px 60px;
+  }
+
+  &__name {
+    border-top-left-radius: $box-radius;
+    border-bottom-left-radius: $box-radius;
+    background-color: var(--bg-color-detail);
+  }
+
+  &__value {
+    border-top-right-radius: $box-radius;
+    border-bottom-right-radius: $box-radius;
+    background-color: var(--bg-color-tertiary);
+  }
+
+  &__name > *,
+  &__value > * {
+    margin: 4px 0;
+    padding: 4px;
+  }
+  
+  @media (max-width: 629px) {
+    > * {
+      padding: 20px 4px;
+    }
+    > :last-child {
+      padding-bottom: 0;
+    }
+
+    &__name > *,
+    &__value > * {
+      height: 60px;
+    }
+  }
+}

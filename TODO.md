@@ -99,7 +99,7 @@
 - ✅ fiche produit pas bonne sur les "autres" (ZARA SLIDER IMAGE)
 - 🛑 fiche produit : video "caracteristique" => https://www.youtube.com/watch?v=SdQE81GIgrI
 - 🛑 fiche produit : menu burger a IMPLEMENTER (4,5mx3m; pvc-polyester; orange)
-- 🛑 fiche produit : details produit => "blocs à la google"
+- ✅ fiche produit : details produit => "blocs à la google"
 - ✅ fiche produit : ne garder que facebook & pinterest
 - ✅ fiche produit : supprimer "les clients ont choisis ca" (slider), ne garde QUE le "nous vous conseillons ca" ET le slideriser
 - 🛑 fiche produit : supprimer "victime de son succès" par ce qu'il y a sur la maquette "déjà en rupture de stock..."

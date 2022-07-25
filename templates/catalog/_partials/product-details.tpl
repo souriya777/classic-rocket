@@ -54,12 +54,18 @@
     {if $product.grouped_features}
       <section class="product-features">
         <p class="h6">{l s='Data sheet' d='Shop.Theme.Catalog'}</p>
-        <dl class="data-sheet">
-          {foreach from=$product.grouped_features item=feature}
-            <dt class="name">{$feature.name}</dt>
-            <dd class="value">{$feature.value|escape:'htmlall'|nl2br nofilter}</dd>
-          {/foreach}
-        </dl>
+        <div class="souriya-data">
+          <div class="souriya-data__name">
+            {foreach from=$product.grouped_features item=feature}
+              <div>{$feature.name}</div>
+            {/foreach}
+          </div>
+          <div class="souriya-data__value">
+            {foreach from=$product.grouped_features item=feature}
+              <div>{$feature.value|escape:'htmlall'|nl2br nofilter}</div>
+            {/foreach}
+          </div>
+        </div>
       </section>
     {/if}
   {/block}
@@ -69,12 +75,18 @@
     {if !empty($product.specific_references)}
       <section class="product-features">
         <p class="h6">{l s='Specific References' d='Shop.Theme.Catalog'}</p>
-          <dl class="data-sheet">
-            {foreach from=$product.specific_references item=reference key=key}
-              <dt class="name">{$key}</dt>
-              <dd class="value">{$reference}</dd>
-            {/foreach}
-          </dl>
+          <div class="souriya-data">
+            <div class="souriya-data__name">
+              {foreach from=$product.specific_references item=reference key=key}
+                <div>{$key}</div>
+              {/foreach}
+            </div>
+            <div class="souriya-data__value">
+              {foreach from=$product.specific_references item=reference}
+                <div>{$reference}</div>
+              {/foreach}
+            </div>
+          </div>
       </section>
     {/if}
   {/block}
