@@ -2,21 +2,22 @@ import { debounce, throttle } from './souriya-utils';
 
 window.addEventListener('load', function () {
   (function () {
-    if (!document.querySelector(".zara-slider__images")) {
+    const IMAGES = document.querySelector(".zara-slider__images");
+    // FIXME INTENSE
+    // const MEDIAS = document.querySelectorAll('.zara-slider__images img');
+    const PROGRESS = document.querySelector(".zara-slider__progress");
+    const PROGRESS_BAR = document.querySelector(".zara-slider__progress-bar");
+    const THUMBNAIL_BUTTONS = document.querySelectorAll(
+      ".zara-slider__thumbnails button"
+    );
+
+    if (!IMAGES || !PROGRESS_BAR || ! THUMBNAIL_BUTTONS) {
       return;
     }
 
     console.log("souriya-zara-slider.js 😎");
 
     // VARIABLES
-    const IMAGES = document.querySelector(".zara-slider__images");
-    // FIXME INTENSE
-    // const MEDIAS = document.querySelectorAll('.zara-slider__images img');
-    const THUMBNAIL_BUTTONS = document.querySelectorAll(
-      ".zara-slider__thumbnails button"
-    );
-    const PROGRESS_BAR = document.querySelector(".zara-slider__progress-bar");
-    const PROGRESS = document.querySelector(".zara-slider__progress");
     const TOTAL = document.querySelector(".zara-slider__images > ul")
       .childElementCount;
 

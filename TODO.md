@@ -96,7 +96,7 @@
 - ✅ homepage : slider : custom "text"/price/avis (cf. google phone)
 - ✅ slider : "ajouter au panier" au lieu "apercu rapide"
 - ✅ "couleur aleatoires pastelles" (nos garanties)
-- 🛑 fiche produit pas bonne sur les "autres"
+- ✅ fiche produit pas bonne sur les "autres" (ZARA SLIDER IMAGE)
 - 🛑 fiche produit : video "caracteristique" => https://www.youtube.com/watch?v=SdQE81GIgrI
 - 🛑 fiche produit : menu burger a IMPLEMENTER (4,5mx3m; pvc-polyester; orange)
 - 🛑 fiche produit : details produit => "blocs à la google"

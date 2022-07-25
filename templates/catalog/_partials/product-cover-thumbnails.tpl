@@ -27,29 +27,29 @@
           {/foreach}
         </ul>
       </div>
-      <div class="zara-slider__progress">
-        <div class="zara-slider__progress-bar"></div>
-      </div>
-      <ul class="zara-slider__thumbnails">
-        {block name='product_images'}
-          {if $product.images|count > 1}
-            {foreach from=$product.images item=image}
-              {if $image.id_image != $product.default_image.id_image}
-                <li>
-                  <button class="zara-slider__thumbnails-button" data-slide-number="{$image@iteration}">
-                    <img
-                      class="lazyload img-fluid"
-                      data-src="{$image.bySize.small_default.url}"
-                      alt="{$image.legend}"
-                      title="{$image.legend}"
-                    />
-                  </button>
-                </li>
-              {/if}
-            {/foreach}
-          {/if}
-        {/block}
-      </ul>
+      {if $product.images|count > 1}
+        <div class="zara-slider__progress">
+          <div class="zara-slider__progress-bar"></div>
+        </div>
+        <ul class="zara-slider__thumbnails">
+          {block name='product_images'}
+              {foreach from=$product.images item=image}
+                {if $image.id_image != $product.default_image.id_image}
+                  <li>
+                    <button class="zara-slider__thumbnails-button" data-slide-number="{$image@iteration}">
+                      <img
+                        class="lazyload img-fluid"
+                        data-src="{$image.bySize.small_default.url}"
+                        alt="{$image.legend}"
+                        title="{$image.legend}"
+                      />
+                    </button>
+                  </li>
+                {/if}
+              {/foreach}
+          {/block}
+        </ul>
+      {/if}
     </div>
     <!-- 💎 souriya zara slider -->
   {/block}

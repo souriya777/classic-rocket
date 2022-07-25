@@ -509,14 +509,14 @@ return"hsl(\n    ".concat(360*Math.random(),",\n    ").concat(e+70*Math.random()
   \*******************************************/
 /*! no exports provided */
 /***/function(e,t,i){"use strict";i.r(t);
-/* harmony import */var n=i(/*! ./souriya-utils */"./js/souriya/souriya-utils.js");window.addEventListener("load",(function(){!function(){if(!document.querySelector(".zara-slider__images"))return;console.log("souriya-zara-slider.js 😎");// VARIABLES
-var e=document.querySelector(".zara-slider__images");// FIXME INTENSE
+/* harmony import */var n=i(/*! ./souriya-utils */"./js/souriya/souriya-utils.js");window.addEventListener("load",(function(){!function(){var e=document.querySelector(".zara-slider__images");// FIXME INTENSE
 // const MEDIAS = document.querySelectorAll('.zara-slider__images img');
-var t=document.querySelectorAll(".zara-slider__thumbnails button");var i=document.querySelector(".zara-slider__progress-bar");var o=document.querySelector(".zara-slider__progress");var r=document.querySelector(".zara-slider__images > ul").childElementCount;var s=1;var a=false;var l=false;var c;var u=0;var d=0;// FUNCTIONS
+var t=document.querySelector(".zara-slider__progress");var i=document.querySelector(".zara-slider__progress-bar");var o=document.querySelectorAll(".zara-slider__thumbnails button");if(!e||!i||!o)return;console.log("souriya-zara-slider.js 😎");// VARIABLES
+var r=document.querySelector(".zara-slider__images > ul").childElementCount;var s=1;var a=false;var l=false;var c;var u=0;var d=0;// FUNCTIONS
 function f(){m();// FIXME INTENSE
 // Intense(MEDIAS);
-}function p(){return o.clientHeight/r}function h(){e.style.transform="translateY(-".concat((s-1)*e.clientHeight,"px)")}function v(){i.style.height="".concat(p()*s,"px")}function m(){h();v()}function g(e){var t=Math.sign(e.deltaY)>0;if(1===s&&!t||s===r&&t)return false;s=t?s+1:s-1;m()}// EVENTS  CLICK
-var y=function e(i){var n=t[i];n.addEventListener("click",(function(){s=parseInt(n.dataset.slideNumber);m()}))};for(var b=0;b<t.length;b++)y(b);// EVENTS MOUSE
+}function p(){return t.clientHeight/r}function h(){e.style.transform="translateY(-".concat((s-1)*e.clientHeight,"px)")}function v(){i.style.height="".concat(p()*s,"px")}function m(){h();v()}function g(e){var t=Math.sign(e.deltaY)>0;if(1===s&&!t||s===r&&t)return false;s=t?s+1:s-1;m()}// EVENTS  CLICK
+var y=function e(t){var i=o[t];i.addEventListener("click",(function(){s=parseInt(i.dataset.slideNumber);m()}))};for(var b=0;b<o.length;b++)y(b);// EVENTS MOUSE
 e.addEventListener("wheel",(function(e){Object(n.throttle)((function(){return g(e)}),1600);e.preventDefault()}),false);e.addEventListener("mouseenter",(function(){e.style.cursor="grab"}));e.addEventListener("mousedown",(function(){a=true;e.style.cursor="grabbing"}));e.addEventListener("mouseup",(function(t){e.style.cursor="grab";a=false;if(1===s&&!c||s===r&&c)return;if(l){
 // FIXME INTENSE
 // console.log('mouseup intense', '🛑');
