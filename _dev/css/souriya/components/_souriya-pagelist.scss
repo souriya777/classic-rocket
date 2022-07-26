@@ -63,6 +63,14 @@
   }
   ////
 
+  // PRODUCT LIST
+  .souriya-product {
+    margin-bottom: 0;
+  }
+  .advise {
+    margin-top: var(--margin-homepage);
+  }
+
   //// MEDIA QUERIES
   @media (max-width: 991px) {
     &__display {
