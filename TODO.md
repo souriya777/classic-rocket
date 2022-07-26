@@ -106,7 +106,7 @@
 - ✅ delete JS console error
 - ✅ change theme basics infos
 - ✅ liste produit : ISO maquette
-- 👊 optimize
+- 👊 optimize performance
 - 🛑 fiche produit : menu burger a IMPLEMENTER (4,5mx3m; pvc-polyester; orange)
 - 🛑 homepage : slider : fleche plus fine [ROUYA]
 - 🟧 implement devis form
@@ -130,29 +130,26 @@
 - 🟧 improve perf : https://buy-addons.com/blog/prestashop-tips-clean-prestashop-database-improved-performance/
 - 🟧 optimize lighthouse
 - 🟧 remove unused download
-- 🟧 improve this warning `WARNING in entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance. Entrypoints: theme (333 KiB) ../css/theme.css theme.js`
 - 🟧 slim theme.js
 - 🟧 valider sur https://www.dareboost.com/fr
 - 🟧 check optimization of SEO
 
-## ROUYA FEEDBACK
-
-- 🟧 tune fonts for desktop/mobile
-- 🟧 tune SEO paragraph, title...
-
 ## PRODUCTION
 
-- 🟧 deploy in PROD
-- 🟧 copy all images under `/img/souriya/` on the server
+### ONCE
 - 🟧 configure "Boutons de partage sur réseaux sociaux" => only FACEBOOK & PINTEREST
 - 🟧 create caracteristic "Video"
-- 🟧 /modules => include it manually ?
-- 🟧 recompile webpack ?
+- 🟧 feel ps_socialfollow infos
 - 🟧 ⛔️ verify permissions `chown -R www-data:www-data soleil-noir/`
 - 🟧 ⛔️ verify permissions `chown -R www-data:www-data img/`
+
+### EVERYTIME
+- 🟧 copy all images under `/img/souriya/` on the server
+- 🟧 `npm run build`
+- 🟧 export/import "active theme"
+- 🟧 /modules => include it manually ?
 - 🟧 optional prestashop : remove systematic "force recompilation" ?
 - 🟧 use cache prestashop cache (Performance) ?
-- 🟧 feel ps_socialfollow infos
 - 🟧 inform rouya : ⛔️ update theme/module
 
 # PERFORMANCE - CURRENT THEME
