@@ -33,9 +33,9 @@ $margin-products: 88px;
     padding-bottom: var(--padding-homepage);
 
     .souriya-product-list__title img {
-     height: 80px;
-     margin-right: 10px;
-   }
+      height: 80px;
+      margin-right: 10px;
+    }
   }
 
   &.advise .products {
@@ -105,21 +105,17 @@ $margin-products: 88px;
     }
   }
 
-  .grid-cart-btn {
-    @include button;
-    border: none;
-    background-color: inherit;
-    box-shadow: none;
-    color: var(--color-primary);
-    opacity: 1;
-    cursor: pointer;
+  .outofstock {
+    @include outofstock;
+  }
 
-    &:hover {
+  .card-product {
+    &:hover .product-title a {
+      color: var(--color-primary);
+    }
+    
+    .product-title a:hover {
       color: var(--color-action);
     }
-  }
-
-  .outofstock {
-    color: var(--color-error);
-  }
+  } 
 }

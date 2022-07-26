@@ -133,6 +133,10 @@ p {
   margin-bottom: 0;
 }
 
+.souriya-breadcrumb {
+  background-color: var(--color-gray-breadcrumb);
+}
+
 // SVG
 $svg-path-caret-down: '/img/souriya/caret-down.svg';
 $svg-path-triangle: '/img/souriya/triangle.svg';

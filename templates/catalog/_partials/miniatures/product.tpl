@@ -47,7 +47,9 @@
                         </span>
                     </a>
                 {/block}
-                <div class="highlighted-informations text-center p-2{if !$product.main_variants} no-variants{/if} visible--desktop">
+
+                {* 💎souriya outofstock *}
+                <div class="highlighted-informations text-center p-2{if !$product.main_variants} no-variants{/if} visible--desktop {if $product.availability == 'unavailable'}outofstock--active{/if}">
                     {block name='quick_view'}
 
                       {* 💎souriya : add to cart *}
@@ -83,9 +85,9 @@
                 <div class="product-description product__card-desc">
                     {block name='product_name'}
                         {if in_array($page.page_name, ['best-sales','category','manufacturer','new-products','prices-drop','product-list','search','supplier'])}
-                        <h2 class="h3 product-title"><a href="{$product.url}">{$product.name|truncate:30:'...'}</a></h2>
+                        <div class="product-title souriya"><a href="{$product.url}">{$product.name|truncate:30:'...'}</a></div>
                         {else}
-                            <p class="h3 product-title"><h3><a href="{$product.url}">{$product.name}</a></h3></p>
+                            <p class="product-title"><a href="{$product.url}">{$product.name}</a></p>
                         {/if}
                     {/block}
                     {block name='product_reviews'}

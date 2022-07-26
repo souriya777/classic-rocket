@@ -76,45 +76,49 @@
 
       {block name='wrapper'}
         <section id="wrapper">
-        {hook h="displayWrapperTop"}
+          {hook h="displayWrapperTop"}
+
           {block name='breadcrumb'}
             {include file='_partials/breadcrumb.tpl'}
           {/block}
+
+          <div class="container">
             <div class="row souriya-pagelist">
-          {block name="left_column"}
-            <div id="left-column" class="left-column col-12 col-lg-3">
-              {if $page.page_name == 'product'}
-                {hook h='displayLeftColumnProduct'}
-              {else}
-                {hook h="displayLeftColumn"}
-              {/if}
-            </div>
-          {/block}
-
-          {block name="content_wrapper"}
-            <div id="content-wrapper" class="center-column{block name='contentWrapperClass'}left-column right-column col-lg-9{/block}">
-              {hook h="displayContentWrapperTop"}
-              {block name="content"}
-                <p>Hello world! This is HTML5 Boilerplate.</p>
+              {block name="left_column"}
+                <div id="left-column" class="left-column col-12 col-lg-3">
+                  <div class="filter-by">FILTRER PAR</div>
+                  {if $page.page_name == 'product'}
+                    {hook h='displayLeftColumnProduct'}
+                  {else}
+                    {hook h="displayLeftColumn"}
+                  {/if}
+                </div>
               {/block}
-              {hook h="displayContentWrapperBottom"}
-            </div>
-          {/block}
 
-          {block name="right_column"}
-            <div id="right-column" class="right-column col-12 col-lg-3">
-              {if $page.page_name == 'product'}
-                {hook h='displayRightColumnProduct'}
-              {else}
-                {hook h="displayRightColumn"}
-              {/if}
-            </div>
-          {/block}
-        </div>
-        {hook h="displayWrapperBottom"}
+              {block name="content_wrapper"}
+                <div id="content-wrapper" class="center-column{block name='contentWrapperClass'}left-column right-column col-lg-9{/block}">
+                  {hook h="displayContentWrapperTop"}
+                  {block name="content"}
+                    <p>Hello world! This is HTML5 Boilerplate.</p>
+                  {/block}
+                  {hook h="displayContentWrapperBottom"}
+                </div>
+              {/block}
 
-        {/block}
-      </section>
+              {block name="right_column"}
+                <div id="right-column" class="right-column col-12 col-lg-3">
+                  {if $page.page_name == 'product'}
+                    {hook h='displayRightColumnProduct'}
+                  {else}
+                    {hook h="displayRightColumn"}
+                  {/if}
+                </div>
+              {/block}
+            </div>
+          </div>
+          {hook h="displayWrapperBottom"}
+        </section>
+      {/block}
 
       <section>
         <!-- 💎GARANTIES -->

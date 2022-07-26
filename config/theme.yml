@@ -88,7 +88,7 @@ global_settings:
         # - ps_customeraccountlinks
         # - ps_contactinfo
       displayLeftColumn:
-        - ps_categorytree
+        # - ps_categorytree
         - ps_facetedsearch
       displaySearch:
         - ps_searchbarjqauto

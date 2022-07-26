@@ -48,3 +48,25 @@
   max-width: var(--width-row);
   margin: var(--margin-homepage) auto;
 }
+
+@mixin grid-cart-btn {
+  padding: 0 4px;
+  border: none;
+  background-color: inherit;
+  color: var(--color-primary);
+  box-shadow: none;
+  opacity: 1;
+  cursor: pointer;
+
+  &:hover {
+    color: var(--color-action);
+  }
+}
+
+@mixin outofstock {
+  color: var(--color-error);
+
+  &--active {
+    transform: translateY(0);
+  }
+}

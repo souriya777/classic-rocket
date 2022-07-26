@@ -30,7 +30,7 @@
 .facet__header {
   cursor: pointer;
 
-  &:hover * {
+  &:hover *:not(.facet__title) {
     color: var(--color-action);
   }
 
@@ -69,6 +69,7 @@
   font-weight: bold;
   white-space: nowrap;
   text-overflow: ellipsis;
+  cursor: auto;
 }
 
 .left-column .search_filters {
@@ -97,6 +98,17 @@
     .color {
       border: 2px solid black;
     }
+  }
+}
+
+.custom-control-label {
+  display: flex;
+  width: 100%;
+
+  & > span.color__label {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
   }
 }
 

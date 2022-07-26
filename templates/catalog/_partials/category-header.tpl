@@ -1,6 +1,7 @@
 <div class="block-category card-block visible--desktop">
     <div id="_desktop_category_header">
-        <h1 class="h1">{$category.name}{if isset($smarty.get.page) && $smarty.get.page > 1} <span class="small"> - Page {$smarty.get.page}</span>{/if}</h1>
+        <h1>{$category.name}{if isset($smarty.get.page) && $smarty.get.page > 1} <span class="small"> - Page {$smarty.get.page}</span>{/if}</h1>
+        <h2>Pourquoi choisir un <span>{$category.name}</span>?</h2>
     </div>
     {if ($category.description || $category.image.large.url) && $listing.pagination.items_shown_from == 1}
         <div class="d-flex">

@@ -24,9 +24,9 @@
   *}
 {if $displayedFacets|count}
   <div id="search_filters" class="search_filters">
-    {block name='facets_title'}
+    {*block name='facets_title'}
       <p class="text-uppercase h6 visible--desktop">{l s='Filter By' d='Shop.Theme.Actions'}</p>
-    {/block}
+    {/block*}
 
     {block name='facets_clearall_button'}
       {if $activeFilters|count}
@@ -79,9 +79,9 @@
                               <span class="color texture" style="background-image:url({$filter.properties.texture})"></span>
                           {/if}
                           <span class="color__label">{$filter.label}
-                          {*{if $filter.magnitude and $show_quantities}*}
-                              {*<span class="magnitude">({$filter.magnitude})</span>*}
-                          {*{/if}*}
+                          {if $filter.magnitude and $show_quantities}
+                              <span class="magnitude">({$filter.magnitude})</span>
+                          {/if}
                           </span>
                       </label>
                   </div>

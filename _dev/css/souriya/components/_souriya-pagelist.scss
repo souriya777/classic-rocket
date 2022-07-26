@@ -1,4 +1,17 @@
 .souriya-pagelist {
+  margin-top: var(--margin-homepage);
+
+  h1 {
+    letter-spacing: 2px;
+  }
+
+  h2 {
+    color: var(--color-primary);
+    span {
+      text-transform: lowercase;
+    }
+  }
+
   //// LEFT CATEGORY MENU
   .category-top-menu {
     .text-uppercase {
@@ -40,17 +53,29 @@
       text-align: justify;
     }
   }
+  .block-category {
+    padding-top: 0;
+    border: none;
+  }
   ////
 
   //// FILTERS
   .search_filters {
+    padding: 0;
+    border: none;
+
     .text-uppercase {
       margin-bottom: 18px;
       font-weight: 600;
     }
 
     .facet__title {
+      margin-bottom: 12px;
       text-transform: uppercase;
+    }
+
+    .facet__block:not(:last-child) {
+      border-bottom: none;
     }
 
     .custom-control {
@@ -60,16 +85,64 @@
         cursor: pointer;
       }
     }
+
+    .collpase--facet {
+      max-height: 203px;
+      overflow: scroll;
+    }
+  }
+  .filter-by {
+    color: var(--color-tertiary);
+    font-size: 21px;
+    font-weight: 700;
+    letter-spacing: 2px;
   }
   ////
 
   // PRODUCT LIST
+
   .souriya-product {
     margin-bottom: 0;
-    margin-top: var(--padding-homepage-2);
+    margin-top: var(--margin-homepage);
   }
+
   .advise {
     margin-top: var(--margin-homepage);
+  }
+
+  .card-product {
+    border: none;
+  }
+
+  .product-description {
+    align-items: flex-start;
+  }
+
+  .grid-cart-btn {
+    @include button;
+    @include grid-cart-btn;
+  }
+
+  .outofstock {
+    @include outofstock;
+  }
+
+  .card-product {
+    &:hover .product-title a {
+      color: var(--color-primary);
+    }
+
+    .product-title a:hover {
+      color: var(--color-action);
+    }
+  }
+
+  .u-a-i-c{
+    margin-bottom: var(--margin-homepage);
+  }
+
+  #content-wrapper {
+    padding-left: 30px !important;
   }
 
   //// MEDIA QUERIES

@@ -105,7 +105,7 @@
 - ✅ fiche produit : tout doit être aligné à gauche et à droite (cf. la règle et maquette)
 - ✅ delete JS console error
 - ✅ change theme basics infos
-- 🛑 liste produit : ISO maquette
+- ✅ liste produit : ISO maquette
 - 👊 optimize
 - 🛑 fiche produit : menu burger a IMPLEMENTER (4,5mx3m; pvc-polyester; orange)
 - 🛑 homepage : slider : fleche plus fine [ROUYA]
