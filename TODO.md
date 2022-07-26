@@ -137,6 +137,7 @@
 ## PRODUCTION
 
 ### ONCE
+- 🟧 /modules => include it manually
 - 🟧 configure "Boutons de partage sur réseaux sociaux" => only FACEBOOK & PINTEREST
 - 🟧 create caracteristic "Video"
 - 🟧 feel ps_socialfollow infos
@@ -147,7 +148,6 @@
 - 🟧 copy all images under `/img/souriya/` on the server
 - 🟧 `npm run build`
 - 🟧 export/import "active theme"
-- 🟧 /modules => include it manually ?
 - 🟧 optional prestashop : remove systematic "force recompilation" ?
 - 🟧 use cache prestashop cache (Performance) ?
 - 🟧 inform rouya : ⛔️ update theme/module

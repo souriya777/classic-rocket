@@ -19,13 +19,6 @@
   border-bottom: 1px solid $card-border-color;
 }
 
-// .facet__header {
-//   position: relative;
-//   display: flex;
-//   justify-content: space-between;
-//   align-items: center;
-//   margin-bottom: $spacer/1.5;
-// }
 //// 💎souriya
 .facet__header {
   cursor: pointer;
@@ -131,20 +124,6 @@
   margin-bottom: $spacer/4;
 }
 
-//.active_filters{
-// display: flex;
-// align-items: center;
-// padding: $spacer;
-// margin-bottom: $spacer;
-//}
-//.active_filters_title{
-// margin: 0;
-// margin-right: $spacer / 2;
-//}
-//.active_filters_item{
-// margin-right: $spacer;
-//}
-
 .faceted-overlay {
   left: 0;
   top: 0;
@@ -188,30 +167,6 @@
   }
 }
 
-/**
- * 2007-2019 PrestaShop.
- *
- * NOTICE OF LICENSE
- *
- * This source file is subject to the Academic Free License 3.0 (AFL-3.0)
- * that is bundled with this package in the file LICENSE.txt.
- * It is also available through the world-wide-web at this URL:
- * https://opensource.org/licenses/AFL-3.0
- * If you did not receive a copy of the license and are unable to
- * obtain it through the world-wide-web, please send an email
- * to license@prestashop.com so we can send you a copy immediately.
- *
- * DISCLAIMER
- *
- * Do not edit or add to this file if you wish to upgrade PrestaShop to newer
- * versions in the future. If you wish to customize PrestaShop for your
- * needs please refer to http://www.prestashop.com for more information.
- *
- * @author    PrestaShop SA <contact@prestashop.com>
- * @copyright 2007-2019 PrestaShop SA
- * @license   https://opensource.org/licenses/AFL-3.0 Academic Free License 3.0 (AFL-3.0)
- * International Registered Trademark & Property of PrestaShop SA
- */
 #search_filters .ui-slider-horizontal .ui-slider-handle {
   margin-left: -1px;
   cursor: pointer;
@@ -232,49 +187,3 @@
   height: 0.4em;
 }
 
-/**
- * 2007-2019 PrestaShop.
- *
- * NOTICE OF LICENSE
- *
- * This source file is subject to the Academic Free License 3.0 (AFL-3.0)
- * that is bundled with this package in the file LICENSE.txt.
- * It is also available through the world-wide-web at this URL:
- * https://opensource.org/licenses/AFL-3.0
- * If you did not receive a copy of the license and are unable to
- * obtain it through the world-wide-web, please send an email
- * to license@prestashop.com so we can send you a copy immediately.
- *
- * DISCLAIMER
- *
- * Do not edit or add to this file if you wish to upgrade PrestaShop to newer
- * versions in the future. If you wish to customize PrestaShop for your
- * needs please refer to http://www.prestashop.com for more information.
- *
- * @author    PrestaShop SA <contact@prestashop.com>
- * @copyright 2007-2019 PrestaShop SA
- * @license   https://opensource.org/licenses/AFL-3.0 Academic Free License 3.0 (AFL-3.0)
- * International Registered Trademark & Property of PrestaShop SA
- */
-//#search_filters .facet .facet-title {
-//  width: calc(100% - 30px);
-//  overflow: hidden;
-//  text-overflow: ellipsis;
-//  white-space: nowrap; }
-//
-//#search_filters .facet .facet-label {
-//  width: 100%;
-//  text-align: left; }
-//#search_filters .facet .facet-label .custom-checkbox,
-//#search_filters .facet .facet-label .custom-radio {
-//  top: -7px;
-//  margin-right: 0; }
-//#search_filters .facet .facet-label .color {
-//  margin-left: 0; }
-//#search_filters .facet .facet-label a {
-//  width: calc(100% - 30px);
-//  overflow: hidden;
-//  text-overflow: ellipsis;
-//  white-space: nowrap; }
-
-/*# sourceMappingURL=front.css.map*/

@@ -45,7 +45,7 @@
     margin: 0 auto;
   }
 
-  @include media-breakpoint-smartphone {
+  @media (max-width: 768px) {
     &__right,
     &__left {
       display: flex;
