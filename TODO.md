@@ -102,12 +102,12 @@
 - ✅ fiche produit : supprimer "les clients ont choisis ca" (slider), ne garde QUE le "nous vous conseillons ca" ET le slideriser
 - ✅ fiche produit : supprimer "victime de son succes" par ce quil y a sur la maquette "deja en rupture de stock..."
 - ✅ fiche produit : video "caracteristique" => https://www.youtube.com/watch?v=SdQE81GIgrI
-- 🛑 fiche produit : menu burger a IMPLEMENTER (4,5mx3m; pvc-polyester; orange)
-- 🛑 fiche produit : tout doit être aligné à gauche et à droite (cf. la règle et maquette)
-- 🛑 liste produit : ISO maquette
-- 👊 optimize
+- ✅ fiche produit : tout doit être aligné à gauche et à droite (cf. la règle et maquette)
 - ✅ delete JS console error
 - ✅ change theme basics infos
+- 🛑 liste produit : ISO maquette
+- 👊 optimize
+- 🛑 fiche produit : menu burger a IMPLEMENTER (4,5mx3m; pvc-polyester; orange)
 - 🛑 homepage : slider : fleche plus fine [ROUYA]
 - 🟧 implement devis form
 - 🟧 implement command tunnel

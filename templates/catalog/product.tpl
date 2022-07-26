@@ -3,7 +3,7 @@
 {block name='content'}
 
   <section id="main">
-    <div class="souriya-product">
+    <div class="souriya-product container">
       <div class="souriya-product__top">
         <div class="souriya-product__top--img">
           {block name='page_content_container'}

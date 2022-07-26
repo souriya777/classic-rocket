@@ -1,9 +1,9 @@
 $border-chevron: 3px solid var(--color-secondary);
-$padding-zone-top: 0 10px;
 $subtitle-size: 18px;
 
 .souriya-product {
-  @include row;
+  padding-left: 0;
+  padding-right: 0;
 
   h3 {
     margin-bottom: 20px;
@@ -12,7 +12,6 @@ $subtitle-size: 18px;
 
   &__top {
     display: flex;
-    padding: $padding-zone-top;
 
     &--img {
       flex: 1 0 630px;
@@ -262,7 +261,6 @@ $subtitle-size: 18px;
 
       &--text {
         margin-top: 24px;
-        padding: $padding-zone-top;
       }
     }
 
@@ -285,6 +283,13 @@ $subtitle-size: 18px;
   #video.active {
     display: flex;
     justify-content: center;
+  }
+
+  @media (max-width: 575px) {
+    &__top--text {
+      margin-top: var(--margin-homepage);
+      padding: 0 18px;
+    }
   }
 
   @media (max-width: 493px) {
