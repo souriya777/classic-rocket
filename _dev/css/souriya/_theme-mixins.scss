@@ -52,13 +52,13 @@
 @mixin grid-cart-btn {
   padding: 0 4px;
   border: none;
-  background-color: inherit;
   color: var(--color-primary);
   box-shadow: none;
   opacity: 1;
   cursor: pointer;
 
   &:hover {
+    background-color: rgba(#fe4e55, 0.3);
     color: var(--color-action);
   }
 }
@@ -71,9 +71,4 @@
   width: 100%;
   background-color: var(--bg-color-menu-hover);
   color: var(--bg-color-souriya-slider);
-
-  &--active {
-    padding: 0!important;
-    transform: translateY(0);
-  }
 }

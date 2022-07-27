@@ -24,7 +24,7 @@
                 {/block}
 
                 {* 💎souriya outofstock *}
-                <div class="highlighted-informations text-center p-2{if !$product.main_variants} no-variants{/if} visible--desktop {if $product.availability == 'unavailable'}outofstock--active{/if}">
+                <div class="highlighted-informations text-center p-2{if !$product.main_variants} no-variants{/if} {if $product.availability == 'unavailable'}outofstock--active{/if}">
                     {block name='quick_view'}
 
                       {* 💎souriya : add to cart *}
@@ -40,7 +40,14 @@
                                 data-button-action="add-to-cart"
                                 class="btn grid-cart-btn btn-primary"
                               >
-                                Ajouter au panier <i class="material-icons search">&#xE854;</i>    
+                              {* 💎souriya ajouter au panier *}
+                                <svg 
+                                  viewBox="0 0 7 7"
+                                  fill="none" 
+                                  xmlns="http://www.w3.org/2000/svg""
+                                >
+                                  <path d="M4 3.505V.255h-.5v3.25H.25v.5H3.5v3.25H4v-3.25h3.25v-.5H4z"></path>
+                                </svg>
                               </button>
                           </form>
                         {/if}

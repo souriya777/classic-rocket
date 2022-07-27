@@ -31,11 +31,6 @@
   background-color: $pm-bg-color;
   border-width: $pm-border-width;
   border-color: $pm-border-color;
-  &:hover {
-    .highlighted-informations {
-      transform: translateY(0);
-    }
-  }
 
   .discount {
     display: none;
@@ -53,12 +48,6 @@
   position: absolute;
   bottom: 0;
   width: 100%;
-  background-color: $pm-highlight-bg-color;
-  transform: translateY(100%);
-  transition: transform 0.3s;
-  .card-product:hover & {
-    transform: translateY($pm-highlight-translateY);
-  }
 }
 .quick-view {
   cursor: pointer;
@@ -384,10 +373,21 @@
   height: 38px;
   padding: 0 !important;
 
-  button {
+  button.grid-cart-btn {
     display: flex;
+    align-items: center;
     justify-content: center;
-    width: 100%;
+    height: 30px;
+    width: 30px;
+    margin-bottom: 12px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.1);
+
+    svg {
+      fill: var(--color-primary);
+      height: 9px;
+      width: 9px;
+    }
   }
 }
 .quantity__label {
