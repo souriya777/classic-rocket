@@ -37,6 +37,7 @@ $top-slider-arrow: -28px;
   }
 
   &.advise .products {
+    width: 100%;
     margin: 0;
     padding-top: var(--padding-homepage-2);
 
@@ -54,12 +55,7 @@ $top-slider-arrow: -28px;
     top: -28px;
   }
 
-  .card-img-top {
-    background-color: darksalmon;
-  }
-
   .card-body {
-    background-color: bisque;
     padding: 4px 0 0;
 
     h3:hover a {
