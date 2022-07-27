@@ -1,0 +1,34 @@
+.cart-grid {
+  .cart-container {
+    margin-right: var(--padding-homepage-2);
+  }
+
+  .card-header,
+  .card-footer,
+  .cart-summary-line {
+    background: none;
+  }
+
+  .cart__continue,
+  .remove-from-cart {
+    color: inherit;
+    font-size: 12px;
+
+    &:hover {
+      color: var(--color-action) !important;
+    }
+  }
+
+  .cart__continue i {
+    margin-top: -3px;
+  }
+
+  .cart-total {
+    margin-top: var(--padding-homepage-2);
+    padding: 0;
+  }
+
+  .product-line__body .value {
+    color: var(--color-action);
+  }
+}

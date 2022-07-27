@@ -110,11 +110,11 @@
     {* end first col *}
     <div class="col-lg-5 col-12">
         {*d-flex align-items-start justify-content-between*}
-        <div class="product-line-grid-right product-line-actions">
+        <div class="product-line-grid-right product-line-actions product-quantity">
             {if isset($product.is_gift) && $product.is_gift}
                 <span class="gift-quantity">{$product.quantity}</span>
             {else}
-                <div>
+                <div class="qty col-auto souriya">
                     <input
                             class="js-cart-line-product-quantity"
                             data-down-url="{$product.down_quantity_url}"

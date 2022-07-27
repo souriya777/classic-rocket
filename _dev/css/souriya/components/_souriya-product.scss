@@ -1,59 +1,9 @@
 $border-chevron: 3px solid var(--color-secondary);
 $subtitle-size: 18px;
 
-.souriya-product {
-  padding-left: 0;
-  padding-right: 0;
-
-  h3 {
-    margin-bottom: 20px;
-    font-weight: 600;
-  }
-
-  &__top {
-    display: flex;
-
-    &--img {
-      flex: 1 0 630px;
-    }
-    
-    &--text {
-      flex: 2 2 450px;
-    }
-  }
-
-  .h1 {
-    margin-bottom: 6px;
-    color: var(--color-primary);
-    font-weight: 600;
-  }
-
-  .h6 {
-    margin-bottom: 24px;
-    font-size: $subtitle-size;
-    font-weight: 600;
-  }
-
-  .product-information,
-  .product-actions,
-  .product-add-to-cart {
-    margin-top: 30px;
-  }
-
-  #product-description-short-1,
-  #product-description-short-2,
-  #product-description-short-3 {
-    text-align: justify;
-  }
-
-  .product-variants {
-    display: none;
-  }
-
-  .product-add-to-cart .qty {
-    margin: 0;
-  }
-
+// EXCEPTION because of duplicate otherwize
+.souriya-product,
+.cart-container {
   .product-quantity {
     .qty > .input-group {
       position: relative;
@@ -138,6 +88,60 @@ $subtitle-size: 18px;
       color: var(--color-secondary);
       border-color: var(--color-action);
     }
+  }
+}
+
+.souriya-product {
+  padding-left: 0;
+  padding-right: 0;
+
+  h3 {
+    margin-bottom: 20px;
+    font-weight: 600;
+  }
+
+  &__top {
+    display: flex;
+
+    &--img {
+      flex: 1 0 630px;
+    }
+    
+    &--text {
+      flex: 2 2 450px;
+    }
+  }
+
+  .h1 {
+    margin-bottom: 6px;
+    color: var(--color-primary);
+    font-weight: 600;
+  }
+
+  .h6 {
+    margin-bottom: 24px;
+    font-size: $subtitle-size;
+    font-weight: 600;
+  }
+
+  .product-information,
+  .product-actions,
+  .product-add-to-cart {
+    margin-top: 30px;
+  }
+
+  #product-description-short-1,
+  #product-description-short-2,
+  #product-description-short-3 {
+    text-align: justify;
+  }
+
+  .product-variants {
+    display: none;
+  }
+
+  .product-add-to-cart .qty {
+    margin: 0;
   }
 
   #product-availability > img {
