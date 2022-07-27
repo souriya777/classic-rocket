@@ -38,7 +38,7 @@
                               <input type="hidden" value="1" name="qty" />
                               <button 
                                 data-button-action="add-to-cart"
-                                class="btn grid-cart-btn btn-primary"
+                                class="btn grid-cart-btn"
                               >
                               {* 💎souriya ajouter au panier *}
                                 <svg 

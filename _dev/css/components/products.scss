@@ -373,6 +373,11 @@
   height: 38px;
   padding: 0 !important;
 
+  form {
+    display: flex;
+    justify-content: center;
+  }
+
   button.grid-cart-btn {
     display: flex;
     align-items: center;

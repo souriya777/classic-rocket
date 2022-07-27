@@ -83,7 +83,7 @@
           {/block}
 
           <div class="{if $page.page_name != 'index'}container{/if}">
-            <div class="row souriya-pagelist">
+            <div class="row {if $page.page_name != 'cart' && $page.page_name != 'order-confirmation'}souriya-pagelist{/if}">
               {block name="left_column"}
                 <div id="left-column" class="left-column col-12 col-lg-3">
                   <div class="filter-by">FILTRER PAR</div>

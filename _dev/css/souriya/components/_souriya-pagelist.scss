@@ -1,3 +1,9 @@
+// EXCEPTION !!! DUPLICATE CSS
+.page-wrapper--order-confirmation .grid-cart-btn {
+  @include button;
+  @include grid-cart-btn;
+}
+
 .souriya-pagelist {
   margin-top: var(--margin-homepage);
 
@@ -136,7 +142,7 @@
       a:hover {
         color: var(--color-action);
       }
-    } 
+    }
   }
 
   .card-body {

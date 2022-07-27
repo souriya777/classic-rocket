@@ -35,4 +35,5 @@ $('.souriya-product-list.destocking .products').slick({...SLIDER_OPTIONS});
 $('.souriya-product-list.prefer .products').slick({...SLIDER_OPTIONS});
 $('.souriya-product-list.heart .products').slick({...SLIDER_OPTIONS});
 $('.souriya-product-list.advise .products').slick({...SLIDER_OPTIONS});
+$('.souriya-product-list.featured-products .products').slick({...SLIDER_OPTIONS, slidesToShow: 2, slidesToScroll: 2});
 // $('.souriya-product-list.choosing .products').slick({...SLIDER_OPTIONS});
