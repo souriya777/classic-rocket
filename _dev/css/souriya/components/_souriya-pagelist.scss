@@ -129,9 +129,18 @@
       color: var(--color-primary);
     }
 
-    .product-title a:hover {
-      color: var(--color-action);
-    }
+    .product-title {
+      width: 100%;
+      text-align: left;
+
+      a:hover {
+        color: var(--color-action);
+      }
+    } 
+  }
+
+  .card-body {
+    padding: 4px 0 0;
   }
 
   .u-a-i-c {
