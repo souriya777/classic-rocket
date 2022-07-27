@@ -8,40 +8,33 @@ const SLIDER_OPTIONS = {
   autoplaySpeed: 3000,
   responsive: [
     {
-      breakpoint: 1361,
+      breakpoint: 915,
       settings: {
         slidesToShow: 5,
         slidesToScroll: 5,
       }
     },
     {
-      breakpoint: 929,
+      breakpoint: 588,
       settings: {
         slidesToShow: 4,
         slidesToScroll: 4,
       }
     },
     {
-      breakpoint: 660,
+      breakpoint: 450,
       settings: {
         slidesToShow: 3,
         slidesToScroll: 3
       }
     },
     {
-      breakpoint: 589,
+      breakpoint: 339,
       settings: {
         slidesToShow: 2,
         slidesToScroll: 2
       }
     },
-    {
-      breakpoint: 499,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1
-      }
-    }
   ]
 }
 
