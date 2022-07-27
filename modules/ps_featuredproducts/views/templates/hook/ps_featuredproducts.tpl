@@ -1,8 +1,6 @@
 <!-- 💎souriya ps-featuredproducts -->
 <section class="souriya-product-list featured-products">
-  <h2>
-    {l s='Popular Products' d='Shop.Theme.Catalog'}
-  </h2>
+  <h2>PRODUITS POPULAIRES</h2>
 
   <div class="products">
     {foreach from=$products item="product"}

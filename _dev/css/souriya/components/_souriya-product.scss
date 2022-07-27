@@ -92,15 +92,17 @@ $subtitle-size: 18px;
       }
 
       .input-group-btn:first-child {
-        button::after {
-          transform: rotate(-135deg);
-        }
-      }
-
-      .input-group-btn:last-child {
-        bottom: 0;
+        transform: translateY(100%);
         button::after {
           transform: rotate(45deg);
+        }
+      }
+      
+      .input-group-btn:last-child {
+        transform: translateY(-100%);
+        bottom: 0;
+        button::after {
+          transform: rotate(-135deg);
         }
       }
     }
