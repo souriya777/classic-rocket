@@ -138,7 +138,21 @@
 
 ### ONCE
 - 🟧 /modules => include it manually
-- 🟧 configure "Boutons de partage sur réseaux sociaux" => only FACEBOOK & PINTEREST
+-- 🛑🛑🛑🛑 ROUYA update manually these modules ???
+-- leobootstrapmenu
+-- leoproductsearch
+-- leofeature
+-- productcomments
+-- ps_bestsellers
+-- ps_newproducts
+-- ps_searchbarjqauto
+-- ps_specials
+-- souriya_choosinglist
+-- souriya_destockinglist
+-- souriya_heartlist
+-- souriya_image
+-- souriya_preferlist
+- 🟧 configure module "Boutons de partage sur réseaux sociaux" => only FACEBOOK & PINTEREST
 - 🟧 create caracteristic "Video"
 - 🟧 feel ps_socialfollow infos
 - 🟧 ⛔️ verify permissions `chown -R www-data:www-data soleil-noir/`

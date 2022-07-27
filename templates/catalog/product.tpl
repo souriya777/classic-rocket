@@ -75,7 +75,9 @@
                     {/block}
 
                     {block name='product_add_to_cart'}
-                      {include file='catalog/_partials/product-add-to-cart.tpl'}
+                      {if $product.availability == 'available'}
+                        {include file='catalog/_partials/product-add-to-cart.tpl'}
+                      {/if}
                     {/block}
 
                     {block name='product_additional_info'}
