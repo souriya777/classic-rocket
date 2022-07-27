@@ -1,13 +1,10 @@
 .souriya-pagelist {
   margin-top: var(--margin-homepage);
 
-  h1 {
-    letter-spacing: 2px;
-  }
+  .left-column {
+    padding-right: var(--margin-homepage) !important;
 
-  h2 {
-    color: var(--color-primary);
-    span {
+    h2 span {
       text-transform: lowercase;
     }
   }
@@ -103,7 +100,7 @@
 
   .souriya-product {
     margin-bottom: 0;
-    margin-top: var(--margin-homepage);
+    margin-top: unset;
   }
 
   .advise {
@@ -137,12 +134,8 @@
     }
   }
 
-  .u-a-i-c{
+  .u-a-i-c {
     margin-bottom: var(--margin-homepage);
-  }
-
-  #content-wrapper {
-    padding-left: 30px !important;
   }
 
   //// MEDIA QUERIES

@@ -64,9 +64,16 @@
 }
 
 @mixin outofstock {
-  color: var(--color-error);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  background-color: var(--bg-color-menu-hover);
+  color: var(--bg-color-souriya-slider);
 
   &--active {
+    padding: 0!important;
     transform: translateY(0);
   }
 }

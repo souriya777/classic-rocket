@@ -23,7 +23,7 @@
  * International Registered Trademark & Property of PrestaShop SA
  *}
 {block name='product_miniature_item'}
-    <article class="product-miniature js-product-miniature mb-3" data-id-product="{$product.id_product}" data-id-product-attribute="{$product.id_product_attribute}">
+    <article class="product-miniature js-product-miniature" data-id-product="{$product.id_product}" data-id-product-attribute="{$product.id_product_attribute}">
         <div class="card card-product thumbnail-container">
 
             <div class="card-img-top product__card-img">
@@ -41,10 +41,9 @@
                         {else}
                             <img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==">
                         {/if}
-                        <span class="souriya-wishlist">
-                           <!-- 💎 souriya wish list -->
+                        {*<span class="souriya-wishlist">
                            {hook h='displayProductActions' product=$product}
-                        </span>
+                        </span>*}
                     </a>
                 {/block}
 

@@ -1,7 +1,5 @@
 $svg: 'data:image/svg+xml; utf8, <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M21.883 12l-7.527 6.235.644.765 9-7.521-9-7.479-.645.764 7.529 6.236h-21.884v1h21.883z"/></svg>';
 $top-slider-arrow: -28px;
-// var(--margin-homepage) + $top-slider-arrow
-$margin-products: 88px;
 
 .souriya-product-list {
   @include row;
@@ -30,7 +28,7 @@ $margin-products: 88px;
   &.heart {
     margin: auto;
     padding-top: var(--padding-homepage);
-    padding-bottom: var(--padding-homepage);
+    padding-bottom: var(--margin-homepage);
 
     .souriya-product-list__title img {
       height: 80px;
@@ -49,15 +47,28 @@ $margin-products: 88px;
 
   .products {
     max-width: 88%;
-    margin: $margin-products auto 0;
+    margin: 69px auto 0;
   }
 
   .slick-arrow {
     top: -28px;
   }
 
+  .card-img-top {
+    background-color: darksalmon;
+  }
+
   .card-body {
-    padding: 0;
+    background-color: bisque;
+    padding: 10px 0 0;
+
+    h3:hover a {
+      color: var(--color-action);
+    }
+
+    .grade-stars {
+      justify-content: flex-start;
+    }
   }
 
   .card-product {
@@ -91,18 +102,6 @@ $margin-products: 88px;
     flex-direction: column;
     min-height: 88px;
     text-align: left;
-  }
-
-  .card-body {
-    padding-top: 10px;
-
-    h3:hover a {
-      color: var(--color-action);
-    }
-
-    .grade-stars {
-      justify-content: flex-start;
-    }
   }
 
   .outofstock {

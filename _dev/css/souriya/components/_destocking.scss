@@ -1,7 +1,12 @@
+$space-bottom: 100px;
+
 .destocking {
   display: flex;
 
   h2 {
+    margin: unset;
+    padding-top: var(--padding-homepage-2);
+    padding-bottom: 14px;
     text-transform: uppercase;
   }
 
@@ -10,10 +15,24 @@
     text-align: center;
   }
 
+  h2,
+  &__desc {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: var(--color-secondary);
+  }
+
   img,
   &__promotions-text {
     max-height: 450px;
-    margin-bottom: 100px;
+  }
+  
+  img {
+    margin-bottom: $space-bottom;
+  }
+  &__promotions-text {
+    padding-bottom: $space-bottom;
   }
 
   > * {
@@ -22,17 +41,17 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: var(--padding-homepage-2) 0;
+    padding: 0 0 var(--padding-homepage-2);
   }
 
   &__promotions {
     background-color: var(--bg-color-destocking);
-
     &-text {
       display: flex;
       flex-direction: column;
       flex-grow: 2;
       justify-content: center;
+      width: 100%;
 
       p {
         color: var(--color-tertiary);
@@ -44,7 +63,7 @@
     }
   }
 
-  &__desc {
+  &__desc-content {
     max-width: 84%;
     margin-bottom: var(--padding-homepage-2);
   }

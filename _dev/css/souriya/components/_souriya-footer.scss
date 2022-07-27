@@ -1,10 +1,11 @@
 .souriya-footer {
   margin-top: 0;
-  padding-top: var(--margin-homepage);
+  padding-top: var(--padding-homepage);
   background-color: var(--bg-color-tertiary);
   color: var(--color-footer-bottom);
 
   .row {
     flex-direction: column;
+    padding: 15px;
   }
 }
