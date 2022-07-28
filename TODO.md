@@ -153,6 +153,8 @@
 -- souriya_heartlist
 -- souriya_image
 -- souriya_preferlist
+- /classes => include it manually
+-- `classes/checkout/CheckoutProcess.php`
 - 🟧 configure module "Boutons de partage sur réseaux sociaux" => only FACEBOOK & PINTEREST
 - 🟧 create caracteristic "Video"
 - 🟧 feel ps_socialfollow infos
