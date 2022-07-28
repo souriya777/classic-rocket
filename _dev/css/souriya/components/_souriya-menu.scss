@@ -9,15 +9,20 @@ $transition-menu-item: all ease-in-out 0.3s;
         position: relative;
         min-width: 80px;
         padding: 20px 10px;
+        padding-bottom: 8px;
 
+        & > a {
+          border-bottom: 1px solid transparent;
+        }
+        
         &:hover {
-          background-color: var(--bg-color-menu-hover);
           color: var(--color-menu-hover);
-
+          
           & > .menu__item-header > a,
           & > a {
             color: inherit;
-            text-decoration: underline;
+            border-color: var(--color-tertiary);
+            border-bottom: 1px solid blue;
           }
         }
 

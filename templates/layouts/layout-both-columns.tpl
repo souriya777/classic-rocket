@@ -56,7 +56,7 @@
         <section id="souriya-banner">
           <!-- 💎IMAGE HOME -->
           <div class="image-home">
-            <img
+            {*<img
               data-srcset="/img/souriya/banner-sm-576px.jpg 576w,
                           /img/souriya/banner-md-768px.jpg 768w,
                           /img/souriya/banner-lg-992px.jpg 992w,
@@ -68,7 +68,14 @@
                           (max-width: 1200px) 1200px,"
               alt="barnum pas cher - programme fidélité tente barnum - ts barnum" 
               class="img-fluid lazyloaded lazyload"
-            />
+            />*}
+
+            <img
+              data-sizes="auto"
+              data-src="/img/souriya/banner-md-768px.jpg"
+              data-srcset="banner-sm-576px.jpg 300w,
+              /img/souriya/banner-md-768px.jpg 600w,
+              /img/souriya/banner-lg-992px.jpg 900w" class="lazyload" />
           </div>
           <!-- 💎IMAGE HOME -->
         </section>

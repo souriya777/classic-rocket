@@ -27,12 +27,12 @@
     </div>
       <div class="text--center" id="product-comments-list-footer">
         <div id="product-comments-list-pagination" class="product-comments__pagination"></div>
-        {if $post_allowed && $nb_comments != 0}
+        {*if $post_allowed && $nb_comments != 0*}
           <button class="btn btn-lg btn-secondary btn-comment btn-comment-big post-product-comment">
             <i class="material-icons shopping-cart">edit</i>
             {l s='Write your review' d='Modules.Productcomments.Shop'}
           </button>
-        {/if}
+        {*/if*}
       </div>
   </div>
 </div>

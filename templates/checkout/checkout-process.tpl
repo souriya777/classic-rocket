@@ -1,4 +1,5 @@
 <div class="checkout-process">
+  {*
   <div class="checkout-process__breadcrumb">
     <ul>
       {foreach from=$steps item="step" key="index"}
@@ -20,6 +21,7 @@
       {/foreach}
     </ul>
   </div>
+  *}
 
   <div class="checkout-process__panel">
     {foreach from=$steps item="step" key="index"}

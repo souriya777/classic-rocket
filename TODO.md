@@ -109,6 +109,9 @@
 - 👊 optimize performance
 - 🛑 fiche produit : menu burger a IMPLEMENTER (4,5mx3m; pvc-polyester; orange)
 - 🛑 homepage : slider : fleche plus fine [ROUYA]
+- NOUS VOUS CONSEILLONS
+- DONNEZ VOTRE AVIS
+- DEPLIER PAR DEFAUT LES FILTRES SUR MOBILES
 - 🟧 resolve // FIXME 💎SOURIYA
 - 🟧 implement devis form
 - 🟧 implement command tunnel
@@ -138,6 +141,17 @@
 ## PRODUCTION
 
 ### ONCE
+[🛑🛑🛑 NO 🛑🛑🛑🛑]
+- /classes => include it manually
+-- `classes/checkout/CheckoutProcess.php`
+[🛑🛑🛑 NO 🛑🛑🛑🛑]
+- 🟧 configure module "Boutons de partage sur réseaux sociaux" => only FACEBOOK & PINTEREST
+- 🟧 create caracteristic "Video"
+- 🟧 feel ps_socialfollow infos
+- 🟧 ⛔️ verify permissions `chown -R www-data:www-data soleil-noir/`
+- 🟧 ⛔️ verify permissions `chown -R www-data:www-data img/`
+
+### EVERYTIME
 - 🟧 /modules => include it manually
 -- 🛑🛑🛑🛑 ROUYA update manually these modules ???
 -- leobootstrapmenu
@@ -153,15 +167,6 @@
 -- souriya_heartlist
 -- souriya_image
 -- souriya_preferlist
-- /classes => include it manually
--- `classes/checkout/CheckoutProcess.php`
-- 🟧 configure module "Boutons de partage sur réseaux sociaux" => only FACEBOOK & PINTEREST
-- 🟧 create caracteristic "Video"
-- 🟧 feel ps_socialfollow infos
-- 🟧 ⛔️ verify permissions `chown -R www-data:www-data soleil-noir/`
-- 🟧 ⛔️ verify permissions `chown -R www-data:www-data img/`
-
-### EVERYTIME
 - 🟧 copy all images under `/img/souriya/` on the server
 - 🟧 `npm run build`
 - 🟧 export/import "active theme"

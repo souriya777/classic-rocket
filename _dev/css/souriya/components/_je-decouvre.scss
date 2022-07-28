@@ -17,6 +17,7 @@
       flex-direction: column;
       justify-content: center;
       width: 50%;
+      color: var(--color-secondary);
     }
 
     a {
@@ -35,6 +36,17 @@
     
     &--text {
       order: 2;
+      border-top-right-radius: var(--radius-googlebox);
+      border-bottom-right-radius: var(--radius-googlebox);
+      background-color: var(--color-je-decouvre-first);
+    }
+  }
+  
+  &__right {
+    &--text {
+      background-color: var(--color-je-decouvre-second);
+      border-top-left-radius: var(--radius-googlebox);
+      border-bottom-left-radius: var(--radius-googlebox);
     }
   }
 
