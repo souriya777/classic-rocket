@@ -41,13 +41,7 @@
                                 class="btn grid-cart-btn"
                               >
                               {* 💎souriya ajouter au panier *}
-                                <svg 
-                                  viewBox="0 0 7 7"
-                                  fill="none" 
-                                  xmlns="http://www.w3.org/2000/svg""
-                                >
-                                  <path d="M4 3.505V.255h-.5v3.25H.25v.5H3.5v3.25H4v-3.25h3.25v-.5H4z"></path>
-                                </svg>
+                                <i class="material-icons shopping-cart btn-add-to-cart__icon">&#xe854;</i>
                               </button>
                           </form>
                         {/if}

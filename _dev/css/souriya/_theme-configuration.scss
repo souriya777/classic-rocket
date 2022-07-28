@@ -49,7 +49,7 @@
   --width-fleche-button: 38px;
   --width-shorcuts: 24px;
   --height-fleche-button: 12px;
-  --height-images-container: 700px;
+  --height-images-container: 600px;
   --size-fleche-slider: 281px;
   --margin-homepage: 60px;
   --padding-homepage: 14px;
@@ -133,6 +133,7 @@ p {
 }
 
 .breadcrumb {
+  padding-left: 0;
   background-color: var(--color-gray-breadcrumb);
   margin-bottom: 0;
 }
