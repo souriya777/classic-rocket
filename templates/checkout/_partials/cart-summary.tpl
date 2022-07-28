@@ -31,18 +31,10 @@
     {block name='cart_summary_products'}
       <div class="cart-summary-products">
 
-        <p class="mb-0">{$cart.summary_string}</p>
-
-        <p>
-          <a class="link__showsummary" href="#" data-toggle="collapse" data-target="#cart-summary-product-list">
-            <span class="small">{l s='show details' d='Shop.Theme.Actions'} </span><i class="material-icons">expand_more</i>
-
-          </a>
-        </p>
-
+        <p class="cart__summary">{$cart.summary_string}</p>
 
         {block name='cart_summary_product_list'}
-          <div class="collapse" id="cart-summary-product-list">
+          <div id="cart-summary-product-list">
             <ul class="media-list">
               {foreach from=$cart.products item=product}
                 <li class="media media-list__item">{include file='checkout/_partials/cart-summary-product-line.tpl' product=$product}</li>

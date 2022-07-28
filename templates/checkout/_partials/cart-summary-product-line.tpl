@@ -23,14 +23,15 @@
  * International Registered Trademark & Property of PrestaShop SA
  *}
 {block name='cart_summary_product_line'}
-    <a href="{$product.url}" title="{$product.name}" class="mr-3">
+    <a href="{$product.url}" title="{$product.name}">
       <img class="media-object" src="{$product.cover.small.url}" alt="{$product.name}" width="50">
     </a>
   <div class="media-body small">
-    <div class="product-name">{$product.name}</div>
-    <div class="clearfix">
-      <span class="product-quantity float-left">x{$product.quantity}</span>
-      <span class="product-price float-right">{$product.price}</span>
+    <div class="product-name">
+      <div>
+        {$product.name} <span class="product-quantity">x{$product.quantity}</span>
+      </div>
+      <div class="product-price">{$product.price}</div>
     </div>
     {hook h='displayProductPriceBlock' product=$product type="unit_price"}
   {foreach from=$product.attributes key="attribute" item="value"}

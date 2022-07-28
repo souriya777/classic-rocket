@@ -39,7 +39,7 @@
             <div class="cart__card-loader"><div class="spinner-border" role="status"><span class="sr-only">{l s='Loading...' d='Shop.Theme.Global'}</span></div></div>
           {block name='cart_overview'}
             {include file='checkout/_partials/cart-detailed.tpl' cart=$cart}
-          {/block}checkout cart-detailed-actions
+          {/block}
           </div>
         </div>
 
