@@ -52,6 +52,7 @@ import prestashop from 'prestashop';
 import EventEmitter from 'events';
 
 import './components/block-cart';
+import lazysizes from 'lazysizes'
 
 // SOURIYA
 import './souriya/souriya-slider';

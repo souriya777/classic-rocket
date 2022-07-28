@@ -21,4 +21,4 @@
 {*if $page.page_name == 'product'}
   <script src='https://cdnjs.cloudflare.com/ajax/libs/intense-images/1.0.7/intense.min.js'></script>
 {/if*}
-<script src="http://afarkas.github.io/lazysizes/lazysizes.min.js" async=""></script>
+{*<script src="http://afarkas.github.io/lazysizes/lazysizes.min.js" async=""></script>*}
