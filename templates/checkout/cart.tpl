@@ -33,7 +33,7 @@
       <div class="cart-grid-body col-12 col-lg-8">
 
         <!-- cart products detailed -->
-        <div class="card cart-container mb-3">
+        <div class="card cart-container">
             <h1 class="card-header">Mon panier</h1>
           <div class="card-body cart__card-body js-cart__card-body">
             <div class="cart__card-loader"><div class="spinner-border" role="status"><span class="sr-only">{l s='Loading...' d='Shop.Theme.Global'}</span></div></div>
@@ -43,11 +43,8 @@
           </div>
         </div>
 
-        {block name='continue_shopping'}
-          <a class="label cart__continue" href="{$urls.pages.index}">
-            <i class="material-icons">chevron_left</i>{l s='Continue shopping' d='Shop.Theme.Actions'}
-          </a>
-        {/block}
+        {* 💎souriya continue-shopping *}
+        {include file='checkout/_partials/continue-shopping.tpl' cart=$cart}
 
         <!-- shipping informations -->
         {block name='hook_shopping_cart_footer'}

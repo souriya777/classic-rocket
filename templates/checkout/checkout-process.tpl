@@ -29,4 +29,7 @@
           ui          =  $step.ui
   }
 {/foreach}
+
+  {* 💎souriya continue-shopping *}
+  {include file='checkout/_partials/continue-shopping.tpl' cart=$cart}
 </div>
