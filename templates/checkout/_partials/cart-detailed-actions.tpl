@@ -29,15 +29,15 @@
         {$cart.minimalPurchaseRequired}
       </div>
       <div class="text-sm-center">
-        <button type="button" class="btn btn-primary btn-lg disabled" disabled>{l s='Proceed to checkout' d='Shop.Theme.Actions'}</button>
+        <button type="button" class="souriya__cart-button--btn btn btn-primary btn-lg disabled" disabled>{l s='Proceed to checkout' d='Shop.Theme.Actions'}</button>
       </div>
     {elseif empty($cart.products) }
       <div class="text-sm-center">
-        <button type="button" class="btn btn-primary btn-lg btn-block disabled" disabled>{l s='Proceed to checkout' d='Shop.Theme.Actions'}</button>
+        <button type="button" class="souriya__cart-button--btn btn btn-primary btn-lg btn-block disabled" disabled>{l s='Proceed to checkout' d='Shop.Theme.Actions'}</button>
       </div>
     {else}
       <div class="text-sm-center">
-        <a href="{$urls.pages.order}" class="btn btn-primary btn-lg btn-block">{l s='Proceed to checkout' d='Shop.Theme.Actions'}</a>
+        <a href="{$urls.pages.order}" class="souriya__cart-button--a btn btn-primary btn-lg btn-block">{l s='Proceed to checkout' d='Shop.Theme.Actions'}</a>
         {hook h='displayExpressCheckout'}
       </div>
     {/if}

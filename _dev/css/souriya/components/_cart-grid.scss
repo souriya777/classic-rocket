@@ -9,6 +9,10 @@
     background: none;
   }
 
+  .card-footer {
+    border-top: none;
+  }
+
   .cart__continue,
   .remove-from-cart {
     color: inherit;
@@ -28,7 +32,21 @@
     padding: 0;
   }
 
+  .cart-detailed-actions {
+    margin-top: 40px;
+  }
+
   .product-line__body .value {
     color: var(--color-action);
+  }
+
+  .souriya__cart-button--a {
+    background-color: var(--color-action);
+    border-color: var(--color-action);
+
+    &:hover {
+      background-color: var(--color-action-darker);
+      border-color: var(--color-action-darker);
+    }
   }
 }

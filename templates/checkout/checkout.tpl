@@ -72,9 +72,10 @@
     {hook h="displayWrapperBottom"}
 </section>
 
-<footer id="footer" class="l-footer">
+<footer id="footer" class="l-footer souriya">
     {block name='footer'}
-        {include file='checkout/_partials/footer.tpl'}
+        {*include file='checkout/_partials/footer.tpl'*}
+        {include file="_partials/footer.tpl"}
     {/block}
 </footer>
 {block name='offcanvas_modals'}
