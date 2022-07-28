@@ -8,6 +8,16 @@
   }
 }
 
+@mixin button-hilight {
+  background-color: var(--color-action);
+  border-color: var(--color-action);
+
+  &:hover {
+    background-color: var(--color-action-darker);
+    border-color: var(--color-action-darker);
+  }
+}
+
 .cart-grid {
   .cart-container {
     margin-right: var(--padding-homepage-2);
@@ -46,19 +56,17 @@
   }
 
   .souriya__cart-button--a {
-    background-color: var(--color-action);
-    border-color: var(--color-action);
-
-    &:hover {
-      background-color: var(--color-action-darker);
-      border-color: var(--color-action-darker);
-    }
+    @include button-hilight;
   }
 }
 
 .checkout-process {
   .cart__continue {
     @include cart-continue;
+  }
+
+  button.btn-primary {
+    @include button-hilight;
   }
 }
 
