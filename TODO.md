@@ -109,6 +109,9 @@
 - 👊 optimize performance
 - 🛑 fiche produit : menu burger a IMPLEMENTER (4,5mx3m; pvc-polyester; orange)
 - 🛑 homepage : slider : fleche plus fine [ROUYA]
+- NOUS VOUS CONSEILLONS
+- DONNEZ VOTRE AVIS
+- DEPLIER PAR DEFAUT LES FILTRES SUR MOBILES
 - 🟧 resolve // FIXME 💎SOURIYA
 - 🟧 implement devis form
 - 🟧 implement command tunnel
