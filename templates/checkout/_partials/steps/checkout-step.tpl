@@ -1,5 +1,4 @@
 {block name='step'}
-  <div>🛑🛑🛑SOURIYA</div>
   <section  id    = "{$identifier}"
             class = "{[
                         'checkout-step'   => true,

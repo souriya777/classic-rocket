@@ -56,7 +56,7 @@
   --margin-homepage: 60px;
   --padding-homepage: 14px;
   --padding-homepage-2: 30px;
-  --radius-googlebox: 15px
+  --radius-googlebox: 15px;
 }
 
 // GLOBAL STYLES
@@ -102,7 +102,7 @@ p {
   @media (min-width: 576px) {
     max-width: 540px;
   }
-  
+
   @media (min-width: 768px) {
     max-width: 720px;
   }
@@ -145,7 +145,25 @@ p {
   background-color: var(--color-gray-breadcrumb);
 }
 
+.user-info .u-link-body {
+  i {
+    font-size: 30px;
+  }
+  &:hover {
+    color: var(--color-action);
+  }
+}
+
+.ps_shoppingcart .shopping-cart {
+  a:hover {
+    fill: var(--color-action);
+  }
+  svg {
+   width: 24px;
+ }
+}
+
 // SVG
-$svg-path-caret-down: '/img/souriya/caret-down.svg';
-$svg-path-triangle: '/img/souriya/triangle.svg';
-$svg-path-minus: '/img/souriya/minus.svg';
+$svg-path-caret-down: "/img/souriya/caret-down.svg";
+$svg-path-triangle: "/img/souriya/triangle.svg";
+$svg-path-minus: "/img/souriya/minus.svg";

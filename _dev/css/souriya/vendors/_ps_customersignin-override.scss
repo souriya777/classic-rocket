@@ -1,6 +1,11 @@
 .ps_customersignin {
   & > a {
     display: flex;
+    align-items: center;
+
+    .visible--desktop {
+      margin-left: 6px;
+    }
   }
 
   img {

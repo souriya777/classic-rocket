@@ -28,9 +28,17 @@
       {if $cart.products_count > 0}
         <a rel="nofollow" href="{$cart_url}" class="u-link-body">
       {/if}
-        <span>
-          <img src="/img/souriya/panier-ts-barnum.svg" alt="mon compte" class="class="img-fluid lazyloaded lazyload" />
-        </i></span>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        version="1.1"
+        x="0px"
+        y="0px"
+        viewBox="50 4 40 40"
+        xml:space="preserve"
+      >
+        <path id="panier" d="M77,11.6c-0.2-4.4-4-7.9-8.6-7.6c-4,0.3-7.1,3.6-7.5,7.6h-8.2v27.5c0,2.7,2.2,5,5,5h22.5c2.8,0,5-2.2,5-5V11.6 H77z M69.5,6.9c2.4,0.2,4.2,2.2,4.5,4.6H64C64.2,8.8,66.6,6.7,69.5,6.9z M82.2,39.1c0,1.1-0.9,2-2,2H57.7c-1.1,0-2-0.9-2-2V14.6H61 v6.9c0,0.8,0.7,1.5,1.5,1.5s1.5-0.7,1.5-1.5v-6.9H74v6.9c0,0.8,0.7,1.5,1.5,1.5s1.5-0.7,1.5-1.5v-6.9h5.2V39.1z"></path>
+      </svg>
         {*
         <span class="visible--desktop blockcart__label small">{l s='Cart' d='Shop.Theme.Checkout'}</span>
         *}

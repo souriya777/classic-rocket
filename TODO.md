@@ -138,6 +138,17 @@
 ## PRODUCTION
 
 ### ONCE
+[🛑🛑🛑 NO 🛑🛑🛑🛑]
+- /classes => include it manually
+-- `classes/checkout/CheckoutProcess.php`
+[🛑🛑🛑 NO 🛑🛑🛑🛑]
+- 🟧 configure module "Boutons de partage sur réseaux sociaux" => only FACEBOOK & PINTEREST
+- 🟧 create caracteristic "Video"
+- 🟧 feel ps_socialfollow infos
+- 🟧 ⛔️ verify permissions `chown -R www-data:www-data soleil-noir/`
+- 🟧 ⛔️ verify permissions `chown -R www-data:www-data img/`
+
+### EVERYTIME
 - 🟧 /modules => include it manually
 -- 🛑🛑🛑🛑 ROUYA update manually these modules ???
 -- leobootstrapmenu
@@ -153,15 +164,6 @@
 -- souriya_heartlist
 -- souriya_image
 -- souriya_preferlist
-- /classes => include it manually
--- `classes/checkout/CheckoutProcess.php`
-- 🟧 configure module "Boutons de partage sur réseaux sociaux" => only FACEBOOK & PINTEREST
-- 🟧 create caracteristic "Video"
-- 🟧 feel ps_socialfollow infos
-- 🟧 ⛔️ verify permissions `chown -R www-data:www-data soleil-noir/`
-- 🟧 ⛔️ verify permissions `chown -R www-data:www-data img/`
-
-### EVERYTIME
 - 🟧 copy all images under `/img/souriya/` on the server
 - 🟧 `npm run build`
 - 🟧 export/import "active theme"
