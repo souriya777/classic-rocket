@@ -1,17 +1,11 @@
 # PRESTASHOP DOCKER
-- `docker network create prestashop-net2`
-- `docker run -ti --name some-mysql2 --network prestashop-net2 -e MYSQL_ROOT_PASSWORD=admin -p 3317:3316 -d mysql:5.7`
-- `docker run -ti --name some-prestashop2 --network prestashop-net2 -e DB_SERVER=some-mysql2 -p 8081:80 -d prestashop/prestashop:1.7.6.4`
-
-OR
-
 - `docker network create prestashop-net`
 - `docker run -ti --name some-mysql --network prestashop-net -e MYSQL_ROOT_PASSWORD=admin -p 3307:3306 -d mysql:5.7`
 - `docker run -ti --name some-prestashop --network prestashop-net -e DB_SERVER=some-mysql -p 8080:80 -d prestashop/prestashop:1.7.6.4`
 
 # INSTALLATION PRESTASHOP (WEB BROWSER)
-- http://localhost:8081/
-- db name : `some-mysql2`
+- http://localhost:8080/
+- db name : `some-mysql`
 - admin pass : `admin`
 
 # BASE TOOLS
@@ -42,6 +36,7 @@ OR
 
 # SWITCH THEME
 - change logo https://tentebarnumts.fr/img/ts-barnum-logo-1616570188.jpg
+- change favicon https://tentebarnumts.fr/img/favicon.ico
 - manually install at_decor.zip theme
 - switch to at_decor
 - choose home->profile2
