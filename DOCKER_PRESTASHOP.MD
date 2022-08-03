@@ -35,6 +35,14 @@
 - `rm -rf install/;mv admin/ admin136t2nw5t/`
 - performance : compilation & cache
 
+# SPECIFIC 'modern-prestashop-starter-theme'
+- `npm install --global yarn`
+- `npm install --global n`
+- `n latest`
+- `apt-get update`
+- `apt-get install build-essential zlib1g-dev libncurses5-dev libgdbm-dev libnss3-dev libssl-dev libsqlite3-dev libreadline-dev libffi-dev curl libbz2-dev`
+- install python https://www.vultr.com/docs/update-python3-on-debian/
+
 # SWITCH THEME
 - change logo https://tentebarnumts.fr/img/ts-barnum-logo-1616570188.jpg
 - change favicon https://tentebarnumts.fr/img/favicon.ico
