@@ -1,7 +1,8 @@
 # PRESTASHOP DOCKER
 - `docker network create prestashop-net`
 - `docker run -ti --name some-mysql --network prestashop-net -e MYSQL_ROOT_PASSWORD=admin -p 3307:3306 -d mysql:5.7`
-- `docker run -ti --name some-prestashop --network prestashop-net -e DB_SERVER=some-mysql -p 8080:80 -d prestashop/prestashop:1.7.6.4`
+- 🟥 `docker run -ti --name some-prestashop --network prestashop-net -e DB_SERVER=some-mysql -p 8080:80 -d prestashop/prestashop:1.7.6.4`
+- ✅ `docker run -ti --name some-prestashop-fast --network prestashop-net -e DB_SERVER=some-mysql -p 8080:80 -e PS_DOMAIN=localhost:8080 -d prestashop/prestashop:1.7.6.4`
 
 # INSTALLATION PRESTASHOP (WEB BROWSER)
 - http://localhost:8080/
